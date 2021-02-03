@@ -8,7 +8,8 @@ class Profile extends Component {
         image: "https://i.pinimg.com/originals/ca/b1/cd/cab1cd2e83428f8394e2865dd0e9ff32.jpg",
         topShow: "Wicked",
         points: 10,
-        characterMostLike: "Elphaba"
+        characterMostLike: "Elphaba",
+        level: "Ensemble"
       };
     
       revealPersona = query => {
@@ -27,8 +28,9 @@ class Profile extends Component {
             name = {this.state.name}
             image = {this.state.image}
             topShow = {this.state.topShow}
-            points = {this.state.points}
+            level = {this.state.level}
             characterMostLike = {this.state.characterMostLike}
+            points = {this.state.points}
           />
           <button onClick={() => this.revealPersona()} id="hiddenNameButton">Click to reveal your hidden persona</button>
           <button onClick={() => this.hidePersona()} id="hiddenNameButton">Click to hide your hidden persona</button>
