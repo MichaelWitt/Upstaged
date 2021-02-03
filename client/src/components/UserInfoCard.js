@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 let backgroundStyle = {
   width: 305,
@@ -15,13 +16,16 @@ function UserInfoCard(props) {
           <h5 class="card-title"><strong class="headers">Name: </strong>{props.name}</h5> 
           <ul>
             <li>
-              <strong class="headers">Points:</strong> {props.points}
+              <strong class="headers">Level:</strong> {props.level}
             </li>
             <li>
               <strong class="headers">My Top Show:</strong> {props.topShow}
             </li>
             <li>
               <strong class="headers">Most Similar Character:</strong> {props.characterMostLike}
+            </li>
+            <li>
+              <strong class="headers">Progress to next level:</strong> <ProgressBar now={props.points} />
             </li>
           </ul>
         </div>
