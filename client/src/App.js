@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile';
-import Quiz from "./components/Quiz/Quiz"
+import Quizzes from "./components/Quizzes/Quizzes"
 
 class App extends Component {
   render() {
@@ -15,8 +15,8 @@ class App extends Component {
           <Profile />
           <h1>TEST</h1>
         </Route>
-        <Route exact path={"/Quiz"}>
-          <Quiz />
+        <Route exact path={"/Quizzes"}>
+          <Quizzes />
         </Route>
         </Switch>
       </div>
