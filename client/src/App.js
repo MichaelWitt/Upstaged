@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import AnswerForm from './components/AnswerForm.js'
 import QuestionTable from './components/QuestionTable.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
