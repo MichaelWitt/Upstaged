@@ -25,9 +25,13 @@ const Quizzes = () => {
       <div className="Quiz">
         <h1>Pick a Quiz!</h1>
         <Switch>
-        <Route exact path={`${match.path}/:Hamilton`}>
+        <Route exact path={"/Hamilton"}>
           <Hamilton />
         </Route>
+
+
+
+        
         <Route exact path={"/Wicked"}>
           <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false}/>
         </Route>

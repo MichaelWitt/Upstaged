@@ -1,8 +1,8 @@
 import React from "react"
 import Quiz from 'react-quiz-component';
-import { BrowserRouter as Router, Route, Switch, useRouteMatch} from "react-router-dom";
 
 const hamiltonData = require("./HamiltonData.json")
+console.log('hamiltonData:', hamiltonData)
 
 const Hamilton = () => {
     return (
