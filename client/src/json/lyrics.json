@@ -2,38 +2,38 @@
     "gameLyrics":[
        { "Show": "Sweeny Todd",
         "Song": "Johanna",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "I feel you, Johanna. And one day, I'll steal you, Til I'm with you and I'm with you there, Buried sweetly in your _________ hair",
+        "Answers": ["yellow", "golden", "blonde", "luscious"]
        },
        { "Show": "Sweeny Todd",
         "Song": "The Worst Pies In London",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Mrs. Mooney has a pie shop. Does a business, but I notice something weird. Lately, all her neighbors _________ have disappeared.",
+        "Answers": ["dogs", "friends", "cats", "enemies"]
        },
        { "Show": "Sweeny Todd",
         "Song": "A Little Priest",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Haven't you got poet, or something like that? No, y'see, the trouble with poet is. How do you know it's _________? Try the priest!",
+        "Answers": ["alive", "at peace", "deceased", "a beast"]
        },
        { "Show": "Les Miserables",
         "Song": "I Dreamed a Dream ",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "But the ________ come at night  With their voices soft as thunder",
+        "Answers": ["lions", "tigers", "bears", "Oh My!"]
        },
        { "Show": "Les Miserables",
         "Song": "On My Own",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "In the darkness, the trees are full of _________",
+        "Answers": ["owls", "silence", "starlight", "monsters"]
        },
        { "Show": "Les Miserables",
         "Song": "A Little Fall Of Rain ",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "If I could close your wounds with words of ________.  Just hold me now, and let it be.  Shelter me, comfort me",
+        "Answers": ["love", "hope", "truth", "lust"]
        },
        { "Show": "Rent",
         "Song": "Seasons Of Love",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "How do you measure a life of a woman or a man?  In truths that she learned, or in times that she cried.  In _______ he burned, or the way that she died",
+        "Answers": ["pages", "memories", "people", "bridges"]
        },
        { "Show": "Rent",
         "Song": "La Vie Boheme",
@@ -42,18 +42,18 @@
        },
        { "Show": "Rent",
         "Song": "Take Me Or Leave Me",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "So be mine, and don't waste my time.  Cryin 'Oh ________ - are you still my baby?'",
+        "Answers": ["Babybear",  "Sugarbear", "Teddybear", "HoneyBear"]
        },
        { "Show": "Wicked",
         "Song": "Defying Gravity",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "I hope you're happy  I hope you're happy now I hope you're happy how you've ___________ forever, I hope you think you're clever",
+        "Answers": ["hurt your cause", "lost your friend", "ruined things", "hurt your case"]
        },
        { "Show": "Wicked",
         "Song": "Popular",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "And let's face it, who isn't less ________ than I?",
+        "Answers": ["beautiful", "popular", "fortunate", "fabulous"]
        },
        { "Show": "Wicked",
         "Song": "Dancing Through Life",

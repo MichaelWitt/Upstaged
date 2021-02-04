@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile';
+import MainPage from './pages/MainPage';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <MainPage />
         <Profile />
-        <h1>TEST</h1>
       </div>
     );
   }
