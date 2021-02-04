@@ -20,7 +20,7 @@ return(
       <Nav.Link href="#news">Theatre News</Nav.Link>
       <Nav.Link href="#games">Games</Nav.Link>
     </Nav>
-    <Nav.Link href="#profile" bg= "outline-warning"><img src={LesMis} width= "50" height= "50" alt= "profile avatar"/>  Profile</Nav.Link>
+    <Nav.Link href="#profile" bg= "outline-warning"><img src={LesMis} width= "50" height= "50" alt= "profile avatar"/> Profile</Nav.Link>
     <Nav.Link href="#" bg= "warning">Logout</Nav.Link>
     {/* <Form inline>
     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
