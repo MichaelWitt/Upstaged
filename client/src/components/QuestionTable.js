@@ -2,61 +2,63 @@ import React, { Component } from 'react';
 // import Button from 'react-bootstrap/Button';
 
 import { Button } from 'react-bootstrap';
+import { Table } from 'react-bootstrap'
 
 export class QuestionTable extends Component {
     render() {
          return (
            <div>
              <div>Jeopardy</div>
-             <table>
-             <thead>
-              <tr>
-               <th>Theatre Lingo</th>
+             <Table>
+      <thead>
+      <tr>
+      <th>Theatre Lingo</th>
                <th>Name the Show</th>
                <th>Who Wrote It</th>
                <th>Starts With the Letter ''</th>
                <th>One More Category</th>
-              </tr>
-            </thead>
-            <tbody>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><Button variant="outline-primary">$200</Button>{' '}</td>
-        <td>$200</td>
-        <td>$200</td>
-        <td>$200</td>
-        <td>$200</td>
+      <th><Button variant="primary">$200</Button>{' '}</th>
+        <th><Button variant="primary">$200</Button>{' '}</th>
+        <th><Button variant="primary">$200</Button>{' '}</th>
+        <th><Button variant="primary">$200</Button>{' '}</th>
+        <th><Button variant="primary">$200</Button>{' '}</th>
       </tr>
       <tr>
-        <td>$400</td>
-        <td>$400</td>
-        <td>$400</td>
-        <td>$400</td>
-        <td>$400</td>
+      <th><Button variant="primary">$400</Button>{' '}</th>
+      <th><Button variant="primary">$400</Button>{' '}</th>
+      <th><Button variant="primary">$400</Button>{' '}</th>
+      <th><Button variant="primary">$400</Button>{' '}</th>
+      <th><Button variant="primary">$400</Button>{' '}</th>
       </tr>
       <tr>
-        <td>$600</td>
-        <td>$600</td>
-        <td>$600</td>
-        <td>$600</td>
-        <td>$600</td>
+      <th><Button variant="primary">$600</Button>{' '}</th>
+      <th><Button variant="primary">$600</Button>{' '}</th>
+      <th><Button variant="primary">$600</Button>{' '}</th>
+      <th><Button variant="primary">$600</Button>{' '}</th>
+      <th><Button variant="primary">$600</Button>{' '}</th>
       </tr>
       <tr>
-        <td>$800</td>
-        <td>$800</td>
-        <td>$800</td>
-        <td>$800</td>
-        <td>$800</td>
+      <th><Button variant="primary">$800</Button>{' '}</th>
+      <th><Button variant="primary">$800</Button>{' '}</th>
+      <th><Button variant="primary">$800</Button>{' '}</th>
+      <th><Button variant="primary">$800</Button>{' '}</th>
+      <th><Button variant="primary">$800</Button>{' '}</th>
       </tr>
       <tr>
-        <td>$1000</td>
-        <td>$1000</td>
-        <td>$1000</td>
-        <td>$1000</td>
-        <td>$1000</td>
+      <th><Button variant="primary">$1000</Button>{' '}</th>
+      <th><Button variant="primary">$1000</Button>{' '}</th>
+      <th><Button variant="primary">$1000</Button>{' '}</th>
+      <th><Button variant="primary">$1000</Button>{' '}</th>
+      <th><Button variant="primary">$1000</Button>{' '}</th>
       </tr>
     </tbody>
-             </table>
-           </div>
+  </Table>
+</div>
+
         )
     }
 }
