@@ -28,10 +28,6 @@ const Quizzes = () => {
         <Route exact path={"/Hamilton"}>
           <Hamilton />
         </Route>
-
-
-
-        
         <Route exact path={"/Wicked"}>
           <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false}/>
         </Route>
