@@ -5,146 +5,175 @@
         "Lyric": "I feel you, Johanna. And one day, I'll steal you, Til I'm with you and I'm with you there, Buried sweetly in your _________ hair",
         "Answers": ["yellow", "golden", "blonde", "luscious"]
        },
+
        { "Show": "Sweeny Todd",
         "Song": "The Worst Pies In London",
         "Lyric": "Mrs. Mooney has a pie shop. Does a business, but I notice something weird. Lately, all her neighbors _________ have disappeared.",
         "Answers": ["dogs", "friends", "cats", "enemies"]
        },
+
        { "Show": "Sweeny Todd",
         "Song": "A Little Priest",
         "Lyric": "Haven't you got poet, or something like that? No, y'see, the trouble with poet is. How do you know it's _________? Try the priest!",
         "Answers": ["alive", "at peace", "deceased", "a beast"]
        },
+
        { "Show": "Les Miserables",
         "Song": "I Dreamed a Dream ",
         "Lyric": "But the ________ come at night  With their voices soft as thunder",
         "Answers": ["lions", "tigers", "bears", "Oh My!"]
        },
+
        { "Show": "Les Miserables",
         "Song": "On My Own",
         "Lyric": "In the darkness, the trees are full of _________",
         "Answers": ["owls", "silence", "starlight", "monsters"]
        },
+
        { "Show": "Les Miserables",
         "Song": "A Little Fall Of Rain ",
         "Lyric": "If I could close your wounds with words of ________.  Just hold me now, and let it be.  Shelter me, comfort me",
         "Answers": ["love", "hope", "truth", "lust"]
        },
+       
        { "Show": "Rent",
         "Song": "Seasons Of Love",
         "Lyric": "How do you measure a life of a woman or a man?  In truths that she learned, or in times that she cried.  In _______ he burned, or the way that she died",
         "Answers": ["pages", "memories", "people", "bridges"]
        },
+       
        { "Show": "Rent",
         "Song": "La Vie Boheme",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Dearly beloved we gather here to say our goodbyes.  Here she lies, no one knew her worth, the late great daughter of _________ __________",
+        "Answers": ["Mother Earth", "Mother Goose", "Mother Gothel", "Mother May I?" ]
        },
+       
        { "Show": "Rent",
         "Song": "Take Me Or Leave Me",
         "Lyric": "So be mine, and don't waste my time.  Cryin 'Oh ________ - are you still my baby?'",
         "Answers": ["Babybear",  "Sugarbear", "Teddybear", "HoneyBear"]
        },
+       
        { "Show": "Wicked",
         "Song": "Defying Gravity",
         "Lyric": "I hope you're happy  I hope you're happy now I hope you're happy how you've ___________ forever, I hope you think you're clever",
         "Answers": ["hurt your cause", "lost your friend", "ruined things", "hurt your case"]
        },
+       
        { "Show": "Wicked",
         "Song": "Popular",
         "Lyric": "And let's face it, who isn't less ________ than I?",
         "Answers": ["beautiful", "popular", "fortunate", "fabulous"]
        },
+       
        { "Show": "Wicked",
         "Song": "Dancing Through Life",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Those who don't try never look foolish _______ through life. Mindless and careless, make sure you're where less trouble is rife",
+        "Answers": ["skating", "pushing", "dancing", "running"]
        },
+       
        { "Show": "The Phantom Of The Opera",
         "Song": "The Phantom of the Opera",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "In sleep he sang to me. In dreams he came. That voice which calls to me.  And ______ my name",
+        "Answers": ["sings", "screams", "speaks", "whispers"]
        },
+       
        { "Show": "The Phantom Of The Opera",
         "Song": "All I Ask Of You",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "The Phantom Of The Opera",
         "Song": "The Music Of The Night ",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "No more talk of ________, Forget these wide-eyed fears;I'm here, nothing can harm you, my words will warm and calm you.",
+        "Answers": ["sadness", "madness", "darkness", "greatness"]
        },
+       
        { "Show": "Dream Girls",
         "Song": "And I Am Telling You I'm Not Going ",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Tear down the ________.  Yell, scream and shout like you can say what you want.  I'm not walking out",
+        "Answers": ["mountains", "houses", "system", "feelings"]
        },
+       
        { "Show": "Dream Girls",
         "Song": "I Am Changing",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Walking down that long road. There was nothing u could __________.  All those years of darkness Could make a person blind.",
+        "Answers": ["do", "buy", "see", "feel"]
        },
+       
        { "Show": "Dream Girls",
         "Song": "Dream Girls",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "Life's not as bad as it may seem if you open your ______ to what's in front of you",
+        "Answers": ["eyes", "wallet", "heart", "mind"]
        },
+       
        { "Show": "Hamilton",
         "Song": "Alexander Hamilton",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Hamilton",
         "Song": "My Shot",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "The problem is I got a lot of brains but no _________.  I gotta holler just to be heard. With every word, I drop knowledge",
+        "Answers": ["style", "polish", "tollerance", "brawn"]
        },
+       
        { "Show": "Hamilton",
         "Song": "Satisfied",
-        "Lyric": "",
-        "Answers": []
+        "Lyric": "He's after me 'cause I'm a ________ sister, that elevates his status.  I'd have to be naïve to set that aside",
+        "Answers": ["Schyler", "Skyler", "Skylar", "Schuyler"]
        },
+       
        { "Show": "The Last Five Years",
         "Song": "Still Hurting",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "The Last Five Years",
         "Song": "Moving Too Fast",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "The Last Five Years",
         "Song": "A Summer In Ohio",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Hadestown",
         "Song": "Wait For ME",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Hadestown",
         "Song": "Way Down Hadestown",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Hadestown",
         "Song": "Road To Hell",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Heathers",
         "Song": "Candy Store",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Heathers",
         "Song": "Dead Girl Walking",
         "Lyric": "",
         "Answers": []
        },
+       
        { "Show": "Heathers",
         "Song": "Meant To Be Yours",
         "Lyric": "",
