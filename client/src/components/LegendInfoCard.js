@@ -1,6 +1,4 @@
 import React from "react";
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import LegendInfoCard from "./LegendInfoCard";
 
 let backgroundStyle = {
   width: 305,
@@ -8,7 +6,7 @@ let backgroundStyle = {
 };
 
 
-function UserInfoCard(props) {
+function LegendInfoCard(props) {
   return (
     <div class="card" style={backgroundStyle} id="border-madness">
         <div class="card-img-top">
@@ -27,7 +25,7 @@ function UserInfoCard(props) {
               <strong class="headers">Most Similar Character:</strong> {props.characterMostLike}
             </li>
             <li>
-              <strong class="headers">Progress to next level:</strong> <ProgressBar now={props.points} max={props.maxPoints} label={`${props.points}/${props.maxPoints}`} />
+              <strong class="headers">Total points:</strong> {props.points}
             </li>
           </ul>
         </div>
@@ -35,4 +33,4 @@ function UserInfoCard(props) {
     );
   }
   
-  export default UserInfoCard;
+  export default LegendInfoCard;
