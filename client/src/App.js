@@ -7,6 +7,15 @@ import Profile from './components/Profile';
 import Quizzes from "./components/Quizzes/Quizzes"
 import MainPage from './pages/MainPage';
 import Hamilton from "./components/Quizzes/Hamilton"
+import Wicked from "./components/Quizzes/Wicked"
+import DearEvanHansen from "./components/Quizzes/DearEvanHansen"
+import Dreamgirls from "./components/Quizzes/Dreamgirls"
+import Phantom from "./components/Quizzes/Phantom"
+import Rent from "./components/Quizzes/Rent"
+import SweeneyTodd from "./components/Quizzes/SweeneyTodd"
+import Heathers from "./components/Quizzes/Heathers"
+import Hadestown from "./components/Quizzes/Hadestown"
+import LesMis from "./components/Quizzes/LesMis"
 
 
 class App extends Component {
@@ -27,7 +36,7 @@ class App extends Component {
           <Route exact path={"/Hamilton"}>
             <Hamilton />
           </Route>
-          {/* <Route exact path={"/Wicked"}>
+          <Route exact path={"/Wicked"}>
             <Wicked/>
           </Route>
           <Route exact path={"/Dreamgirls"}>
@@ -53,7 +62,7 @@ class App extends Component {
           </Route>
           <Route exact path={"/Hadestown"}>
             <Hadestown/>
-          </Route> */}
+          </Route>
         </Switch>
 
       </div>
