@@ -1,46 +1,16 @@
 {
   "quizTitle": "Heathers Quiz",
-  "quizSynopsis": "Test your Hamilton knowledge!",
+  "quizSynopsis": "Test your Heathers knowledge!",
   "questions": [
     {
-      "question": "Who shot Alexander Hamilton?",
+      "question": "What character has a cruch on Ram?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Charles Lee",
-        "Thomas Jefferson",
-        "Aaron Burr",
-        "Hercules Mulligan"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which Schuyler sister married Hamilton?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Peggy",
-        "Eliza",
-        "Angelica",
-        "Georgette"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which two characters were played by the same actor?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Maria Reynolds & Peggy Schuyler",
-        "Hercules Mulligan & Thomas Jefferson",
-        "Marquis de Lafayette & James Madison",
-        "Aaron Burr and George Eacker"
+        "Martha",
+        "Heather McNamara",
+        "Veronica",
+        "Kurt"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
@@ -48,29 +18,29 @@
       "point": "5"
     },
     {
-      "question": "Which of these is NOT one of the 10 duel commandments?",
+      "question": "What is Martha's nickname?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "If they apologize, no need for further action.",
-        "Leave a note for your next of kin",
-        "Duel before the sun is in the sky.",
-        "Make sure there's no doctor on site"
+        "Martha Mountain",
+        "Martha Dumptruck",
+        "Martha Monster",
+        "Martha Dumpster"
       ],
-      "correctAnswer": "4",
+      "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
       "messageForIncorrectAnswer": "Incorrect!",
       "point": "5"
     },
     {
-      "question": "How many songs are on the Hamilton soundtrack?",
+      "question": "What day does the show start?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "29",
-        "35",
-        "46",
-        "56"
+        "December 3rd, 1989",
+        "Noverber 3rd, 1985",
+        "September 1st, 1989",
+        "October 1st 1985"
       ],
       "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",
@@ -78,14 +48,44 @@
       "point": "5"
     },
     {
-      "question": "At what age was Hamilton placed in charge of the trading charter?",
+      "question": "What is Heather Duke's color?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "13",
-        "14",
-        "15",
-        "16"
+        "Green",
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What book does JD mark up and give to Veronica's parents?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Moby Dick",
+        "Wuthering Heights",
+        "The Scarlet Letter",
+        "The Catcher in the Rye"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who is Mr. No Name kid?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "JD",
+        "Martha",
+        "Veronica",
+        "Heather Chandler"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
@@ -93,14 +93,14 @@
       "point": "5"
     },
     {
-      "question": "What's the longest song in Hamilton?",
+      "question": "What school is Veronic NOT waiting to receive a letter from?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Non-Stop",
-        "Satisfied",
-        "One Last Time",
-        "My Shot"
+        "Yale",
+        "Harvard",
+        "Duke",
+        "Brown"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
@@ -108,14 +108,14 @@
       "point": "5"
     },
     {
-      "question": "There are two rap battles in “Hamilton” over issues facing the new nation. Which issue is debated in the musical?",
+      "question": "Which two characters die in their underwear?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Whether the U.S. should assume state debt and establish a national bank.",
-        "Whether the U.S. should provide aid and troops to its revolutionary Russian allies.",
-        "Whether the U.S. should ban the importation of products funded by slave labor.",
-        "Whether the U.S. should release a series of essays defending the constitution to the public."
+        "Kurt & Ram",
+        "Ram & JD",
+        "Kurt & JD",
+        "Sweeney & Sawyer"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
@@ -123,14 +123,14 @@
       "point": "5"
     },
     {
-      "question": "Who says 'I'm a trust fund baby, you can trust me?' ",
+      "question": "What does Veronica forge to help the Heathers?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "King George",
-        "George Washington",
-        "Thomas Jefferson",
-        "Aaron Burr"
+        "A Report Card",
+        "A Permission Slip",
+        "A Perscription",
+        "A Hall Pass"
       ],
       "correctAnswer": "4",
       "messageForCorrectAnswer": "Correct!",
@@ -138,14 +138,14 @@
       "point": "5"
     },
     {
-      "question": "How many essays did Hamilton, Madison, and John Jay write in total?",
+      "question": "Who throws the homecoming party?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "49",
-        "63",
-        "85",
-        "98"
+        "Heather Chandler",
+        "Kurt",
+        "Ram",
+        "Martha"
       ],
       "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",
@@ -153,14 +153,14 @@
       "point": "5"
     },
     {
-      "question": "Where does Thomas Jefferson call his 'Home Sweet Home'?",
+      "question": "What's under the gym?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Maryland",
-        "Virginia",
-        "Massachusets",
-        "New Hampshire"
+        "The Locker Room",
+        "The Boiler Room",
+        "The Sex Room",
+        "The Secret Classroom"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
@@ -168,44 +168,44 @@
       "point": "5"
     },
     {
-      "question": "How long does Eliza live after Hamilton dies?",
+      "question": "What movie does Martha rent for movie night?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "20 years",
-        "30 years",
-        "40 years",
-        "50 years"
+        "The Princess Bride",
+        "When Harry Met Sally",
+        "Forrest Gump",
+        "The Goonies"
       ],
-      "correctAnswer": "4",
+      "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
       "messageForIncorrectAnswer": "Incorrect!",
       "point": "5"
     },
     {
-      "question": "What is Aaron Burr's daugter's name?",
+      "question": "Who pretends to kill themselves?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Reynolda",
-        "Theodosia",
-        "Ambrasia",
-        "Burreta"
+        "Martha",
+        "JD",
+        "Veronica",
+        "Heather Duke"
       ],
-      "correctAnswer": "2",
+      "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",
       "messageForIncorrectAnswer": "Incorrect!",
       "point": "5"
     },
     {
-      "question": "Who is America’s favourite fighting Frenchman?",
+      "question": "Why does JD like slushies?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Marquis de Lafayette",
-        "Hercules Mulligan",
-        "Marquis de Philip",
-        "Samuel Seabery"
+        "He likes to freeze his brain",
+        "He likes to feel the sugar high",
+        "He likes turning his tongue red",
+        "He likes to mix all the flavors"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
@@ -228,14 +228,14 @@
       "point": "5"
     },
     {
-      "question": "What does George Washington say is harder than dying?",
+      "question": "What does JD tell Veronica he's filling the gun with?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "War",
-        "Living",
-        "Regret",
-        "Guilt"
+        "Blanks",
+        "Ich Luge Bullets",
+        "BB Bullets",
+        "Sleek Blue Bullets"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
@@ -243,29 +243,29 @@
       "point": "5"
     },
     {
-      "question": "In 'Satisfied' what does Angelica say her only job is?",
+      "question": "What is JD doing when Veronica climbs up his window?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Marry Rich",
-        "Protect Her Sisters",
-        "Get A Degree",
-        "Be Happy"
+        "Watching TV",
+        "Reading",
+        "Drawing",
+        "Napping"
       ],
-      "correctAnswer": "1",
+      "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
       "messageForIncorrectAnswer": "Incorrect!",
       "point": "5"
     },
     {
-      "question": "What Shakespeare play does Hamilton describe in his letter to Angelica?",
+      "question": "How does Heather Chandler Die?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Romeo and Juliet",
-        "Much Ado About Nothing",
-        "The Scottish Play",
-        "As You Like It"
+        "Drain cleaner in her drink",
+        "Shot in the back",
+        "Smothered in her sleep",
+        "She hangs herself"
       ],
       "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",
@@ -273,14 +273,14 @@
       "point": "5"
     },
     {
-      "question": "Which two characters argued until there was a two party system?",
+      "question": "What does JD stand for?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Thomas Jefferson and Aaron Burr",
-        "Aaron Burr and Alexander Hamilton",
-        "John Laurens and Hercules Mulligan",
-        "Thomas Jefferson and Alexander Hamilton"
+        "John Doe",
+        "James Dean",
+        "John Dean",
+        "Jason Dean"
       ],
       "correctAnswer": "4",
       "messageForCorrectAnswer": "Correct!",
@@ -288,14 +288,14 @@
       "point": "5"
     },
     {
-      "question": "Who shoots Charles Lee?",
+      "question": "What ghost haunts Veronica?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "John Laurens",
-        "Herculles Mulligan",
-        "Maria Reynolds",
-        "Samuel Seabury"
+        "Heather Chandler",
+        "JD",
+        "Kurt",
+        "Martha"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
