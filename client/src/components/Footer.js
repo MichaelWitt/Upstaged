@@ -10,7 +10,7 @@ import footerLogo from '../imgs/footerLogo.png'
 
 function FooterNav() {
 return(
-    <Navbar fixed="bottom" ><img src={footerLogo} height="25"/>Developed For UNC Coding Bootcamp Final Project</Navbar>
+    <Navbar fixed="bottom" style={{backgroundColor:"white"}}><img src={footerLogo} height="25" alt= 'Upstaged Logo'/>Developed For UNC Coding Bootcamp Final Project</Navbar>
 )
 };
 
