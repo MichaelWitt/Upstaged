@@ -1,9 +1,13 @@
 import React from "react";
+import FooterNav from "../components/Footer";
 import AppNav from "../components/Navbar"
 
 function MainPage() {
         return(
-            <AppNav/>  
+            <div>
+                <AppNav/>
+                <FooterNav/> 
+            </div>
         );
 };
 
