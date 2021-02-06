@@ -1,63 +1,22 @@
 import React from "react"
-import Quiz from 'react-quiz-component';
-import { BrowserRouter as Router, Route, Switch, useRouteMatch } from "react-router-dom";
-import Hamilton from "./Hamilton"
-
-const hamiltonData = require("./HamiltonData.json")
-const wickedData = require("./WickedData.json")
-const dreamgirlsData = require("./DreamgirlsData.json")
-const rentData = require("./RentData.json")
-const heathersData = require("./HeathersData.json")
-const lesMisData = require("./LesMisData.json")
-const evanHansenData = require("./EvanHansenData.json")
-const sweeneyToddData = require("./SweeneyToddData.json")
-const hadestownData = require("./HadestownData.json")
-const phantomData = require("./PhantomData.json")
-
-let { path, match} = useRouteMatch
-console.log('match:', match)
-console.log('path:', path)
+import { Button } from "react-bootstrap"
+import './QuizPage.css';
 
 const Quizzes = () => {
-
     return (
-      <Router>
-      <div className="Quiz">
+      <div>
         <h1>Pick a Quiz!</h1>
-        <Switch>
-        <Route exact path={"/Hamilton"}>
-          <Hamilton />
-        </Route>
-        <Route exact path={"/Wicked"}>
-          <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/Dreamgirls"}>
-          <Quiz quiz = {dreamgirlsData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/Phantom"}>
-          <Quiz quiz = {phantomData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/Rent"}>
-          <Quiz quiz = {rentData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/Heathers"}>
-          <Quiz quiz = {heathersData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/LesMis"}>
-          <Quiz quiz = {lesMisData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/DearEvanHansen"}>
-          <Quiz quiz = {evanHansenData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/SweeneyTodd"}>
-          <Quiz quiz = {sweeneyToddData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        <Route exact path={"/Hadestown"}>
-          <Quiz quiz = {hadestownData} shuffle={true} showInstantFeedback={false}/>
-        </Route>
-        </Switch>
+        <Button variant="warning" href={"/Hamilton"}> Hamilton </Button>
+        <Button variant="success" href={"/Wicked"}> Wicked </Button>
+        <Button variant="danger" href={"/Dreamgirls"}> Dreamgirls </Button>
+        <Button variant="warning" href={"/Rent"}> Rent </Button>
+        <Button variant="danger" href={"/Heathers"}> Heathers </Button>
+        <Button variant="secondary" href={"/LesMis"}> Les Mis </Button>
+        <Button variant="primary" href={"/DearEvanHansen"}> Dear Evan Hansen </Button>
+        <Button variant="dark" href={"/SweeneyTodd"}> Sweeney Todd </Button>
+        <Button variant="warning" href={"/Hadestown"}> Hadestown </Button>
+        <Button variant="dark" href={"/Phantom"}> Phantom of the Opera </Button>
       </div>
-    </Router>
     );
 }
 
