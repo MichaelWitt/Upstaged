@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import AppNav from "./components/Navbar"
+import FooterNav from "./components/Footer"
 import Profile from './components/Profile';
 import Quizzes from "./components/Quizzes/Quizzes"
 import MainPage from './pages/MainPage';
@@ -21,12 +23,16 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-        <MainPage/>
-        {/* <Profile /> */}
+        <AppNav/>
         <Switch>
+          <Route exact path={"/"}>
+            <MainPage />
+          </Route>
+          <Route exact path={"/MainPage"}>
+            <MainPage />
+          </Route>
           <Route exact path={"/Profile"}>
             <Profile />
-            <h1>TEST</h1>
           </Route>
           <Route exact path={"/Quizzes"}>
             <Quizzes />
@@ -62,7 +68,7 @@ class App extends Component {
             <Hadestown/>
           </Route>
         </Switch>
-
+        <FooterNav/> 
       </div>
     </Router>
     );
