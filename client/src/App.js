@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import AppNav from "./components/Navbar"
+import FooterNav from "./components/Footer"
 import Profile from './components/Profile';
 import Quizzes from "./components/Quizzes/Quizzes"
 import MainPage from './pages/MainPage';
@@ -28,11 +30,12 @@ class App extends Component {
           <Route exact path={"/"}>
             <MainPage />
           </Route>
-          <Route exact path={"/Profile"}>
-            <Profile />
-          </Route>
           <Route exact path={"/Games"}>
             <GameContent />
+          </Route>
+          <Route exact path={"/Profile"}>
+            <Profile />
+
           </Route>
           <Route exact path={"/Quizzes"}>
             <Quizzes />
@@ -68,7 +71,7 @@ class App extends Component {
             <Hadestown/>
           </Route>
         </Switch>
-        <FooterNav/>
+        <FooterNav/> 
       </div>
     </Router>
     );
