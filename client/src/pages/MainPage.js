@@ -6,7 +6,6 @@ import Content from "../components/ContentArea"
 function MainPage() {
         return(
             <div>
-                <AppNav/>
                 <Content/>
                 <FooterNav/> 
             </div>

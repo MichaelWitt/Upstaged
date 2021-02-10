@@ -11,7 +11,7 @@ function Content() {
         return(
             <Row>
                 <Col md={8}>
-                    <Container style={{wiidth:"100%"}}>
+                    <Container style={{width:"100%"}}>
                             <Col sm={12}>
                                 <Card className="text-center" style={{width: "100%", height: "75vh", margin: "auto", marginTop: "20px", borderColor: "#f7e200", borderWidth: "10px" }}>
                                     <Card.Header>Featured</Card.Header>

@@ -1,6 +1,5 @@
 import React from "react";
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import LegendInfoCard from "./LegendInfoCard";
 
 let backgroundStyle = {
   width: 305,
