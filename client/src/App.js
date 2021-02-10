@@ -16,9 +16,7 @@ import SweeneyTodd from "./components/Quizzes/SweeneyTodd"
 import Heathers from "./components/Quizzes/Heathers"
 import Hadestown from "./components/Quizzes/Hadestown"
 import LesMis from "./components/Quizzes/LesMis"
-import AppNav from "./components/Navbar"
 import GameContent from "./components/GameContent"
-import FooterNav from './components/Footer';
 
 class App extends Component {
   render() {
@@ -35,7 +33,6 @@ class App extends Component {
           </Route>
           <Route exact path={"/Profile"}>
             <Profile />
-
           </Route>
           <Route exact path={"/Quizzes"}>
             <Quizzes />
