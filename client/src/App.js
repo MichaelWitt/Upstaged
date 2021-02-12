@@ -20,6 +20,7 @@ import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import LyricGame from "./components/LyircGame/Lyric"
 
+
 class App extends Component {
   render() {
     return (

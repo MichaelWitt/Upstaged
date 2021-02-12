@@ -240,6 +240,67 @@
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
+      },
+      {
+        "question": "Who wrote the book for Wicked?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Winnie Holzman",
+          "Lynn Ahrens",
+          "Jeanine Tesori",
+          "Mindi Dickstein"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Which legendary theatre actor originated the role of The Wizard on Broadway?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Brian Stokes Mitchell",
+          "Len Cariou",
+          "Joel Grey",
+          "Michael Crawford"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "In dancing through life, what does Boq tell Nessa is the reason he brought her to the dance?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "To get back at Elphaba",
+          "To boost his popularity",
+          "Because he pities her",
+          "Because she is beautiful"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What is Madame Morrible's speciality?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "The weather",
+          "Comebacks",
+          "Fashion",
+          "Architecture"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+
       }
     ]
 }
