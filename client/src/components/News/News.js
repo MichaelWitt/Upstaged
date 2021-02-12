@@ -22,7 +22,7 @@ class News extends Component {
 
   render() {
     return (
-      <div class="formatting" style={{ maxWidth: "100%" }}>
+      <div className="formatting" style={{ maxWidth: "100%" }}>
         <MaterialTable
           columns={[
             {
