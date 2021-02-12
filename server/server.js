@@ -5,7 +5,6 @@ const MongoStore = require("connect-mongo")(session);
 const dbConnection = require("./config/connection");
 const passport = require("./config/passport");
 const path = require("path");
-const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 8080;
 
@@ -14,13 +13,6 @@ app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use("/", express.static(path.join(__dirname, "../client/build")));
-
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
-
-app.use(routes);
 
 // Passport
 app.use(passport.initialize());
