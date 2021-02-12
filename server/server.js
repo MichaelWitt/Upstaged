@@ -19,7 +19,7 @@ app.use(passport.initialize());
 app.use(passport.session()); // will call the deserializeUser
 app.use(
   session({
-    secret: process.env.AUTH_SECRET,
+    secret: "mysecret",
     store: new MongoStore({ mongooseConnection: dbConnection }),
     resave: false,
     saveUninitialized: false,
