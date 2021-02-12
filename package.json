@@ -43,6 +43,7 @@
     "passport-local": "^1.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
+    "react-quiz-component": "^0.3.8",
     "react-router-dom": "^5.2.0"
   }
 }

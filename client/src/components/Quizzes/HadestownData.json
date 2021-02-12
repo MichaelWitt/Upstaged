@@ -1,306 +1,245 @@
 {
-  "quizTitle": "Hadestown Quiz",
-  "quizSynopsis": "Test your Hamilton knowledge!",
-  "questions": [
-    {
-      "question": "Who shot Alexander Hamilton?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Charles Lee",
-        "Thomas Jefferson",
-        "Aaron Burr",
-        "Hercules Mulligan"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which Schuyler sister married Hamilton?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Peggy",
-        "Eliza",
-        "Angelica",
-        "Georgette"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which two characters were played by the same actor?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Maria Reynolds & Peggy Schuyler",
-        "Hercules Mulligan & Thomas Jefferson",
-        "Marquis de Lafayette & James Madison",
-        "Aaron Burr and George Eacker"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which of these is NOT one of the 10 duel commandments?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "If they apologize, no need for further action.",
-        "Leave a note for your next of kin",
-        "Duel before the sun is in the sky.",
-        "Make sure there's no doctor on site"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "How many songs are on the Hamilton soundtrack?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "29",
-        "35",
-        "46",
-        "56"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "At what age was Hamilton placed in charge of the trading charter?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "13",
-        "14",
-        "15",
-        "16"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What's the longest song in Hamilton?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Non-Stop",
-        "Satisfied",
-        "One Last Time",
-        "My Shot"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "There are two rap battles in “Hamilton” over issues facing the new nation. Which issue is debated in the musical?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Whether the U.S. should assume state debt and establish a national bank.",
-        "Whether the U.S. should provide aid and troops to its revolutionary Russian allies.",
-        "Whether the U.S. should ban the importation of products funded by slave labor.",
-        "Whether the U.S. should release a series of essays defending the constitution to the public."
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who says 'I'm a trust fund baby, you can trust me?' ",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "King George",
-        "George Washington",
-        "Thomas Jefferson",
-        "Aaron Burr"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "How many essays did Hamilton, Madison, and John Jay write in total?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "49",
-        "63",
-        "85",
-        "98"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Where does Thomas Jefferson call his 'Home Sweet Home'?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Maryland",
-        "Virginia",
-        "Massachusets",
-        "New Hampshire"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "How long does Eliza live after Hamilton dies?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "20 years",
-        "30 years",
-        "40 years",
-        "50 years"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What is Aaron Burr's daugter's name?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Reynolda",
-        "Theodosia",
-        "Ambrasia",
-        "Burreta"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who is America’s favourite fighting Frenchman?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Marquis de Lafayette",
-        "Hercules Mulligan",
-        "Marquis de Philip",
-        "Samuel Seabery"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who kills Philip?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Charles Lee",
-        "Samuel Seabury",
-        "George Eacker",
-        "Aaron Burr"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What does George Washington say is harder than dying?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "War",
-        "Living",
-        "Regret",
-        "Guilt"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "In 'Satisfied' what does Angelica say her only job is?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Marry Rich",
-        "Protect Her Sisters",
-        "Get A Degree",
-        "Be Happy"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What Shakespeare play does Hamilton describe in his letter to Angelica?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Romeo and Juliet",
-        "Much Ado About Nothing",
-        "The Scottish Play",
-        "As You Like It"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which two characters argued until there was a two party system?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Thomas Jefferson and Aaron Burr",
-        "Aaron Burr and Alexander Hamilton",
-        "John Laurens and Hercules Mulligan",
-        "Thomas Jefferson and Alexander Hamilton"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who shoots Charles Lee?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "John Laurens",
-        "Herculles Mulligan",
-        "Maria Reynolds",
-        "Samuel Seabury"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    }
-  ]
+    "quizTitle": "Hadestown Quiz",
+    "quizSynopsis": "Test your Hadestown knowledge!",
+    "questions": [
+      {
+        "question": "Who wrote Hadestown?",
+        "questionType": "text",
+        "answers": [
+          "Stephen Sondheim",
+          "Lin Manuel-Miranda",
+          "Anaïs Mitchell",
+          "Rachel Chavkin"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "How many Tony Awards did Hadestown win at the 2019 Tonys?",
+        "questionType": "text",
+        "answers": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "At which Broadway theatre does Hadestown play?",
+        "questionType": "text",
+        "answers": [
+          "The Walter Kerr",
+          "The Longacre",
+          "The Palace",
+          "The New Amsterdam"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Hadestown is based on which greek myth?",
+        "questionType": "text",
+        "answers": [
+          "Hercules",
+          "Medusa",
+          "Achilles",
+          "Orpheus and Eurydice"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Persephone is the goddess of _______.",
+        "questionType": "text",
+        "answers": [
+          "Flowers",
+          "Spring",
+          "Harvest",
+          "Sky"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Which actor originated the role of Hades on Broadway?",
+        "questionType": "text",
+        "answers": [
+          "Norm Lewis",
+          "Brian Stokes Mitchell",
+          "Brian d'Arcy James",
+          "Patrick Page"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "To whom does Hades sing 'Hey Little Songbird'?",
+        "questionType": "text",
+        "answers": [
+          "Eurydice",
+          "Orpheus",
+          "Persephone",
+          "A bird near his window"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "During which song is Orpheus leading Eurydice out of Hadestown?",
+        "questionType": "text",
+        "answers": [
+          "Wait For Me (reprise)",
+          "Come Home With Me",
+          "Road to Hell (reprise)",
+          "How Long?"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who is Hades' wife?",
+        "questionType": "text",
+        "answers": [
+          "Eurydice",
+          "Hera",
+          "Hermes",
+          "Persephone"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In the song 'Come Home With Me', what does Orpheus claim will happen when he finishes and sings his song?",
+        "questionType": "text",
+        "answers": [
+          "The world will end",
+          "Eurydice will fall in love with him",
+          "Spring will come",
+          "The gate to Hadestown will close"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is the first song Persephone sings?",
+        "questionType": "text",
+        "answers": [
+          "Way Down Hadestown",
+          "Livin' It Up On Top",
+          "Our Lady of the Underground",
+          "How Long"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In exchange for the work in Hadestown, what does Eurydice begin to lose?",
+        "questionType": "text",
+        "answers": [
+          "Her love",
+          "Her empathy",
+          "Her dignity",
+          "Her memories"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who was the only actor from the show to win a Tony Award for their performance?",
+        "questionType": "text",
+        "answers": [
+          "Amber Gray - Persephone",
+          "André De Shields - Hermes",
+          "Patrick Page - Hades",
+          "Eva Noblezada - Eurydice"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What was the first full song written for the show?",
+        "questionType": "text",
+        "answers": [
+          "How Long?",
+          "Wait For Me",
+          "Way Down Hadestown",
+          "Road To Hell"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "How many Fates are there?",
+        "questionType": "text",
+        "answers": [
+          "3",
+          "4",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What was the original title for the musical?'",
+        "questionType": "text",
+        "answers": [
+          "Hadestown",
+          "A Crack in the Wall",
+          "Eurydice",
+          "Way Down"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In what year did Anaïs Mitchell and Rachel Chavkin begin working on the show together?",
+        "questionType": "text",
+        "answers": [
+          "2010",
+          "2012",
+          "2014",
+          "2016"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Before it was a Broadway musical, Hadestown was a concept album released in what year?",
+        "questionType": "text",
+        "answers": [
+          "2006",
+          "2009",
+          "2010",
+          "2012"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      }
+    ]
 }
