@@ -5,27 +5,16 @@ import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"
 import ProgressBar from "react-bootstrap/ProgressBar"
+import Games from "../pages/Games";
 
 
-function Content() {
+function GameContent() {
         return(
             <Row>
                 <Col md={8}>
-                    <Container style={{width:"100%"}}>
-                            <Col sm={12}>
-                                <Card className="text-center" style={{width: "100%", height: "75vh", margin: "auto", marginTop: "20px", borderColor: "#f7e200", borderWidth: "10px" }}>
-                                    <Card.Header>Featured</Card.Header>
-                                    <Card.Body >
-                                        <Card.Title>Special title treatment</Card.Title>
-                                        <Card.Text>
-                                        With supporting text below as a natural lead-in to additional content.
-                                        </Card.Text>
-                                        <Button variant="warning" style={{backgroundColor:"#f7e200"}}>Go somewhere</Button>
-                                    </Card.Body>
-                                    <Card.Footer className="text-muted"></Card.Footer>
-                                </Card>
-                            </Col>
-                    </Container>
+                    <div>
+                        <Games/>
+                    </div>
                 </Col>
                 <Col md={4}>
                     <Container>
@@ -61,4 +50,4 @@ function Content() {
 };
 
 
-export default Content;
+export default GameContent;
