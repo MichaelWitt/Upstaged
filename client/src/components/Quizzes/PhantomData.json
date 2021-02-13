@@ -1,16 +1,16 @@
 {
   "quizTitle": "Phantom of the Opera Quiz",
-  "quizSynopsis": "Test your Hamilton knowledge!",
+  "quizSynopsis": "Test your knowledge of Phantom of the Opera!",
   "questions": [
     {
-      "question": "Who shot Alexander Hamilton?",
+      "question": "At which broadway theatre does The Phantom of the Opera play?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Charles Lee",
-        "Thomas Jefferson",
-        "Aaron Burr",
-        "Hercules Mulligan"
+        "The St. James",
+        "The Palace",
+        "The Majestic",
+        "The Longacre"
       ],
       "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",
@@ -18,14 +18,14 @@
       "point": "5"
     },
     {
-      "question": "Which Schuyler sister married Hamilton?",
+      "question": "The Phantom of the Opera is the longest runnning Broadway show in history.  How many years has it been on broadway?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Peggy",
-        "Eliza",
-        "Angelica",
-        "Georgette"
+        "25",
+        "31",
+        "33",
+        "35"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
@@ -33,14 +33,14 @@
       "point": "5"
     },
     {
-      "question": "Which two characters were played by the same actor?",
+      "question": "Under which famous opera house does Phantom take place?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Maria Reynolds & Peggy Schuyler",
-        "Hercules Mulligan & Thomas Jefferson",
-        "Marquis de Lafayette & James Madison",
-        "Aaron Burr and George Eacker"
+        "The Paris Opera House",
+        "The Sydney Opera House",
+        "The Metropolitan Opera",
+        "The Moulin Rouge"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
@@ -48,14 +48,14 @@
       "point": "5"
     },
     {
-      "question": "Which of these is NOT one of the 10 duel commandments?",
+      "question": "What is the high note sung by Christine Daae at the end of the song 'The Phantom of the Opera'?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "If they apologize, no need for further action.",
-        "Leave a note for your next of kin",
-        "Duel before the sun is in the sky.",
-        "Make sure there's no doctor on site"
+        "B6",
+        "C6",
+        "D6",
+        "E6"
       ],
       "correctAnswer": "4",
       "messageForCorrectAnswer": "Correct!",
@@ -63,29 +63,179 @@
       "point": "5"
     },
     {
-      "question": "How many songs are on the Hamilton soundtrack?",
+      "question": "Which characters sing 'All I Ask Of You?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
+        "Christine and the Phantom",
+        "Carlotta and the Phantom",
+        "Christine and Raoul",
+        "Carlotta and Raoul"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is the name of the fictional Opera that is being rehearsed at the beginning of the show?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "C'est La Vie",
+        "Hannibal",
+        "La Tour d'Amour",
+        "Monstre"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "In the song 'Masquerade', what lyrics complete this section: 'Flash of mauve, Splash of puce, Fool and king, _____ __ ______'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Ghoul and Goose",
+        "Fight and Truce",
+        "What's the Use",
+        "On the Loose"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!  But aren't those other options fun?",
+      "messageForIncorrectAnswer": "Incorrect! Although I don't blame you, it is a fun lyric.",
+      "point": "5"
+    },
+    {
+      "question": "Who originated the role of the Phantom on Broadway?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Michael Crawford",
+        "Norm Lewis",
+        "Victor Garber",
+        "Len Cariou"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How many albums has the original 1986 West End cast album sold in the US?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "1,000,000",
+        "2,000,000",
+        "3,000,000",
+        "4,000,000"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which of the following Tony Awards was NOT one of the 7 that the show won in 1988?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Best Musical",
+        "Best Direction",
+        "Best Original Score",
+        "Best Performance by a Leading Actor in a Musical"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is the sequel to The Phantom of the Opera, written by Andrew Lloyd Webber and premiering in 2010 on the West End?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The Phantom of Another Opera",
+        "Love Never Dies",
+        "All I Ask",
+        "Think of Me"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Phantom of the Opera was written by Andrew Lloyd Webber, Richard Stilgoe, and _____?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Stephen Sondheim",
+        "Jerry Herman",
+        "Eugene O'Neill",
+        "Charles Hart"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is the name of the Opera the Phantom writes?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Don Juan Glorious",
+        "Don Juan Triumphant",
+        "Don Juan Victorious",
+        "Don Juan Exultant"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "On which side of his face does the Phantom wear his mask?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Right",
+        "Left",
+        "The eyes up",
+        "The whole face"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What song is the Act 1 Finale?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Masquerade",
+        "Prima Donna",
+        "All I Ask Of You",
+        "Angel of Music"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How many pieces made up the original Broadway Orchestra?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "27",
         "29",
-        "35",
-        "46",
-        "56"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "At what age was Hamilton placed in charge of the trading charter?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "13",
-        "14",
-        "15",
-        "16"
+        "30",
+        "31"
       ],
       "correctAnswer": "2",
       "messageForCorrectAnswer": "Correct!",
@@ -93,14 +243,14 @@
       "point": "5"
     },
     {
-      "question": "What's the longest song in Hamilton?",
+      "question": "At the beginning of the show, what piece does the auctioneer present?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Non-Stop",
-        "Satisfied",
-        "One Last Time",
-        "My Shot"
+        "A Chandelier",
+        "A Mask",
+        "A Piano",
+        "A Cape"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
@@ -108,29 +258,29 @@
       "point": "5"
     },
     {
-      "question": "There are two rap battles in “Hamilton” over issues facing the new nation. Which issue is debated in the musical?",
+      "question": "The Phantom of the Opera is based on a ____?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Whether the U.S. should assume state debt and establish a national bank.",
-        "Whether the U.S. should provide aid and troops to its revolutionary Russian allies.",
-        "Whether the U.S. should ban the importation of products funded by slave labor.",
-        "Whether the U.S. should release a series of essays defending the constitution to the public."
+        "Movie",
+        "Comic",
+        "Novel",
+        "Opera"
       ],
-      "correctAnswer": "1",
+      "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",
       "messageForIncorrectAnswer": "Incorrect!",
       "point": "5"
     },
     {
-      "question": "Who says 'I'm a trust fund baby, you can trust me?' ",
+      "question": "Who was the most recent actor to play The Phantom on Broadway?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "King George",
-        "George Washington",
-        "Thomas Jefferson",
-        "Aaron Burr"
+        "Norm Lewis",
+        "Brian d'Arcy James",
+        "Lin Manuel Miranda",
+        "Ben Crawford"
       ],
       "correctAnswer": "4",
       "messageForCorrectAnswer": "Correct!",
@@ -138,164 +288,14 @@
       "point": "5"
     },
     {
-      "question": "How many essays did Hamilton, Madison, and John Jay write in total?",
+      "question": "What is Raoul's Title?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "49",
-        "63",
-        "85",
-        "98"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Where does Thomas Jefferson call his 'Home Sweet Home'?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Maryland",
-        "Virginia",
-        "Massachusets",
-        "New Hampshire"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "How long does Eliza live after Hamilton dies?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "20 years",
-        "30 years",
-        "40 years",
-        "50 years"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What is Aaron Burr's daugter's name?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Reynolda",
-        "Theodosia",
-        "Ambrasia",
-        "Burreta"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who is America’s favourite fighting Frenchman?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Marquis de Lafayette",
-        "Hercules Mulligan",
-        "Marquis de Philip",
-        "Samuel Seabery"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who kills Philip?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Charles Lee",
-        "Samuel Seabury",
-        "George Eacker",
-        "Aaron Burr"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What does George Washington say is harder than dying?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "War",
-        "Living",
-        "Regret",
-        "Guilt"
-      ],
-      "correctAnswer": "2",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "In 'Satisfied' what does Angelica say her only job is?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Marry Rich",
-        "Protect Her Sisters",
-        "Get A Degree",
-        "Be Happy"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "What Shakespeare play does Hamilton describe in his letter to Angelica?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Romeo and Juliet",
-        "Much Ado About Nothing",
-        "The Scottish Play",
-        "As You Like It"
-      ],
-      "correctAnswer": "3",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Which two characters argued until there was a two party system?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "Thomas Jefferson and Aaron Burr",
-        "Aaron Burr and Alexander Hamilton",
-        "John Laurens and Hercules Mulligan",
-        "Thomas Jefferson and Alexander Hamilton"
-      ],
-      "correctAnswer": "4",
-      "messageForCorrectAnswer": "Correct!",
-      "messageForIncorrectAnswer": "Incorrect!",
-      "point": "5"
-    },
-    {
-      "question": "Who shoots Charles Lee?",
-      "questionType": "text",
-      "answerSelectionType": "single",
-      "answers": [
-        "John Laurens",
-        "Herculles Mulligan",
-        "Maria Reynolds",
-        "Samuel Seabury"
+        "Vicomte de Chagny",
+        "Le Duc de Champagne",
+        "Vicomte de Lyon",
+        "Prince de Rhone"
       ],
       "correctAnswer": "1",
       "messageForCorrectAnswer": "Correct!",
