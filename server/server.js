@@ -19,7 +19,7 @@ app.use(passport.initialize());
 app.use(passport.session()); // will call the deserializeUser
 app.use(
   session({
-    secret: process.env.AUTH_SECRET,
+    secret: "mysecret",
     store: new MongoStore({ mongooseConnection: dbConnection }),
     resave: false,
     saveUninitialized: false,
@@ -29,6 +29,19 @@ app.use(
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build/"));
 });
+
+// For Heroku build
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  app.get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  });
+} else {
+  app.use(express.static(path.join(__dirname, "/client/public")));
+  app.get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, "../client/public/index.html"));
+  });
+}
 
 // Add Auth and API routes
 app.use("/auth", require("./routes/authRoutes"));

@@ -240,6 +240,66 @@
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
+      },
+      {
+        "question": "Sweeney Todd is the demon barber of which street?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Fleet",
+          "Bond",
+          "Downing",
+          "Regent"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Where was Sweeney exiled?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Wales",
+          "France",
+          "Australia",
+          "Russia"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "In 1979, Sweeney Todd opened on Broadway at the Uris Theatre.  What theatre is that now?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "The Palace Theatre",
+          "The Broadway Theatre",
+          "The Marriott Marquis",
+          "The Gershwin"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What is Sweeney Todd's Wife's name?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Lucy",
+          "Linda",
+          "Lisa",
+          "Laura"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
       }
     ]
 }
