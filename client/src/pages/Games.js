@@ -19,7 +19,7 @@ function GamePage() {
                         <Card style={{ margin:"20px"}}>
                             <Card.Img variant="top" href="/Quizzes" src={KnowtheShow} />
                             <Card.Body>
-                                <h4>So, You Think You Know the Show?</h4>
+                                <h4>Do You Know the Show?</h4>
                                 <Button variant="warning" href="/Quizzes" style={{backgroundColor:"#f7e200"}}>Quizzes</Button>
                             </Card.Body>
                         </Card> 
@@ -34,7 +34,7 @@ function GamePage() {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{marginBottom:"50px"}}>
                     <Col md={1}></Col>
                     <Col md={5}>
                         <Card style={{margin:"20px"}}>
