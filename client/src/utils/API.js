@@ -11,4 +11,8 @@ export default {
   getNews: function () {
     return axios.get(NewsURL);
   },
+  login: function(data) {
+    console.log('hit ', data)
+    return axios.post('/auth/login', data)
+  }
 };

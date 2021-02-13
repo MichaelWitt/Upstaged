@@ -1,36 +1,84 @@
 import React from "react";
+import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody } from "mdbreact";
+import { useHistory } from "react-router-dom";
 
-const SignUp  = () => {
-    return (
-        <form>
-            <h3>Register</h3>
 
-            <div className="form-group">
-                <label>First name</label>
-                <input type="text" className="form-control" placeholder="First name" />
-            </div>
+const Signup = () => {
 
-            <div className="form-group">
-                <label>Last name</label>
-                <input type="text" className="form-control" placeholder="Last name" />
-            </div>
+// const Auth = require ("../../../server/controllers/authController")
 
-            <div className="form-group">
-                <label>Email</label>
-                <input type="email" className="form-control" placeholder="Enter email" />
-            </div>
 
-            <div className="form-group">
-                <label>Password</label>
-                <input type="password" className="form-control" placeholder="Enter password" />
-            </div>
+// const history = useHistory();
 
-            <button type="submit" className="btn btn-dark btn-lg btn-block">Register</button>
-            <p className="forgot-password text-right">
-                Already registered <a href="#">log in?</a>
-            </p>
-        </form>
-    );
-}
+// async function handleSubmit(event) {
+//     event.preventDefault();
+  
+//     try {
+//       await Auth.signIn(email, password);
+//       userHasAuthenticated(true);
+//       history.push("/");
+//     } catch (e) {
+//       alert(e.message);
+//     }
+//   }
 
-export default SignUp;
+  return (
+    <MDBContainer>
+      <MDBRow>
+        <MDBCol md="6">
+          <MDBCard>
+            <MDBCardBody>
+              <form>
+                <p className="h4 text-center py-4">Sign up</p>
+                <div className="grey-text">
+                  <MDBInput
+                    label="Your name"
+                    icon="user"
+                    group
+                    type="text"
+                    validate
+                    error="wrong"
+                    success="right"
+                  />
+                  <MDBInput
+                    label="Your email"
+                    icon="envelope"
+                    group
+                    type="email"
+                    validate
+                    error="wrong"
+                    success="right"
+                  />
+                  <MDBInput
+                    label="Confirm your email"
+                    icon="exclamation-triangle"
+                    group
+                    type="text"
+                    validate
+                    error="wrong"
+                    success="right"
+                  />
+                  <MDBInput
+                    label="Your password"
+                    icon="lock"
+                    group
+                    type="password"
+                    validate
+                  />
+                </div>
+                <button type="submit"> Register </button>
+                {/* <div className="text-center py-4 mt-3">
+                  <MDBBtn color="cyan" type="submit">
+                    Register
+                  </MDBBtn>
+                </div> */}
+              </form>
+            </MDBCardBody>
+          </MDBCard>
+       </MDBCol>
+      </MDBRow>
+    </MDBContainer>
+  );
+};
+
+export default Signup;

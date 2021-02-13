@@ -12,9 +12,10 @@ module.exports = {
     }
   },
   register: (req, res) => {
-    const { firstName, lastName, username, password } = req.body;
+    const { firstName, lastName, email, password } = req.body;
     // ADD VALIDATION
-    db.User.findOne({ 'username': username }, (err, userMatch) => {
+    console.log('BODY! ', req.body)
+    db.User.findOne({ 'email': email }, (err, userMatch) => {
       if (userMatch) {
         return res.json({
           error: `Sorry, already a user with the username: ${username}`
@@ -23,7 +24,7 @@ module.exports = {
       const newUser = new db.User({
         'firstName': firstName,
         'lastName': lastName,
-        'username': username,
+        'email': email,
         'password': password
       });
       newUser.save((err, savedUser) => {
@@ -42,11 +43,13 @@ module.exports = {
     }
   },
   auth: function(req, res, next) {
+    console.log('hit auth!!!!')
 		console.log(req.body);
 		console.log('================');
 		next();
   },
   authenticate: (req, res) => {
+    console.log('hit authenticate!!!!!!')
 		console.log('POST to /login');
 		const user = JSON.parse(JSON.stringify(req.user)); // hack
 		const cleanUser = Object.assign({}, user);

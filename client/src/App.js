@@ -21,113 +21,68 @@ import Hadestown from "./components/Quizzes/Hadestown";
 import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 
-
-
-
-// import React from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./app.css";
-import { Provider } from "react-redux";
-import { applyMiddleware } from "redux";
-
-import reducer from "./reducer";
-import { createStore } from "redux";
-
-import NavBar from "./components/Nav";
-import { Typography, Divider } from "@material-ui/core";
-
-import AuthRoute from "./components/AuthRoute";
-
-import HomePage from "./pages/HomePage";
-import LoginPage from "./pages/Login";
-
-import { appMiddleware } from "./middlewares/app";
-import { apiMiddleware } from "./middlewares/core";
-import MyAccount from "./pages/MyAccount";
-
-const createStoreWithMiddleware = applyMiddleware(
-  appMiddleware,
-  apiMiddleware
-)(createStore);
-
-const store = createStoreWithMiddleware(reducer);
-
-const IndexPage = () => (
-  <>
-    <Typography variant="h3">Welcome to the App</Typography>
-    <Divider style={{ marginTop: 10, marginBottom: 10 }} />
-    <Typography variant="h6">Feel free to take a look around</Typography>
-  </>
-);
-
-
-
-
-
 class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <Router>
-          <div className="App">
-            <AppNav />
-            <Switch>
-              <AuthRoute exact path={"/Signup"} type="guest">
-                <Signup />
-              </AuthRoute>
-              <AuthRoute exact path={"/Login"} type="guest">
-                <Login />
-              </AuthRoute>
-              <AuthRoute exact path={"/"} type="private">
-                <MainPage />
-              </AuthRoute>
-              <AuthRoute exact path={"/News"} type="private">
-                <NewsPage />
-              </AuthRoute>
-              <AuthRoute exact path={"/Games"} type="private">
-                <GameContent />
-              </AuthRoute>
-              <AuthRoute exact path={"/Profile"} type="private">
-                <Profile />
-              </AuthRoute>
-              <AuthRoute exact path={"/Quizzes"} type="private">
-                <Quizzes />
-              </AuthRoute>
-              <AuthRoute exact path={"/Hamilton"} type="private">
-                <Hamilton />
-              </AuthRoute>
-              <AuthRoute exact path={"/Wicked"} type="private">
-                <Wicked />
-              </AuthRoute>
-              <AuthRoute exact path={"/Dreamgirls"} type="private">
-                <Dreamgirls />
-              </AuthRoute>
-              <AuthRoute exact path={"/Phantom"} type="private">
-                <Phantom />
-              </AuthRoute>
-              <AuthRoute exact path={"/Rent"} type="private">
-                <Rent />
-              </AuthRoute>
-              <AuthRoute exact path={"/Heathers"} type="private">
-                <Heathers />
-              </AuthRoute>
-              <AuthRoute exact path={"/LesMis"} type="private">
-                <LesMis />
-              </AuthRoute>
-              <AuthRoute exact path={"/DearEvanHansen"} type="private">
-                <DearEvanHansen />
-              </AuthRoute>
-              <AuthRoute exact path={"/SweeneyTodd"} type="private">
-                <SweeneyTodd />
-              </AuthRoute>
-              <AuthRoute exact path={"/Hadestown"} type="private">
-                <Hadestown />
-              </AuthRoute>
-            </Switch>
-            <FooterNav />
-          </div>
-        </Router>
-      </Provider>
+      <Router>
+        <div className="App">
+          <AppNav />
+          <Switch>
+            <Route exact path={"/Signup"}>
+              <Signup />
+            </Route>
+            <Route exact path={"/Login"}>
+              <Login />
+            </Route>
+            <Route exact path={"/"}>
+              <MainPage />
+            </Route>
+            <Route exact path={"/News"}>
+              <NewsPage />
+            </Route>
+            <Route exact path={"/Games"}>
+              <GameContent />
+            </Route>
+            <Route exact path={"/Profile"}>
+              <Profile />
+            </Route>
+            <Route exact path={"/Quizzes"}>
+              <Quizzes />
+            </Route>
+            <Route exact path={"/Hamilton"}>
+              <Hamilton />
+            </Route>
+            <Route exact path={"/Wicked"}>
+              <Wicked />
+            </Route>
+            <Route exact path={"/Dreamgirls"}>
+              <Dreamgirls />
+            </Route>
+            <Route exact path={"/Phantom"}>
+              <Phantom />
+            </Route>
+            <Route exact path={"/Rent"}>
+              <Rent />
+            </Route>
+            <Route exact path={"/Heathers"}>
+              <Heathers />
+            </Route>
+            <Route exact path={"/LesMis"}>
+              <LesMis />
+            </Route>
+            <Route exact path={"/DearEvanHansen"}>
+              <DearEvanHansen />
+            </Route>
+            <Route exact path={"/SweeneyTodd"}>
+              <SweeneyTodd />
+            </Route>
+            <Route exact path={"/Hadestown"}>
+              <Hadestown />
+            </Route>
+          </Switch>
+          <FooterNav />
+        </div>
+      </Router>
     );
   }
 }
