@@ -5,24 +5,22 @@ import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"
 import ProgressBar from "react-bootstrap/ProgressBar"
-
+import ShowScore from "../imgs/ShowScore.png"
 
 function Content() {
         return(
+            <div>
             <Row>
                 <Col md={8}>
                     <Container style={{width:"100%"}}>
                             <Col sm={12}>
-                                <Card className="text-center" style={{width: "100%", height: "75vh", margin: "auto", marginTop: "20px", borderColor: "#f7e200", borderWidth: "10px" }}>
-                                    <Card.Header>Featured</Card.Header>
+                                <Card className="text-center" style={{width: "100%", height: "75vh", margin: "auto", marginTop: "20px", marginBottom:"50px", borderColor: "#f7e200", borderWidth: "10px" }}>
                                     <Card.Body >
-                                        <Card.Title>Special title treatment</Card.Title>
+                                        <Card.Title></Card.Title>
                                         <Card.Text>
                                         With supporting text below as a natural lead-in to additional content.
                                         </Card.Text>
-                                        <Button variant="warning" style={{backgroundColor:"#f7e200"}}>Go somewhere</Button>
                                     </Card.Body>
-                                    <Card.Footer className="text-muted"></Card.Footer>
                                 </Card>
                             </Col>
                     </Container>
@@ -33,22 +31,24 @@ function Content() {
                             <Col sm={12}>
                                 <Card style={{margin: "auto", marginTop:"20px"}}>
                                     <Card.Header>Progress</Card.Header>
-                                    <ProgressBar animated variant="warning" now={60} style={{margin:"15px"}}/> 
+                                    <ProgressBar animated variant="warning" now={60} style={{margin:"10px"}}/> 
                                 </Card>
                             </Col>
                         </Row>
                         <Row>
                             <Col sm={12}>
-                                <Card style={{width:"100%", margin: "auto", marginTop:"20px"}}>
+                                <Card style={{width:"100%", height:"330px", margin: "auto", marginTop:"10px"}}>
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                                        <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </Card.Text>
-                                        <Card.Link href="#">Card Link</Card.Link>
-                                        <Card.Link href="#">Another Link</Card.Link>
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLiy0XOfUv4hGKvbULOvGBDPcYc6mOjwJX" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col sm={12}>
+                                <Card style={{margin: "auto", marginTop:"10px", marginBottom:"20px"}}>
+                                    <Card.Body >
+                                    <a href="https://www.show-score.com/" target="_blank"><img href="https://www.show-score.com/" src={ShowScore} style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>Show-Score simply and clearly organizes the information you need to discover shows you’ll love, from people you trust, at the right price for you.</p>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -56,6 +56,10 @@ function Content() {
                     </Container>
                 </Col>
             </Row>
+            <Row>
+                
+            </Row>
+            </div>
     
         );
 };
