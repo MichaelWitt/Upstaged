@@ -14,7 +14,8 @@ function GamePage() {
         return(
             <Container  style={{marginTop:"30px"}}>
                 <Row>
-                    <Col md={6}>
+                    <Col md={1}></Col>
+                    <Col md={5}>
                         <Card style={{ margin:"20px"}}>
                             <Card.Img variant="top" href="/Quizzes" src={KnowtheShow} />
                             <Card.Body>
@@ -23,7 +24,7 @@ function GamePage() {
                             </Card.Body>
                         </Card> 
                     </Col>
-                    <Col md={6}>
+                    <Col md={5}>
                         <Card style={{margin:"20px"}}>
                             <Card.Img variant="top" href="/CreateYourOwn" src={CYOP} />
                             <Card.Body>
@@ -34,7 +35,8 @@ function GamePage() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6}>
+                    <Col md={1}></Col>
+                    <Col md={5}>
                         <Card style={{margin:"20px"}}>
                             <Card.Img variant="top" href="/Jeopardy" src={Jeopardy} />
                             <Card.Body>
@@ -43,7 +45,7 @@ function GamePage() {
                             </Card.Body>
                         </Card> 
                     </Col>
-                    <Col md={6}>
+                    <Col md={5}>
                         <Card style={{margin:"20px"}}>
                             <Card.Img variant="top" href="/Lyrics" src={LyricLogo} />
                             <Card.Body>
@@ -52,6 +54,7 @@ function GamePage() {
                             </Card.Body>
                         </Card> 
                     </Col>
+                    <Col md={1}></Col>
                 </Row>
             </Container>
         );
