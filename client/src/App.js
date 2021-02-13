@@ -19,10 +19,6 @@ import Hadestown from "./components/Quizzes/Hadestown";
 import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import LyricGame from "./components/LyircGame/Lyric"
-<<<<<<< HEAD
-=======
-
->>>>>>> bbcc59625cee19b89a870699f4e0496c74bc0501
 
 class App extends Component {
   render() {

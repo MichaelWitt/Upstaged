@@ -240,8 +240,6 @@
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
-<<<<<<< HEAD
-=======
       },
       {
         "question": "Where did the musical premier in 2006?",
@@ -302,7 +300,6 @@
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
->>>>>>> bbcc59625cee19b89a870699f4e0496c74bc0501
       }
     ]
 }
