@@ -1,5 +1,9 @@
 import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
+<<<<<<< HEAD
+=======
+
+>>>>>>> bbcc59625cee19b89a870699f4e0496c74bc0501
 
 let backgroundStyle = {
   width: 305,

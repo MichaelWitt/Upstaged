@@ -240,6 +240,69 @@
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
+<<<<<<< HEAD
+=======
+      },
+      {
+        "question": "Where did the musical premier in 2006?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Vermont",
+          "New York",
+          "California",
+          "Pennsylvania"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Where did Hadestown have the US debut?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Ars Nova",
+          "La Mama",
+          "New York Theatre Workshop",
+          "Playrights Horizons"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who originated the role of Eurydice?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Idina Menzel",
+          "Amber Gray",
+          "Phillipa Soo",
+          "Eva Noblezada"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who is the narrator of the story?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Hermes",
+          "Hades",
+          "Orpheus",
+          "Persephone"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+>>>>>>> bbcc59625cee19b89a870699f4e0496c74bc0501
       }
     ]
 }
