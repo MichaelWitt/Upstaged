@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Signup from "./pages/Signup"
+import Login from "./pages/Login"
 import AppNav from "./components/Navbar";
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
@@ -28,7 +30,13 @@ class App extends Component {
         <div className="App">
           <AppNav />
           <Switch>
-            <Route exact path={"/"}>
+            <Route exact path={"/Signup"}>
+              <Signup />
+            </Route>
+            <Route exact path={["/", "/Login"]}>
+              <Login />
+            </Route>
+            <Route exact path={"/MainPage"}>
               <MainPage />
             </Route>
             <Route exact path={"/News"}>

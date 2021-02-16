@@ -23,7 +23,7 @@ function AppNav() {
       <Nav.Link href="/Profile" bg="outline-warning">
         <img src={LesMis} width="50" height="50" alt="profile avatar" /> Profile
       </Nav.Link>
-      <Nav.Link href="#" bg="warning">
+      <Nav.Link href="/" bg="warning">
         Logout
       </Nav.Link>
 

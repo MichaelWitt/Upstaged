@@ -25,4 +25,12 @@ export default {
   getNews: function () {
     return axios.request(NewsURL);
   },
+  login: function(data) {
+    // console.log('hit ', data)
+    return axios.post('/auth/login', data)
+  },
+  signup: function(data) {
+    // console.log('hit ', data)
+    return axios.post('/auth/signup', data)
+  }
 };
