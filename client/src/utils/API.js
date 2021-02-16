@@ -1,18 +1,36 @@
 import axios from "axios";
 
-// const newsApiKeyHidden = process.env.NEWS_API_KEY;
+const apiKey = process.env.REACT_APP_API_KEY;
 
-const newsApiKey = "c20dd1de26954654be5226fb76eaa7f9";
-const NewsURL =
-  "https://newsapi.org/v2/everything?q=broadway&pageSize=100&sortBy=relevancy&apiKey=" +
-  `${newsApiKey}`;
+const NewsURL = {
+  method: "GET",
+  url:
+    "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI",
+  params: {
+    q: "broadway",
+    pageNumber: "1",
+    pageSize: "50",
+    autoCorrect: "true",
+    fromPublishedDate: "null",
+    toPublishedDate: "null",
+    withThumbnails: "true",
+  },
+  headers: {
+    "x-rapidapi-key": apiKey,
+    "x-rapidapi-host": "contextualwebsearch-websearch-v1.p.rapidapi.com",
+  },
+};
 
 export default {
   getNews: function () {
-    return axios.get(NewsURL);
+    return axios.request(NewsURL);
   },
   login: function(data) {
-    console.log('hit ', data)
+    // console.log('hit ', data)
     return axios.post('/auth/login', data)
+  },
+  signup: function(data) {
+    // console.log('hit ', data)
+    return axios.post('/auth/signup', data)
   }
 };

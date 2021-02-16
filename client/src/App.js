@@ -20,6 +20,8 @@ import Heathers from "./components/Quizzes/Heathers";
 import Hadestown from "./components/Quizzes/Hadestown";
 import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
+import ProfileContextProvider from "./utils/GlobalState";
+import LyricGame from "./components/LyircGame/Lyric";
 
 class App extends Component {
   render() {
@@ -31,10 +33,10 @@ class App extends Component {
             <Route exact path={"/Signup"}>
               <Signup />
             </Route>
-            <Route exact path={"/Login"}>
+            <Route exact path={["/", "/Login"]}>
               <Login />
             </Route>
-            <Route exact path={"/"}>
+            <Route exact path={"/MainPage"}>
               <MainPage />
             </Route>
             <Route exact path={"/News"}>
@@ -71,13 +73,18 @@ class App extends Component {
               <LesMis />
             </Route>
             <Route exact path={"/DearEvanHansen"}>
-              <DearEvanHansen />
+              <ProfileContextProvider>
+                <DearEvanHansen />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/SweeneyTodd"}>
               <SweeneyTodd />
             </Route>
             <Route exact path={"/Hadestown"}>
               <Hadestown />
+            </Route>
+            <Route exact path={"/Lyrics"}>
+              <LyricGame />
             </Route>
           </Switch>
           <FooterNav />

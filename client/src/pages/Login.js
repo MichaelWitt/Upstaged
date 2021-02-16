@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from 'react-router-dom'
-import "./Login.css"
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBInput } from 'mdbreact';
 import API from '../utils/API'
 
@@ -12,37 +11,16 @@ const Login = (props) => {
 
   const submitForm = (e) => {
     e.preventDefault()
-    // function handleClick(e) {
-      // e.preventDefault();
-      console.log('The link was clicked.');
-    // }
-    // if (email === "" || password === "") {
-    //   setError("Fields are required");
-    //   return;
-    // }
-    // props.login({ email, password });
-    // console.log('password:', password)
-    // console.log('email:', email)
-    // Axios.post('/login', {setEmail, setPassword}).then(res => {
-      // console.log('setPassword:', setPassword)
-      // console.log('setEmail:', setEmail)
-      // console.log('res:', res)
-    //   if (res.successcode === 200) {
-      console.log('email ', email)
-      console.log('password ', password)
       API.login({ email, password }).then(res => {
         console.log('res! ', res)
         if (res.status === 200) {
           history.push('/MainPage') // redirect the page
         }
-      
       }).catch(err => { 
         console.log('err', err)
+        alert("Incorrect email or password")
+
       })
-      // } else if (res.successcode === 401) {
-      //   setError(res.error)
-      // }
-    // })
   };
 
   return (
@@ -59,10 +37,9 @@ const Login = (props) => {
             </div>
             <MDBCardBody className="mx-4 mt-4">
             <form>
-
-              <MDBInput onChange={e => setEmail(e.target.value)} label="Your email" group type="text" validate />
+              <MDBInput onChange={e => setEmail(e.target.value)} label="Email" group type="text" validate />
               <MDBInput
-                label="Your password"
+                label="Password"
                 group
                 onChange={e => setPassword(e.target.value)}
                 type="password"
@@ -78,18 +55,17 @@ const Login = (props) => {
                   Password?
                 </a>
               </p>
-              <button type="submit" onClick={submitForm}> LogIn </button>
               </form>
-              {/* <div className="text-center mb-4 mt-5">
+              <div className="text-center mb-4 mt-5 mr-5">
                 <MDBBtn
                   color="danger"
                   type="button"
-                  className="btn-block z-depth-2"
+                  className="btn-block"
+                  onClick={submitForm}
                 >
                   Log in
                 </MDBBtn>
-              </div>  */}
-              <MDBBtn color="primary">Login</MDBBtn>
+              </div> 
               <p className="font-small grey-text d-flex justify-content-center">
                 Don't have an account?
                 <a

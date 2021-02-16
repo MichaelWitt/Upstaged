@@ -1,29 +1,32 @@
-import React from "react";
+import React, {useState} from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody } from "mdbreact";
 import { useHistory } from "react-router-dom";
-
+import API from '../utils/API'
 
 const Signup = () => {
 
-// const Auth = require ("../../../server/controllers/authController")
-
-
-// const history = useHistory();
-
-// async function handleSubmit(event) {
-//     event.preventDefault();
+    const history = useHistory()
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
   
-//     try {
-//       await Auth.signIn(email, password);
-//       userHasAuthenticated(true);
-//       history.push("/");
-//     } catch (e) {
-//       alert(e.message);
-//     }
-//   }
+    const submitForm = (e) => {
+      e.preventDefault()
+        API.signup({ firstName, lastName, email, password }).then(res => {
+          console.log('res! ', res)
+          if (res.status === 200) {
+            alert("Welcome to Upstaged!")
+            history.push('/MainPage') // redirect the page
+          }
+        }).catch(err => { 
+          console.log('err', err)
+        })
+  };
 
   return (
-    <MDBContainer>
+    <MDBContainer className="Signup">
       <MDBRow>
         <MDBCol md="6">
           <MDBCard>
@@ -32,7 +35,8 @@ const Signup = () => {
                 <p className="h4 text-center py-4">Sign up</p>
                 <div className="grey-text">
                   <MDBInput
-                    label="Your name"
+                    onChange={e => setFirstName(e.target.value)}
+                    label="First Name"
                     icon="user"
                     group
                     type="text"
@@ -41,7 +45,18 @@ const Signup = () => {
                     success="right"
                   />
                   <MDBInput
-                    label="Your email"
+                    onChange={e => setLastName(e.target.value)}
+                    label="Last Name"
+                    icon="user"
+                    group
+                    type="text"
+                    validate
+                    error="wrong"
+                    success="right"
+                  />
+                  <MDBInput
+                    onChange={e => setEmail(e.target.value)}
+                    label="Email"
                     icon="envelope"
                     group
                     type="email"
@@ -50,28 +65,23 @@ const Signup = () => {
                     success="right"
                   />
                   <MDBInput
-                    label="Confirm your email"
-                    icon="exclamation-triangle"
-                    group
-                    type="text"
-                    validate
-                    error="wrong"
-                    success="right"
-                  />
-                  <MDBInput
-                    label="Your password"
+                    onChange={e => setPassword(e.target.value)}
+                    label="Password"
                     icon="lock"
                     group
                     type="password"
                     validate
                   />
                 </div>
-                <button type="submit"> Register </button>
-                {/* <div className="text-center py-4 mt-3">
-                  <MDBBtn color="cyan" type="submit">
+                <div className="text-center py-4 mt-3">
+                  <MDBBtn 
+                    color="primary" 
+                    type="submit"
+                    onClick={submitForm}
+                  >
                     Register
                   </MDBBtn>
-                </div> */}
+                </div>
               </form>
             </MDBCardBody>
           </MDBCard>

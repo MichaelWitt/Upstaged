@@ -1,0 +1,259 @@
+{
+    "quizTitle": "Finish The Lyrics",
+    "quizSynopsis": "Choose the correct word or phrase, from the options below, that fill in the blank.",
+    "questions":[
+       
+        { 
+        "questionPic": "https://bsp-static.playbill.com/dims4/default/d1786b2/2147483647/crop/1200x675%2B0%2B0/resize/970x546/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2Fca%2Fda%2F850f32e748f5b138c6dcabf1688d%2Fsweeney-todd.jpg",
+        "question": "I feel you, Johanna. And one day, I'll steal you, Til I'm with you and I'm with you there, Buried sweetly in your _________ hair",
+        "questionType": "text",
+        "answerelectionType": "single",
+        "answers": ["yellow", "golden", "blonde", "luscious"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+
+       {
+        "questionPic": "https://bsp-static.playbill.com/dims4/default/d1786b2/2147483647/crop/1200x675%2B0%2B0/resize/970x546/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2Fca%2Fda%2F850f32e748f5b138c6dcabf1688d%2Fsweeney-todd.jpg",
+        "question": "Mrs. Mooney has a pie shop. Does a business, but I notice something weird. Lately, all her neighbors _________ have disappeared.",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": ["dogs", "friends", "cats", "enemies"],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+
+       { 
+        "questionPic": "https://bsp-static.playbill.com/dims4/default/d1786b2/2147483647/crop/1200x675%2B0%2B0/resize/970x546/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2Fca%2Fda%2F850f32e748f5b138c6dcabf1688d%2Fsweeney-todd.jpg",
+        "question": "Haven't you got poet, or something like that? No, y'see, the trouble with poet is. How do you know it's _________? Try the priest!",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["alive", "at peace", "deceased", "a beast"],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+
+       { 
+        "questionPic": "https://broadwayinchicago.files.wordpress.com/2010/11/barricades.jpg",
+        "question": "But the ________ come at night  With their voices soft as thunder",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["lions", "tigers", "bears", "Oh My!"],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+
+       { 
+        "questionPic": "https://broadwayinchicago.files.wordpress.com/2010/11/barricades.jpg",
+        "question": "In the darkness, the trees are full of _________",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["owls", "silence", "starlight", "monsters"],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+
+       { 
+        "questionPic": "https://broadwayinchicago.files.wordpress.com/2010/11/barricades.jpg",
+        "question": "If I could close your wounds with words of ________.  Just hold me now, and let it be.  Shelter me, comfort me",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["love", "hope", "truth", "lust"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.nydailynews.com/resizer/t-lpbuw5YnhdAVezf5WznP4c5w4=/800x533/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4L4K6ITEP2VUXHFFURTERMTTZ4.jpg",
+        "question": "How do you measure a life of a woman or a man?  In truths that she learned, or in times that she cried.  In _______ he burned, or the way that she died",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["pages", "memories", "people", "bridges"],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.nydailynews.com/resizer/t-lpbuw5YnhdAVezf5WznP4c5w4=/800x533/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4L4K6ITEP2VUXHFFURTERMTTZ4.jpg",
+        "question": "Dearly beloved we gather here to say our goodbyes.  Here she lies, no one knew her worth, the late great daughter of _________ __________",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["Mother Earth", "Mother Goose", "Mother Gothel", "Mother May I?" ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.nydailynews.com/resizer/t-lpbuw5YnhdAVezf5WznP4c5w4=/800x533/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4L4K6ITEP2VUXHFFURTERMTTZ4.jpg",
+        "question": "So be mine, and don't waste my time.  Cryin 'Oh ________ - are you still my baby?'",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["Babybear",  "Sugarbear", "Teddybear", "HoneyBear"],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.wweek.com/resizer/7s_3qE4NlyMgo9_BAaFPGH_t5Vo=/1200x0/filters:quality(100)/s3.amazonaws.com/wapopartners.com/wweek-wp/wp-content/uploads/2015/08/12000100/perf_wicked_joanmarcus.jpg",
+        "question": "I hope you're happy  I hope you're happy now I hope you're happy how you've ___________ forever, I hope you think you're clever",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["hurt your cause", "lost your friend", "ruined things", "hurt your case"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.wweek.com/resizer/7s_3qE4NlyMgo9_BAaFPGH_t5Vo=/1200x0/filters:quality(100)/s3.amazonaws.com/wapopartners.com/wweek-wp/wp-content/uploads/2015/08/12000100/perf_wicked_joanmarcus.jpg",
+        "question": "And let's face it, who isn't less ________ than I?",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["beautiful", "popular", "fortunate", "fabulous"],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.wweek.com/resizer/7s_3qE4NlyMgo9_BAaFPGH_t5Vo=/1200x0/filters:quality(100)/s3.amazonaws.com/wapopartners.com/wweek-wp/wp-content/uploads/2015/08/12000100/perf_wicked_joanmarcus.jpg",
+        "question": "Those who don't try never look foolish _______ through life. Mindless and careless, make sure you're where less trouble is rife",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["skating", "dancing", "pushing", "running"],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://broadway.showtickets.com/cdn/img/articles/broadway/15-facts-phantom-of-the-opera/phantom-christine-600.jpg",
+        "question": "In sleep he sang to me. In dreams he came. That voice which calls to me.  And ______ my name",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["sings", "screams", "speaks", "whispers"],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://broadway.showtickets.com/cdn/img/articles/broadway/15-facts-phantom-of-the-opera/phantom-christine-600.jpg",
+        "question": "Say you love me every waking moment, Turn my head with talk of ___________.",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["butterflies", "summertime", "adventure", "poetry"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://broadway.showtickets.com/cdn/img/articles/broadway/15-facts-phantom-of-the-opera/phantom-christine-600.jpg",
+        "question": "No more talk of ________, Forget these wide-eyed fears;I'm here, nothing can harm you, my words will warm and calm you.",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["sadness", "madness", "darkness", "greatness"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://dxan6czxprkid.cloudfront.net/galleryimages/_x1600/dreamgirls-1981-gallery1-1024x768.jpg?mtime=20190514100418&focal=none",
+        "question": "Tear down the ________.  Yell, scream and shout like you can say what you want.  I'm not walking out",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["mountains", "houses", "system", "feelings"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://dxan6czxprkid.cloudfront.net/galleryimages/_x1600/dreamgirls-1981-gallery1-1024x768.jpg?mtime=20190514100418&focal=none",
+        "question": "Walking down that long road. There was nothing u could __________.  All those years of darkness Could make a person blind.",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["do", "buy", "see", "feel"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://dxan6czxprkid.cloudfront.net/galleryimages/_x1600/dreamgirls-1981-gallery1-1024x768.jpg?mtime=20190514100418&focal=none",
+        "question": "Life's not as bad as it may seem if you open your ______ to what's in front of you",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["eyes", "wallet", "heart", "mind"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.gannett-cdn.com/-mm-/ba67ef18d53ccf1ea23d37bc405998b4ee3ee380/c=961-1281-4595-3334/local/-/media/2016/03/28/USATODAY/USATODAY/635947804098414743-XXX-IMG-HAMILTON-CREDIT-JOAN-1-1-QNCK5FRG-78029476.JPG?width=1320&height=746&fit=crop&format=pjpg&auto=webp",
+        "question": "How does a bastard, orphan, son of a whore, and a Scotsman, dropped in the middle of a forgotten spot in the Caribbean by providence impoverished in squalor, grow up to be a hero and a ________?",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["doctor", "scholar", "father", "martyr"],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.gannett-cdn.com/-mm-/ba67ef18d53ccf1ea23d37bc405998b4ee3ee380/c=961-1281-4595-3334/local/-/media/2016/03/28/USATODAY/USATODAY/635947804098414743-XXX-IMG-HAMILTON-CREDIT-JOAN-1-1-QNCK5FRG-78029476.JPG?width=1320&height=746&fit=crop&format=pjpg&auto=webp",
+        "question": "The problem is I got a lot of brains but no _________.  I gotta holler just to be heard. With every word, I drop knowledge",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["style", "polish", "tollerance", "brawn"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       },
+       
+       { 
+        "questionPic": "https://www.gannett-cdn.com/-mm-/ba67ef18d53ccf1ea23d37bc405998b4ee3ee380/c=961-1281-4595-3334/local/-/media/2016/03/28/USATODAY/USATODAY/635947804098414743-XXX-IMG-HAMILTON-CREDIT-JOAN-1-1-QNCK5FRG-78029476.JPG?width=1320&height=746&fit=crop&format=pjpg&auto=webp",
+        "question": "He's after me 'cause I'm a ________ sister, that elevates his status.  I'd have to be naïve to set that aside",
+        "questionType": "text",
+        "answerselectionType": "single",
+        "answers": ["Schyler", "Skyler", "Skylar", "Schuyler"],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+       }
+       
+    ]
+}

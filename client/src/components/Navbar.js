@@ -18,12 +18,12 @@ function AppNav() {
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/News">Theatre News</Nav.Link>
-        <Nav.Link href="/Quizzes">Games</Nav.Link>
+        <Nav.Link href="/Games">Games</Nav.Link>
       </Nav>
       <Nav.Link href="/Profile" bg="outline-warning">
         <img src={LesMis} width="50" height="50" alt="profile avatar" /> Profile
       </Nav.Link>
-      <Nav.Link href="#" bg="warning">
+      <Nav.Link href="/" bg="warning">
         Logout
       </Nav.Link>
 
