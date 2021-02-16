@@ -19,8 +19,7 @@ import Hadestown from "./components/Quizzes/Hadestown";
 import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import ProfileContextProvider from "./utils/GlobalState";
-import LyricGame from "./components/LyircGame/Lyric"
-
+import LyricGame from "./components/LyircGame/Lyric";
 
 class App extends Component {
   render() {
@@ -39,7 +38,7 @@ class App extends Component {
               <GameContent />
             </Route>
             <Route exact path={"/Profile"}>
-                <Profile />
+              <Profile />
             </Route>
             <Route exact path={"/Quizzes"}>
               <Quizzes />
