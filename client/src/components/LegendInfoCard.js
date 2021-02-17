@@ -1,8 +1,7 @@
 import React from "react";
 
 let backgroundStyle = {
-  width: 305,
-  height: 600,
+  width: 305
 };
 
 
