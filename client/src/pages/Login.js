@@ -15,9 +15,9 @@ const Login = (props) => {
       API.login({ email, password }).then(res => {
         console.log('res! ', res)
         if (res.status === 200) {
-          setUser(res.data)
+          setUser(res.data.user)
           localStorage.setItem("user", JSON.stringify(res.data.user))
-          history.push('/MainPage') // redirect the page
+          history.push('/MainPage')
         }
       }).catch(err => { 
         console.log('err', err)

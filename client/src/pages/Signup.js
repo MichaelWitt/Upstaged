@@ -18,7 +18,7 @@ const Signup = () => {
           console.log('res! ', res)
           if (res.status === 200) {
             alert("Welcome to Upstaged!")
-            history.push('/MainPage') // redirect the page
+            history.push('/MainPage')
           }
         }).catch(err => { 
           console.log('err', err)
