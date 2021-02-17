@@ -1,5 +1,7 @@
 import React, { useContext } from "react"
 import Quiz from 'react-quiz-component';
+import AppNav from "../Navbar";
+
 import { ProfileContext } from "../../utils/GlobalState";
 
 const rentData = require("./RentData.json")
@@ -15,6 +17,7 @@ const Rent = () => {
 
     return (
         <div>
+        <AppNav />
         <Quiz quiz = {rentData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
         </div>
     )

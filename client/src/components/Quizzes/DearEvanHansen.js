@@ -1,6 +1,7 @@
 import React, { useContext } from "react"
 import Quiz from 'react-quiz-component';
 import { ProfileContext } from "../../utils/GlobalState";
+import AppNav from "../Navbar";
 
 const dearEvanHansenData = require("./DearEvanHansenData.json")
 
@@ -19,6 +20,7 @@ const DearEvanHansen = () => {
     return (
         <>
         <div>
+        <AppNav />
         <Quiz quiz = {dearEvanHansenData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
         </div>
         <div>

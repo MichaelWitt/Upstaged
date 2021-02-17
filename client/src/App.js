@@ -28,7 +28,6 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <AppNav />
           <Switch>
             <Route exact path={"/Signup"}>
               <Signup />

@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import Quiz from 'react-quiz-component';
+import AppNav from "../Navbar";
 import { ProfileContext } from "../../utils/GlobalState";
 
 const hamiltonData = require("./HamiltonData.json")
@@ -15,6 +16,7 @@ const Hamilton = () => {
 
     return (
         <div>
+        <AppNav />
         <Quiz quiz = {hamiltonData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
         </div>
     )

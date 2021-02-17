@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import Quiz from 'react-quiz-component';
+import AppNav from "../Navbar";
 import { ProfileContext } from "../../utils/GlobalState";
 
 const sweeneyToddData = require("./SweeneyToddData.json")
@@ -15,6 +16,7 @@ const SweeneyTodd = () => {
 
     return (
         <div>
+        <AppNav />
         <Quiz quiz = {sweeneyToddData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
         </div>
     )

@@ -32,5 +32,9 @@ export default {
   signup: function(data) {
     // console.log('hit ', data)
     return axios.post('/auth/signup', data)
+  },
+  getUser: function(data) {
+    // console.log('hit ', data)
+    return axios.get('/auth/user', data)
   }
 };
