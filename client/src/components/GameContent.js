@@ -7,11 +7,13 @@ import ProgressBar from "react-bootstrap/ProgressBar"
 import Games from "../pages/Games";
 import ShowScore from "../imgs/ShowScore.png"
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
-
+import AppNav from "./Navbar"
 
 
 function GameContent() {
         return(
+            <div>
+            <AppNav />
             <Row>
                 <Col md={8}>
                     <div>
@@ -53,7 +55,7 @@ function GameContent() {
                     </Container>
                 </Col>
             </Row>
-    
+            </div>
         );
 };
 
