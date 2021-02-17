@@ -12,7 +12,7 @@ const DearEvanHansen = () => {
         console.log(obj);
         let pointsEarned = obj.correctPoints;
         console.log("points Earned", pointsEarned);
-        profile.dispatch({type: "add", value: pointsEarned});
+        profile.dispatch({type: "addPoints", value: pointsEarned});
         //using mongoose, change the points the user has to db.User.currentPoints + pointsEarned
     
       };
