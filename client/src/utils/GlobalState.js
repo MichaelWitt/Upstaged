@@ -1,5 +1,5 @@
 import React, { createContext, useReducer } from "react";
-import API from "./API";
+// import API from "./API";
 import {profileReducer} from './Reducers';
 
 export const ProfileContext = createContext();
