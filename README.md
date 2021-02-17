@@ -1,17 +1,49 @@
 # Upstaged
 
-Upstaged.
+The social app for theatre lovers.
 
-[![Build Status](https://travis-ci.com/alperg/project3-starter-auth.svg?branch=master)](https://travis-ci.com/alperg/project3-starter-auth)
+## Project Details
 
-# Project 3 Starter with Auth
+Welcome to Upstaged!
 
-A simple starter project with React, Express, MongoDB, Mongoose, Passport and Local Auth.
+This application was created by theatre lovers, for theatre lovers. Upstaged is a...
+
+Thanks for stopping in!
+
+## Application
+
+Upstaged: https://upstaged.herokuapp.com/
+
+<!-- Welcome: ![Screenshot](./public/img/website.png) -->
 
 ## Requirements:
 
-- Add `.env` file with the following content:
+Add a .env file in the client folder with the following:
 
-```
-AUTH_SECRET=your_auth_secret_key
-```
+REACT_APP_API_KEY=YourRapidApiKeyHere
+
+## Build Details
+
+This application was developed using: React.js, Components, User Authentication, Material-Table, Axios, Bootstrap, JavaScript, Node.js, APIs, and more!
+
+## Repository & Preview
+
+View the repository at: https://github.com/MichaelWitt/Upstaged
+
+<!-- Preview: ![Screenshot](./public/img/preview.png) -->
+
+## Updates
+
+You can find project updates in the repository, highlighting what was done to create the final product.
+
+https://github.com/MichaelWitt/Upstaged/commits/
+
+## Credits
+
+UNC Coding Bootcamp And Trilogy for the inspiration.
+
+As well as The Theatre, NPM Material-Table, Web Search API, Bootstrap, React, Axios, and other NPM Packages.
+
+## Thanks For Visiting!
+
+Come back soon :)
