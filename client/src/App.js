@@ -54,25 +54,39 @@ class App extends Component {
               <Quizzes />
             </Route>
             <Route exact path={"/Hamilton"}>
-              <Hamilton />
+              <ProfileContextProvider>
+                <Hamilton />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Wicked"}>
-              <Wicked />
+              <ProfileContextProvider>
+                <Wicked />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Dreamgirls"}>
-              <Dreamgirls />
+              <ProfileContextProvider>
+                <Dreamgirls />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Phantom"}>
-              <Phantom />
+              <ProfileContextProvider>
+                <Phantom />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Rent"}>
-              <Rent />
+              <ProfileContextProvider>
+                <Rent />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Heathers"}>
-              <Heathers />
+              <ProfileContextProvider>
+                <Heathers />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/LesMis"}>
-              <LesMis />
+              <ProfileContextProvider>
+                <LesMis />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/DearEvanHansen"}>
               <ProfileContextProvider>
@@ -80,10 +94,14 @@ class App extends Component {
               </ProfileContextProvider>
             </Route>
             <Route exact path={"/SweeneyTodd"}>
-              <SweeneyTodd />
+              <ProfileContextProvider>
+                <SweeneyTodd />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Hadestown"}>
-              <Hadestown />
+              <ProfileContextProvider>
+                <Hadestown />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Lyrics"}>
               <LyricGame />
