@@ -13,7 +13,7 @@ const Login = (props) => {
   const submitForm = (e) => {
     e.preventDefault()
       API.login({ email, password }).then(res => {
-        console.log('res! ', res)
+        console.log('RES: ', res)
         if (res.status === 200) {
           setUser(res.data.user)
           localStorage.setItem("user", JSON.stringify(res.data.user))
@@ -31,14 +31,6 @@ const Login = (props) => {
         setUser(loggedInUser);
       }
     }, []);
-
-    const handleLogout = () => {
-      setUser({});
-      setEmail("");
-      setPassword("");
-      localStorage.clear();
-      history.push('/Login')
-  };
 
   return (
     <MDBContainer>
