@@ -78,7 +78,7 @@ const Login = (props) => {
               <p className="font-small grey-text d-flex justify-content-center">
                 Don't have an account?
                 <a
-                  href="#!"
+                  href="/Signup"
                   className="dark-grey-text font-weight-bold ml-1"
                 >
                   Sign up
