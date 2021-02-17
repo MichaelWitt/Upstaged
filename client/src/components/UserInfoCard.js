@@ -2,8 +2,7 @@ import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 let backgroundStyle = {
-  width: 305,
-  height: 600,
+  width: 305
 };
 
 function UserInfoCard(props) {
@@ -28,19 +27,19 @@ function UserInfoCard(props) {
             <strong className="headers">Level:</strong> {props.level}
           </li>
           <li>
-            <strong className="headers">My Top Show:</strong> {props.topShow}
-          </li>
-          <li>
-            <strong className="headers">Most Similar Character:</strong>{" "}
-            {props.characterMostLike}
-          </li>
-          <li>
             <strong className="headers">Progress to next level:</strong>{" "}
             <ProgressBar
               now={props.points}
               max={props.maxPoints}
               label={`${props.points}/${props.maxPoints}`}
             />
+          </li>
+          <li>
+            <strong className="headers">My Top Show:</strong> {props.topShow}
+          </li>
+          <li>
+            <strong className="headers">Most Similar Character:</strong>{" "}
+            {props.characterMostLike}
           </li>
         </ul>
       </div>

@@ -46,7 +46,9 @@ class App extends Component {
               <GameContent />
             </Route>
             <Route exact path={"/Profile"}>
-              <Profile />
+              <ProfileContextProvider>
+                <Profile />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Quizzes"}>
               <Quizzes />
