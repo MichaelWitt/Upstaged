@@ -16,7 +16,7 @@ const Login = (props) => {
   const submitForm = (e) => {
     e.preventDefault()
       API.login({ email, password }).then(res => {
-        console.log('res! ', res)
+        console.log('RES: ', res)
         if (res.status === 200) {
           setUser(res.data.user)
           localStorage.setItem("user", JSON.stringify(res.data.user))
@@ -34,14 +34,6 @@ const Login = (props) => {
         setUser(loggedInUser);
       }
     }, []);
-
-    const handleLogout = () => {
-      setUser({});
-      setEmail("");
-      setPassword("");
-      localStorage.clear();
-      history.push('/Login')
-  };
 
   return (
     <MDBContainer>
@@ -94,6 +86,47 @@ const Login = (props) => {
                 </h6>
               </MDBCardBody>
             </div>
+            <MDBCardBody className="mx-4 mt-4">
+            <form>
+              <MDBInput onChange={e => setEmail(e.target.value)} label="Email" group type="text" validate />
+              <MDBInput
+                label="Password"
+                group
+                onChange={e => setPassword(e.target.value)}
+                type="password"
+                validate
+                containerClass="mb-0"
+              />
+              <p className="font-small grey-text d-flex justify-content-end">
+                Forgot
+                <a
+                  href="#!"
+                  className="dark-grey-text font-weight-bold ml-1"
+                >
+                  Password?
+                </a>
+              </p>
+              </form>
+              <div className="text-center mb-4 mt-5 mr-5">
+                <MDBBtn
+                  color="danger"
+                  type="button"
+                  className="btn-block"
+                  onClick={submitForm}
+                >
+                  Log in
+                </MDBBtn>
+              </div> 
+              <p className="font-small grey-text d-flex justify-content-center">
+                Don't have an account?
+                <a
+                  href="/Signup"
+                  className="dark-grey-text font-weight-bold ml-1"
+                >
+                  Sign up
+                </a>
+              </p>
+            </MDBCardBody>
           </MDBCard>
         </MDBCol>
       </MDBRow>

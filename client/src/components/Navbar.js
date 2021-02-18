@@ -28,7 +28,7 @@ function AppNav() {
       <Button 
         variant="warning" 
         style={{backgroundColor:"#f7e200"}}
-        // onClick={handleLogout()}
+        onClick={() => {window.location.href="/"; localStorage.clear()}}
       >
         Logout
       </Button>
