@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col"
 import Row from "react-bootstrap/Row"
 import Card from "react-bootstrap/Card"
 import ProgressBar from "react-bootstrap/ProgressBar"
-
+import AppNav from "../Navbar"
 
 
 const LyricData = require("./LyricData.json");
@@ -13,6 +13,8 @@ const LyricData = require("./LyricData.json");
 
 const LyricGame = () => {
     return (
+        <div>
+        <AppNav />
         <Row>
             <Col md={1}></Col>
             <Col md={5}>
@@ -50,6 +52,7 @@ const LyricGame = () => {
                     </Container>
                 </Col>
         </Row>
+        </div>
     )
 }
 

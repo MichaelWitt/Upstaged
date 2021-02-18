@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import Nav from "react-bootstrap/Nav";
 // import Form from 'react-bootstrap/Form'
 // import {FormControl} from 'react-bootstrap';
 
 import Logo from "../imgs/logo.png";
 import LesMis from "../imgs/LesMis.png";
+
+import "../pages/Login"
 
 function AppNav() {
   return (
@@ -23,9 +25,14 @@ function AppNav() {
       <Nav.Link href="/Profile" bg="outline-warning">
         <img src={LesMis} width="50" height="50" alt="profile avatar" /> Profile
       </Nav.Link>
-      <Nav.Link href="/" bg="warning">
+      <Button 
+        variant="warning" 
+        style={{backgroundColor:"#f7e200"}}
+        // onClick={handleLogout()}
+      >
         Logout
-      </Nav.Link>
+      </Button>
+
 
       {/* <Form inline>
     <FormControl type="text" placeholder="Search" className="mr-sm-2" />

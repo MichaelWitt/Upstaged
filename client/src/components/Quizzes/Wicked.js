@@ -1,5 +1,7 @@
 import React, { useContext, useState } from "react"
 import Quiz from 'react-quiz-component';
+import AppNav from "../Navbar";
+
 import { ProfileContext } from "../../utils/GlobalState";
 import QuizComplete from './quizComplete';
 import wickedPlaybill from "../../imgs/playbills/wicked.png";
@@ -40,7 +42,12 @@ function Wicked(props) {
             </div>
         )
     }
-
+    return (
+        <div>
+        <AppNav />
+        <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
+        </div>
+    )
 }
 
 export default Wicked;

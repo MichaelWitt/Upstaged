@@ -1,5 +1,7 @@
 import React, { useContext } from "react"
 import Quiz from 'react-quiz-component';
+import AppNav from "../Navbar";
+
 import { ProfileContext } from "../../utils/GlobalState";
 
 const phantomData = require("./PhantomData.json")
@@ -15,6 +17,7 @@ const Phantom = () => {
 
     return (
         <div>
+        <AppNav />
         <Quiz quiz = {phantomData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
         </div>
     )
