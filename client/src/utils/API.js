@@ -9,7 +9,7 @@ const NewsURL = {
   params: {
     q: "broadway",
     pageNumber: "1",
-    pageSize: "100",
+    pageSize: "50",
     autoCorrect: "true",
     fromPublishedDate: "null",
     toPublishedDate: "null",
