@@ -11,9 +11,9 @@ class News extends Component {
   news = [];
 
   componentDidMount() {
-    API.getNews().then((results) => {
-      this.news = results.data.articles;
-      // console.log("this.news:", this.news);
+    API.getNews().then((response) => {
+      // console.log("response:", response.data.value);
+      this.news = response.data.value;
       this.setState({
         filteredNews: this.news,
       });
@@ -22,12 +22,14 @@ class News extends Component {
 
   render() {
     return (
-      <div class="formatting" style={{ maxWidth: "100%" }}>
+      <div className="formatting" style={{ maxWidth: "100%" }}>
         <MaterialTable
           columns={[
             {
               title: "Articles",
               field: "image",
+              headerStyle: { maxWidth: 600 },
+              cellStyle: { maxWidth: 600 },
               render: (rowData) => (
                 <a
                   href={rowData.website}
@@ -45,11 +47,21 @@ class News extends Component {
             {
               title: "Content",
               field: "content",
-              headerStyle: { minWidth: 300 },
-              cellStyle: { minWidth: 300 },
+              headerStyle: { maxWidth: 150 },
+              cellStyle: { maxWidth: 150 },
             },
-            { title: "Headline", field: "headline" },
-            { title: "Source", field: "source" },
+            {
+              title: "Headline",
+              field: "headline",
+              headerStyle: { maxWidth: 100 },
+              cellStyle: { maxWidth: 100 },
+            },
+            {
+              title: "Source",
+              field: "source",
+              headerStyle: { maxWidth: 100 },
+              cellStyle: { maxWidth: 100 },
+            },
             {
               title: "Date",
               field: "date",
@@ -58,12 +70,19 @@ class News extends Component {
           ]}
           data={this.state.filteredNews.map((news) => {
             let tableData = {
-              image: `${news.urlToImage}`,
+              image: `${news.image.url}`,
               website: `${news.url}`,
-              headline: `${news.description}`,
-              content: `${news.content}`,
-              source: `${news.source.name}`,
-              date: `${news.publishedAt.split(/[T ]/i, 1)[0]}`,
+              headline: `${news.description.substring(0, 200) + "..."}`,
+              content: `${
+                news.body.charAt(0).toUpperCase() +
+                news.body.slice(1).substring(0, 200) +
+                "..."
+              }`,
+              source: `${
+                news.provider.name.charAt(0).toUpperCase() +
+                news.provider.name.slice(1).substring(0, 20)
+              }`,
+              date: `${news.datePublished.split(/[T ]/i, 1)[0]}`,
             };
             return tableData;
           })}
@@ -73,7 +92,7 @@ class News extends Component {
             emptyRowsWhenPaging: true,
             pageSizeOptions: [6, 12, 20, 50],
           }}
-          title="Broadway"
+          title="News"
         />
       </div>
     );

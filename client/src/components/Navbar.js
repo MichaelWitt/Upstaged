@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import Nav from "react-bootstrap/Nav";
 // import Form from 'react-bootstrap/Form'
 // import {FormControl} from 'react-bootstrap';
 
 import Logo from "../imgs/logo.png";
 import LesMis from "../imgs/LesMis.png";
+
+import "../pages/Login"
 
 function AppNav() {
   return (
@@ -18,14 +20,19 @@ function AppNav() {
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/News">Theatre News</Nav.Link>
-        <Nav.Link href="/Quizzes">Games</Nav.Link>
+        <Nav.Link href="/Games">Games</Nav.Link>
       </Nav>
       <Nav.Link href="/Profile" bg="outline-warning">
         <img src={LesMis} width="50" height="50" alt="profile avatar" /> Profile
       </Nav.Link>
-      <Nav.Link href="#" bg="warning">
+      <Button 
+        variant="warning" 
+        style={{backgroundColor:"#f7e200"}}
+        onClick={() => {window.location.href="/"; localStorage.clear()}}
+      >
         Logout
-      </Nav.Link>
+      </Button>
+
 
       {/* <Form inline>
     <FormControl type="text" placeholder="Search" className="mr-sm-2" />

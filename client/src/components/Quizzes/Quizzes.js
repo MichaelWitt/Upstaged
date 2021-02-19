@@ -13,10 +13,13 @@ import phantomPlaybill from "../../imgs/playbills/phantom.png";
 import sweeneyPlaybill from "../../imgs/playbills/sweeney.png";
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row'
+import AppNav from "../Navbar";
+
 
 const Quizzes = () => {
     return (
       <div>
+        <AppNav />
         <h1>Pick a Quiz!</h1>
         <hr></hr>
         <Row>

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Signup from "./pages/Signup"
+import Login from "./pages/Login"
 import AppNav from "./components/Navbar";
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
@@ -19,15 +21,22 @@ import Heathers from "./components/Quizzes/Heathers";
 import Hadestown from "./components/Quizzes/Hadestown";
 import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
+import ProfileContextProvider from "./utils/GlobalState";
+import LyricGame from "./components/LyircGame/Lyric";
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
-          <AppNav />
           <Switch>
-            <Route exact path={"/"}>
+            <Route exact path={"/Signup"}>
+              <Signup />
+            </Route>
+            <Route exact path={["/", "/Login"]}>
+              <Login />
+            </Route>
+            <Route exact path={"/MainPage"}>
               <MainPage />
             </Route>
             <Route exact path={"/News"}>
@@ -37,7 +46,9 @@ class App extends Component {
               <GameContent />
             </Route>
             <Route exact path={"/Profile"}>
-              <Profile />
+              <ProfileContextProvider>
+                <Profile />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Quizzes"}>
               <Quizzes />
@@ -46,34 +57,57 @@ class App extends Component {
               <Playbill/>
             </Route>
             <Route exact path={"/Hamilton"}>
-              <Hamilton />
+              <ProfileContextProvider>
+                <Hamilton />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Wicked"}>
-              <Wicked />
+              <ProfileContextProvider>
+                <Wicked />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Dreamgirls"}>
-              <Dreamgirls />
+              <ProfileContextProvider>
+                <Dreamgirls />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Phantom"}>
-              <Phantom />
+              <ProfileContextProvider>
+                <Phantom />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Rent"}>
-              <Rent />
+              <ProfileContextProvider>
+                <Rent />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Heathers"}>
-              <Heathers />
+              <ProfileContextProvider>
+                <Heathers />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/LesMis"}>
-              <LesMis />
+              <ProfileContextProvider>
+                <LesMis />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/DearEvanHansen"}>
-              <DearEvanHansen />
+              <ProfileContextProvider>
+                <DearEvanHansen />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/SweeneyTodd"}>
-              <SweeneyTodd />
+              <ProfileContextProvider>
+                <SweeneyTodd />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Hadestown"}>
-              <Hadestown />
+              <ProfileContextProvider>
+                <Hadestown />
+              </ProfileContextProvider>
+            </Route>
+            <Route exact path={"/Lyrics"}>
+              <LyricGame />
             </Route>
           </Switch>
           <FooterNav />
