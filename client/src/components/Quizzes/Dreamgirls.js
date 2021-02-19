@@ -1,4 +1,5 @@
 import React, { useContext } from "react"
+import { Card } from "react-bootstrap"
 import Quiz from 'react-quiz-component';
 import AppNav from "../Navbar";
 import { ProfileContext } from "../../utils/GlobalState";
@@ -16,7 +17,11 @@ const Dreamgirls = () => {
     return (
         <div>
         <AppNav />
-        <Quiz quiz = {dreamgirlsData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
+        <Card style={{ width: '18rem' }}>
+            <Card.Text>
+            <Quiz quiz = {dreamgirlsData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
+            </Card.Text>
+        </Card>
         </div>
     )
 }
