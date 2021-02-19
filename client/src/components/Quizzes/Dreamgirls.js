@@ -1,6 +1,9 @@
+
+import { Container, Row, Col, Card } from "react-bootstrap"
 import React, { useContext, useState } from "react"
 import Quiz from 'react-quiz-component';
 import AppNav from "../Navbar";
+
 import { ProfileContext } from "../../utils/GlobalState";
 import QuizComplete from './quizComplete';
 import dreamgirlsPlaybill from "../../imgs/playbills/dreamgirls.png";
