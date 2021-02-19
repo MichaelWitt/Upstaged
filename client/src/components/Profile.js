@@ -4,8 +4,8 @@ import UserInfoCard from "./UserInfoCard";
 import { ProfileContext } from "../utils/GlobalState";
 //bring in mongo database of users with API
 
-const loggedInUser = JSON.parse(localStorage.getItem("user"));
-console.log('loggedInUser:', loggedInUser.level)
+// const loggedInUser = JSON.parse(localStorage.getItem("user"));
+// console.log('loggedInUser:', loggedInUser)
 
 function Profile(props){
   let profile = useContext(ProfileContext);
