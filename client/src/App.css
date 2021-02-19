@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url(./imgs/backgroundimage.png);
+  background-repeat: repeat;
 }
 
 .App-logo {
@@ -30,4 +32,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#border-madness {
+  border-width: 3px;
+  border-color: rgb(0, 97, 16);
+  border-style: solid;
+  text-align: left;
+  background-color: rgb(107, 156, 115);
+}
+
+#profileImage {
+  float: left;
+  width: 300 px;
+  height: 300 px;
+  border-width: 5px;
+  border-color: rgb(0, 34, 6);
+  border-style: solid;
+}
+
+.headers {
+  color: white;
+}
+
+#hiddenNameButton:hover {
+  animation-name: example;
+  animation-duration: 1s;
+  color: white;
+  animation-iteration-count: infinite;
+  border-width: 2px;
+  border-color: rgb(255, 251, 0);
+  border-style: solid;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(0, 78, 30);}
+  25%  {background-color: rgb(4, 168, 4);}
+  50%  {background-color: rgb(130, 255, 140);}
+  100% {background-color: rgb(0, 78, 30);}
 }

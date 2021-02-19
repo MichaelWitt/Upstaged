@@ -1,0 +1,306 @@
+{
+    "quizTitle": "Sweeney Todd Quiz",
+    "quizSynopsis": "Test your Sweeney Todd knowledge!",
+    "questions": [
+      {
+        "question": "Who composed the score for Sweeney Todd?",
+        "questionType": "text",
+        "answers": [
+          "Stephen Schwartz",
+          "Alan Jay Lerner",
+          "Charles Strouse",
+          "Stephen Sondheim"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who wrote the book for Sweeney Todd?",
+        "questionType": "text",
+        "answers": [
+          "Stephen Sondheim",
+          "Hugh Wheeler",
+          "James Lapine",
+          "George Furth"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who originated the role of Sweeney Todd?",
+        "questionType": "text",
+        "answers": [
+          "Len Cariou",
+          "George Hearn",
+          "Victor Garber",
+          "Brian Stokes Mitchell"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "In the song 'A Little Priest', what meat is in the first pie Mrs. Lovett serves Sweeney?",
+        "questionType": "text",
+        "answers": [
+          "Priest",
+          "Potter",
+          "Bishop",
+          "Friar"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who wrote the 1973 play that the musical is based on?",
+        "questionType": "text",
+        "answers": [
+          "Eugene O'Neill",
+          "August Wilson",
+          "Christopher Bond",
+          "Terrence McNally"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is Mrs. Lovett's first name?",
+        "questionType": "text",
+        "answers": [
+          "Barbara",
+          "Nellie",
+          "Olga",
+          "Penny"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In what year did Sweeney Todd open on Broadway?",
+        "questionType": "text",
+        "answers": [
+          "1977",
+          "1979",
+          "1981",
+          "1983"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is Sweeney Todd's alter ego?",
+        "questionType": "text",
+        "answers": [
+          "Benjamin Barker",
+          "Paul Pritchard",
+          "Thomas Tierson",
+          "James Johnson"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is the Act I finale?' ",
+        "questionType": "text",
+        "answers": [
+          "Pretty Women",
+          "Epiphany",
+          "Kiss Me",
+          "A Little Priest"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "How many Tony Awards did the original Broadway production recieve?",
+        "questionType": "text",
+        "answers": [
+          "4",
+          "7",
+          "8",
+          "9"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who was Sweeney Todd's first kill?",
+        "questionType": "text",
+        "answers": [
+          "Tobias Ragg",
+          "Daniel O'Higgins",
+          "Beadle Bamford",
+          "Judge Turpin"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is Sweeney referring to when he sings 'These are my friends'?",
+        "questionType": "text",
+        "answers": [
+          "The street urchins",
+          "The people of London",
+          "His combs",
+          "His razors"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who kills Sweeney Todd?",
+        "questionType": "text",
+        "answers": [
+          "Mrs. Lovett",
+          "Tobias Ragg",
+          "Judge Turpin",
+          "The Beggar Woman"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "How many times has Sweeney Todd been revived on Broadway?",
+        "questionType": "text",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In the song 'Kiss Me', what does Johanna plan to poison herself with?",
+        "questionType": "text",
+        "answers": [
+          "Arsenic",
+          "Chicory",
+          "Lye",
+          "Cyanide"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who originated the role of Nellie Lovett?'",
+        "questionType": "text",
+        "answers": [
+          "Patti LuPone",
+          "Angela Lansbury",
+          "Christine Baranski",
+          "Imelda Staunton"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Which of the follwing is NOT a character that Sweeney kills?",
+        "questionType": "text",
+        "answers": [
+          "Tobias Ragg",
+          "Nellie Lovett",
+          "The Beggar Woman",
+          "Daniel O'Higgins"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "How many 'parlour songs' does Beadle Bamford play at the piano, including reprises?",
+        "questionType": "text",
+        "answers": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+
+      },
+      {
+        "question": "Sweeney Todd is the demon barber of which street?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Fleet",
+          "Bond",
+          "Downing",
+          "Regent"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Where was Sweeney exiled?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Wales",
+          "France",
+          "Australia",
+          "Russia"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "In 1979, Sweeney Todd opened on Broadway at the Uris Theatre.  What theatre is that now?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "The Palace Theatre",
+          "The Broadway Theatre",
+          "The Marriott Marquis",
+          "The Gershwin"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What is Sweeney Todd's Wife's name?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Lucy",
+          "Linda",
+          "Lisa",
+          "Laura"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      }
+    ]
+}

@@ -1,0 +1,306 @@
+{
+  "quizTitle": "Rent Quiz",
+  "quizSynopsis": "Test your Rent knowledge!",
+  "questions": [
+    {
+      "question": " In 'Light My Candle' what does Mimi say she's born to be?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Fun",
+        "Bad",
+        "Crazy",
+        "Wild"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": " How old did Roger think Mimi was?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is the name of the cow in 'Over the Moon'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Elsie",
+        "Benny",
+        "Maureen",
+        "Clover"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is Angel's favorite holiday?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Christmas",
+        "Easter",
+        "New Year's",
+        "Halloween"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who used to live with Roger and Mark?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Mimi, Joanne, and Benny",
+        "Benny, Maureen, and Collins",
+        "Benny, Maureen, and Angel",
+        "Angel, Collins, and Benny"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How much did Angel get paid for killing Benny's dog?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "$1000",
+        "$1500",
+        "$2000",
+        "$2500"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What day and time does the show start?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "December 24th, 9pm",
+        "December 23rd, 10pm",
+        "October 30th, 11pm",
+        "December 31st, 11pm"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which character is the first person to sing in the play?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Roger",
+        "Mark",
+        "Mimi",
+        "Maureen"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How many voice mail messages are there in the show?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "'Light My Candle' is sung between which two characters?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Mark and Maureen",
+        "Maureen and Mimi",
+        "Collins and Angel",
+        "Roger and Mimi"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is the name of the meeting that Collins, Angel, and Mark attend during the play?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Life Cafe",
+        "There's Only Us",
+        "Life Support",
+        "See The Light"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is Mimi's last name?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Moldonado",
+        "Cohen",
+        "Marquez",
+        "Johnson"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is the name of Roger's old girlfriend?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Melissa",
+        "Amanda",
+        "April",
+        "Melanie"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What instrument does Angel play?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Drums",
+        "Saxophone",
+        "Guitar",
+        "Piano"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What's the club called where the gang sings 'La Vie Boheme'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Life Cafe",
+        "The Back to Back Club",
+        "The Cat Scratch Club",
+        "Yours, Mine, Ours Cafe"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which character gets mugged in the first act?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Mimi",
+        "Collins",
+        "Angel",
+        "Roger"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What colors are Mark's scarf?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Blue & White",
+        "Yellow & White",
+        "Yellow & Blue",
+        "Purple and White"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who pays for angel's funeral",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Collins",
+        "Mimi",
+        "Benny",
+        "Roger"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is Joanne's Job?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Pharmacist",
+        "Bartender",
+        "Social Worker",
+        "Lawyer"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which pair is not a couple",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Collins and Angel",
+        "Roger and Mimi",
+        "Mark and Mimi",
+        "Maureen and Joanne"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    }
+  ]
+}

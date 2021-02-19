@@ -1,0 +1,306 @@
+{
+    "quizTitle": "Hamilton Quiz",
+    "quizSynopsis": "Test your Hamilton knowledge!",
+    "questions": [
+      {
+        "question": "Who shot Alexander Hamilton?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Charles Lee",
+          "Thomas Jefferson",
+          "Aaron Burr",
+          "Hercules Mulligan"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Which Schuyler sister married Hamilton?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Peggy",
+          "Eliza",
+          "Angelica",
+          "Georgette"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Which two characters were played by the same actor?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Maria Reynolds & Peggy Schuyler",
+          "Hercules Mulligan & Thomas Jefferson",
+          "Marquis de Lafayette & James Madison",
+          "Aaron Burr and George Eacker"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Which of these is NOT one of the 10 duel commandments?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "If they apologize, no need for further action.",
+          "Leave a note for your next of kin",
+          "Duel before the sun is in the sky.",
+          "Make sure there's no doctor on site"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "How many songs are on the Hamilton soundtrack?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "29",
+          "35",
+          "46",
+          "56"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "At what age was Hamilton placed in charge of the trading charter?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What's the longest song in Hamilton?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Non-Stop",
+          "Satisfied",
+          "One Last Time",
+          "My Shot"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "There are two rap battles in “Hamilton” over issues facing the new nation. Which issue is debated in the musical?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Whether the U.S. should assume state debt and establish a national bank.",
+          "Whether the U.S. should provide aid and troops to its revolutionary Russian allies.",
+          "Whether the U.S. should ban the importation of products funded by slave labor.",
+          "Whether the U.S. should release a series of essays defending the constitution to the public."
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who says 'I'm a trust fund baby, you can trust me'?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "King George",
+          "George Washington",
+          "Thomas Jefferson",
+          "Aaron Burr"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "How many essays did Hamilton, Madison, and John Jay write in total?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "49",
+          "63",
+          "85",
+          "98"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Where does Thomas Jefferson call his 'Home Sweet Home'?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Maryland",
+          "Virginia",
+          "Massachusets",
+          "New Hampshire"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "How long does Eliza live after Hamilton dies?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "20 years",
+          "30 years",
+          "40 years",
+          "50 years"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What is Aaron Burr's daugter's name?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Reynolda",
+          "Theodosia",
+          "Ambrasia",
+          "Burreta"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who is America’s favourite fighting Frenchman?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Marquis de Lafayette",
+          "Hercules Mulligan",
+          "Marquis de Philip",
+          "Samuel Seabery"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who kills Philip?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Charles Lee",
+          "Samuel Seabury",
+          "George Eacker",
+          "Aaron Burr"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What does George Washington say is harder than dying?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "War",
+          "Living",
+          "Regret",
+          "Guilt"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "In 'Satisfied' what does Angelica say her only job is?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Marry Rich",
+          "Protect Her Sisters",
+          "Get A Degree",
+          "Be Happy"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What Shakespeare play does Hamilton describe in his letter to Angelica?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Romeo and Juliet",
+          "Much Ado About Nothing",
+          "The Scottish Play",
+          "As You Like It"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Which two characters argued until there was a two party system?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Thomas Jefferson and Aaron Burr",
+          "Aaron Burr and Alexander Hamilton",
+          "John Laurens and Hercules Mulligan",
+          "Thomas Jefferson and Alexander Hamilton"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who shoots Charles Lee?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "John Laurens",
+          "Herculles Mulligan",
+          "Maria Reynolds",
+          "Samuel Seabury"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      }
+    ]
+}

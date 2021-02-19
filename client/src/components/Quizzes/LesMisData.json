@@ -1,0 +1,306 @@
+{
+  "quizTitle": "Les Mis Quiz",
+  "quizSynopsis": "Test your Les Mis knowledge!",
+  "questions": [
+    {
+      "question": "Which of the following is not a character from Les Miserables?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Javert Madame",
+        "Thénardier",
+        "Enjolras",
+        "Juan Perón"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "During the song Lovely Ladies, what does Fantine sell to the old woman first of all, before later giving in and becoming a prostitute?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Her hair",
+        "Cosette",
+        "Her clothes", 
+        "Her necklace"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which character is also known as 24601?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Jean Valjean",
+        "Javert",
+        "Gavroche",
+        "Thenardier"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which character is also referred to as the 'Jondrette girl'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Cosette", 
+        "Eponine",
+        "Fantine",
+        "Madame Thenardier"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who attempts to hunt down Jean Valjean for decades?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Fantine",
+        "Enjorlas",
+        "Javert",
+        "Marius"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which of these characters is still alive at the end of the show?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Javert",
+        "Jean Valjean",
+        "Cosette",
+        "Fantine"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "When do the events of 'Les Mis' take place?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "1800's",
+        "1700's",
+        "1600's",
+        "1500's"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which character commits suicide?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Fantine",
+        "Javert",
+        "Marius",
+        "Eponine"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who is Eponine in love with?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Fantine",
+        "Enjorlas",
+        "Javert",
+        "Marius"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "During what event does Les Mis take place?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Paris Uprising of 1832",
+        "The French Revolution",
+        "The Crusades",
+        "The French Wars of Religion"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "hat did Jean Valjean initially go to jail for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Murder",
+        "Stealing bread",
+        "Stealing gold",
+        "Conspiracy against the crown"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Jean Valjean reinvents himself as Monsieur Madeleine and becomes what?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A business mogul",
+        "A judge",
+        "A mayor",
+        "A husband and father"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who does Marius fall in love with?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Cosette",
+        "Eponine",
+        "Fantine",
+        "Madame Thenardier"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How does Javert see through Jean Valjean's new persona?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A distinctive scar",
+        "His accent",
+        "His strength",
+        "His red hair"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who did Jean Valjean rescue Cosette from?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Fantine",
+        "Javert",
+        "Eponine",
+        "The Thenardiers"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Jean Valjean decides to start his life over as an upstanding citizen due to the kindness of:",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Javert",
+        "Marius",
+        "The Bishop of Digne",
+        "Fantine"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Eponine is the daughter of who?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The Thenardiers",
+        "Jean Valjean",
+        "Fantine",
+        "Enjorlas"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How does Fantine know Jean Valjean?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Work",
+        "They Dated",
+        "Political activism",
+        "Gambling"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What does Thenardier steal from Marius?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A Jacket",
+        "A Shoe",
+        "A Ring",
+        "A Satchel of Coins"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who is the first to know of Fantine's demise?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Eponine",
+        "Javert",
+        "Cosette",
+        "Jean Valjean"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    }
+  ]
+}

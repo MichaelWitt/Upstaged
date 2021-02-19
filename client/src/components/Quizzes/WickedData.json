@@ -1,0 +1,305 @@
+{
+    "quizTitle": "Wicked Quiz",
+    "quizSynopsis": "Test your Wicked knowledge!",
+    "questions": [
+      {
+        "question": "At what theatre does Wicked play?",
+        "questionType": "text",
+        "answers": [
+          "St. James",
+          "Longacre",
+          "Gershwin",
+          "Minskoff"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who wrote the score for Wicked?",
+        "questionType": "text",
+        "answers": [
+          "Stephen Schwartz",
+          "Stephen Sondheim",
+          "Alan Menken",
+          "Stephen Flaherty"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "On what day did Wicked open on Broadway?",
+        "questionType": "text",
+        "answers": [
+          "June 10, 2003",
+          "October 1, 2003",
+          "October 30, 2003",
+          "October 31, 2003"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "How many Tony Awards did Wicked WIN at the 2004 Tonys?",
+        "questionType": "text",
+        "answers": [
+          "3",
+          "5",
+          "6",
+          "7"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct! Idina Menzel won the award for Best Actress in a Musical for her portrayal of Elphaba, Eugene Lee won for Best Scenic Design, and Susan Hilferty for Best Costume Design",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Wicked is the second highest grossing broadway musical, behind which show?",
+        "questionType": "text",
+        "answers": [
+          "The Phantom of The Opera",
+          "The Lion King",
+          "Cats",
+          "Chicago"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is the name of the book of spells Elphaba uses?",
+        "questionType": "text",
+        "answers": [
+          "The Spellbinder",
+          "The Grimmerie",
+          "The Ozelion",
+          "The Enchantion"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who was the last original principal cast member to leave the show?",
+        "questionType": "text",
+        "answers": [
+          "Michelle Federer - Nessarose",
+          "Norbert Leo Butz - Fiyero",
+          "Idina Menzel - Elphaba",
+          "Carole Shelley - Madame Morrible"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct! Michelle also reprised her role from August 2009 - January 2010",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Which actor was the first to play Elphaba on Broadway AFTER Idina Menzel?",
+        "questionType": "text",
+        "answers": [
+          "Stephanie J. Block",
+          "Julia Murney",
+          "Shoshana Bean",
+          "Eden Espinosa"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!  Shoshana Bean took over the role from Menzel in January 2005.",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is the title of the book by Gregory Maguire on which Wicked is based?",
+        "questionType": "text",
+        "answers": [
+          "Wicked",
+          "Wicked: Before Dorothy",
+          "Wicked: The Misunderstood Witch",
+          "Wicked: The Life and Times of the Wicked Witch of the West"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!  The book has three sequels: Son of a Witch, A Lion Among Men, and Out of Oz",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "During which song does Galinda gift Elphaba the famous pointed black hat?",
+        "questionType": "text",
+        "answers": [
+          "No One Mourns the Wicked",
+          "Dancing Through Life",
+          "Popular",
+          "Defying Gravity"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What song replaced 'Making Good' when Wicked opened on Broadway?",
+        "questionType": "text",
+        "answers": [
+          "The Wizard and I",
+          "For Good",
+          "Defying Gravity",
+          "Thank Goodness"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In which city did Wicked have its out of town tryout?",
+        "questionType": "text",
+        "answers": [
+          "Seattle",
+          "Atlanta",
+          "San Francisco",
+          "Boston"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!  It played at the Curran Theatre.",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In what year did Wicked surpass 1 billion dollars in total Broadway revenue?",
+        "questionType": "text",
+        "answers": [
+          "2012",
+          "2015",
+          "2016",
+          "2019"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Which character becomes the Tin Man?",
+        "questionType": "text",
+        "answers": [
+          "Boq",
+          "Fiyero",
+          "The Wizard",
+          "Chistery"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Which character turns Fiyero into a scarecrow?",
+        "questionType": "text",
+        "answers": [
+          "Glinda",
+          "Elphaba",
+          "Madame Morrible",
+          "The Wizard"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What color is Glinda's dress during 'One Short Day'?'",
+        "questionType": "text",
+        "answers": [
+          "Pink",
+          "Green",
+          "Yellow",
+          "Blue"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "During the song 'Something Bad', what phenomenon is Dr. Dillamond warning Elphaba about?",
+        "questionType": "text",
+        "answers": [
+          "Animals losing the ability to speak",
+          "Erratic weather due to global warming",
+          "A new tax on witches and wizards",
+          "The dissapearance of munchkins"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is Galinda's last name?",
+        "questionType": "text",
+        "answers": [
+          "Southland",
+          "Northland",
+          "Goodland",
+          "Upland"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who wrote the book for Wicked?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Winnie Holzman",
+          "Lynn Ahrens",
+          "Jeanine Tesori",
+          "Mindi Dickstein"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Which legendary theatre actor originated the role of The Wizard on Broadway?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Brian Stokes Mitchell",
+          "Len Cariou",
+          "Joel Grey",
+          "Michael Crawford"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "In dancing through life, what does Boq tell Nessa is the reason he brought her to the dance?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "To get back at Elphaba",
+          "To boost his popularity",
+          "Because he pities her",
+          "Because she is beautiful"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "What is Madame Morrible's speciality?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "The weather",
+          "Comebacks",
+          "Fashion",
+          "Architecture"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      }
+    ]
+}

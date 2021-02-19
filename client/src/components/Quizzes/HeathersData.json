@@ -1,0 +1,306 @@
+{
+  "quizTitle": "Heathers Quiz",
+  "quizSynopsis": "Test your Heathers knowledge!",
+  "questions": [
+    {
+      "question": "What character has a cruch on Ram?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Martha",
+        "Heather McNamara",
+        "Veronica",
+        "Kurt"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is Martha's nickname?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Martha Mountain",
+        "Martha Dumptruck",
+        "Martha Monster",
+        "Martha Dumpster"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What day does the show start?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "December 3rd, 1989",
+        "Noverber 3rd, 1985",
+        "September 1st, 1989",
+        "October 1st 1985"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is Heather Duke's color?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Green",
+        "Red",
+        "Yellow",
+        "Blue"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What book does JD mark up and give to Veronica's parents?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Moby Dick",
+        "Wuthering Heights",
+        "The Scarlet Letter",
+        "The Catcher in the Rye"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who is Mr. No Name kid?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "JD",
+        "Martha",
+        "Veronica",
+        "Heather Chandler"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What school is Veronic NOT waiting to receive a letter from?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Yale",
+        "Harvard",
+        "Duke",
+        "Brown"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which two characters die in their underwear?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Kurt & Ram",
+        "Ram & JD",
+        "Kurt & JD",
+        "Sweeney & Sawyer"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What does Veronica forge to help the Heathers?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A Report Card",
+        "A Permission Slip",
+        "A Perscription",
+        "A Hall Pass"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who throws the homecoming party?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Heather Chandler",
+        "Kurt",
+        "Ram",
+        "Martha"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What's under the gym?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The Locker Room",
+        "The Boiler Room",
+        "The Sex Room",
+        "The Secret Classroom"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What movie does Martha rent for movie night?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The Princess Bride",
+        "When Harry Met Sally",
+        "Forrest Gump",
+        "The Goonies"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who pretends to kill themselves?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Martha",
+        "JD",
+        "Veronica",
+        "Heather Duke"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Why does JD like slushies?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "He likes to freeze his brain",
+        "He likes to feel the sugar high",
+        "He likes turning his tongue red",
+        "He likes to mix all the flavors"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who kills Philip?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Charles Lee",
+        "Samuel Seabury",
+        "George Eacker",
+        "Aaron Burr"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What does JD tell Veronica he's filling the gun with?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Blanks",
+        "Ich Luge Bullets",
+        "BB Bullets",
+        "Sleek Blue Bullets"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What is JD doing when Veronica climbs up his window?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Watching TV",
+        "Reading",
+        "Drawing",
+        "Napping"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How does Heather Chandler Die?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Drain cleaner in her drink",
+        "Shot in the back",
+        "Smothered in her sleep",
+        "She hangs herself"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What does JD stand for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "John Doe",
+        "James Dean",
+        "John Dean",
+        "Jason Dean"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What ghost haunts Veronica?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Heather Chandler",
+        "JD",
+        "Kurt",
+        "Martha"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    }
+  ]
+}

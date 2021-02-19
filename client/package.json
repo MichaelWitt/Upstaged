@@ -2,13 +2,23 @@
   "name": "project3-starter-auth",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "material-table": "^1.69.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8",
-    "bootstrap": "^3.4.1",
     "react-bootstrap": "^1.4.3",
-    "react-bootstrap-validation": "^0.1.11"
+    "react-dom": "^16.8.6",
+    "react-bootstrap-validation": "^0.1.11",
+    "react-quiz-component": "^0.3.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.8",
+    "mdbreact": "4.11.1",
+    "react-twitter-embed": "^3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

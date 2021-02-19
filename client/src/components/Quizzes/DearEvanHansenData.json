@@ -1,0 +1,306 @@
+{
+  "quizTitle": "Dear Evan Hansen Quiz",
+  "quizSynopsis": "Test your Dear Evan Hansen knowledge!",
+  "questions": [
+    {
+      "question": "What kind of shirt does Evan wear?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Blue Striped Shirt",
+        "White Striped Shirt",
+        "Yellow Striped Shirt",
+        "Gray Striped Shirt"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Which arm did evan break?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "His Right",
+        "His Left",
+        "Both",
+        "Neither"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who was the letter Evan wrote originally for?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "His Mom",
+        "Connor",
+        "Zoe",
+        "Himself"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who is Evan's girlfriend?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Alana",
+        "Zoe",
+        "Heidi",
+        "Cynthia"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How many songs are on the Dear Evan Hansen soundtrack?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "10",
+        "14",
+        "18",
+        "20"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "At what age was Hamilton placed in charge of the trading charter?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who's the first person to sign Evan's cast?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Connor",
+        "Jared",
+        "Zoe",
+        "Alana"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Where does Connor find Evan's letter?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "In Evan's backpack",
+        "In the printer",
+        "On the floor",
+        "On a chair after class"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Why does Connor get upset about the letter?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "It mentions his mom",
+        "It's addressed to him",
+        "It makes fun of him",
+        "It mentions his sister"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "How does the murphy family find out Evan has been lying?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "He tells them",
+        "Jared tells them",
+        "They read it online",
+        "They realize the emails are fake"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "During dinner, where and how does Evan tell the Murphy family he broke his arm?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "At an apple orchard with Connor, he fell out of a tree",
+        "At school, a bully broke it and Connor helped him",
+        "At school, he slipped in the hallway and Connor helped him",
+        "At a concert with Connor, he got trampled"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Who posts Evan's letter on the internet?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Alana",
+        "Jared",
+        "Cynthia",
+        "Evan"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "A year after the Murphy's find out Evan was lying, where is Evan working to save money for college?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Bed, Bath & Beyond",
+        "Forever 21",
+        "Pottery Barn",
+        "Ikea"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "The fundraising project Alana and Evan created is called?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "The Connor Project",
+        "The Forgotten Project",
+        "The Suicide Prevention Project",
+        "The Forever Project"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Why does Heidi get upset when she goes to dinner at the Murphy's?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They say Heidi isn't a good mom",
+        "They offer to find Evan's father",
+        "They ask herself and Evan to stop visiting",
+        "They want to give Connor's college fund to Evan"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What does Larry give Evan that was Connor's?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A Baseball Bat",
+        "A Baseball Glove",
+        "A Baseball Cap",
+        "A Signed Baseball"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Why do puople get mad at the Murphy's and torment them on the internet?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "They blame the Murphy's for Connor's death",
+        "They thin the Murphy's haven't donated enough money to the fundraiser",
+        "The Murphy's made a statement disowning Connor",
+        "The Murphy's have forgotten about Connor"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "What does Cynthia give Evan to wear when he speaks at Connor's memorial service?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A tie",
+        "A shirt",
+        "A pin",
+        "A wristband"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "At the top of the show, why is Heidi upset with Connor?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "He didn't do the summer reading",
+        "He slept in",
+        "He's high",
+        "He's drunk"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    },
+    {
+      "question": "Why helps evan forge the emails?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Alana",
+        "Zoe",
+        "Jared",
+        "Heidi"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct!",
+      "messageForIncorrectAnswer": "Incorrect!",
+      "point": "5"
+    }
+  ]
+}

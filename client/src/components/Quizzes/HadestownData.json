@@ -1,0 +1,305 @@
+{
+    "quizTitle": "Hadestown Quiz",
+    "quizSynopsis": "Test your Hadestown knowledge!",
+    "questions": [
+      {
+        "question": "Who wrote Hadestown?",
+        "questionType": "text",
+        "answers": [
+          "Stephen Sondheim",
+          "Lin Manuel-Miranda",
+          "Anaïs Mitchell",
+          "Rachel Chavkin"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "How many Tony Awards did Hadestown win at the 2019 Tonys?",
+        "questionType": "text",
+        "answers": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "At which Broadway theatre does Hadestown play?",
+        "questionType": "text",
+        "answers": [
+          "The Walter Kerr",
+          "The Longacre",
+          "The Palace",
+          "The New Amsterdam"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Hadestown is based on which greek myth?",
+        "questionType": "text",
+        "answers": [
+          "Hercules",
+          "Medusa",
+          "Achilles",
+          "Orpheus and Eurydice"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Persephone is the goddess of _______.",
+        "questionType": "text",
+        "answers": [
+          "Flowers",
+          "Spring",
+          "Harvest",
+          "Sky"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Which actor originated the role of Hades on Broadway?",
+        "questionType": "text",
+        "answers": [
+          "Norm Lewis",
+          "Brian Stokes Mitchell",
+          "Brian d'Arcy James",
+          "Patrick Page"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "To whom does Hades sing 'Hey Little Songbird'?",
+        "questionType": "text",
+        "answers": [
+          "Eurydice",
+          "Orpheus",
+          "Persephone",
+          "A bird near his window"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "During which song is Orpheus leading Eurydice out of Hadestown?",
+        "questionType": "text",
+        "answers": [
+          "Wait For Me (reprise)",
+          "Come Home With Me",
+          "Road to Hell (reprise)",
+          "How Long?"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who is Hades' wife?",
+        "questionType": "text",
+        "answers": [
+          "Eurydice",
+          "Hera",
+          "Hermes",
+          "Persephone"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In the song 'Come Home With Me', what does Orpheus claim will happen when he finishes and sings his song?",
+        "questionType": "text",
+        "answers": [
+          "The world will end",
+          "Eurydice will fall in love with him",
+          "Spring will come",
+          "The gate to Hadestown will close"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What is the first song Persephone sings?",
+        "questionType": "text",
+        "answers": [
+          "Way Down Hadestown",
+          "Livin' It Up On Top",
+          "Our Lady of the Underground",
+          "How Long"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In exchange for the work in Hadestown, what does Eurydice begin to lose?",
+        "questionType": "text",
+        "answers": [
+          "Her love",
+          "Her empathy",
+          "Her dignity",
+          "Her memories"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Who was the only actor from the show to win a Tony Award for their performance?",
+        "questionType": "text",
+        "answers": [
+          "Amber Gray - Persephone",
+          "André De Shields - Hermes",
+          "Patrick Page - Hades",
+          "Eva Noblezada - Eurydice"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What was the first full song written for the show?",
+        "questionType": "text",
+        "answers": [
+          "How Long?",
+          "Wait For Me",
+          "Way Down Hadestown",
+          "Road To Hell"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "How many Fates are there?",
+        "questionType": "text",
+        "answers": [
+          "3",
+          "4",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "What was the original title for the musical?'",
+        "questionType": "text",
+        "answers": [
+          "Hadestown",
+          "A Crack in the Wall",
+          "Eurydice",
+          "Way Down"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "In what year did Anaïs Mitchell and Rachel Chavkin begin working on the show together?",
+        "questionType": "text",
+        "answers": [
+          "2010",
+          "2012",
+          "2014",
+          "2016"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },      {
+        "question": "Before it was a Broadway musical, Hadestown was a concept album released in what year?",
+        "questionType": "text",
+        "answers": [
+          "2006",
+          "2009",
+          "2010",
+          "2012"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Where did the musical premier in 2006?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Vermont",
+          "New York",
+          "California",
+          "Pennsylvania"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Where did Hadestown have the US debut?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Ars Nova",
+          "La Mama",
+          "New York Theatre Workshop",
+          "Playrights Horizons"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who originated the role of Eurydice?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Idina Menzel",
+          "Amber Gray",
+          "Phillipa Soo",
+          "Eva Noblezada"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      },
+      {
+        "question": "Who is the narrator of the story?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Hermes",
+          "Hades",
+          "Orpheus",
+          "Persephone"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect!",
+        "point": "5"
+      }
+    ]
+}

@@ -28,10 +28,12 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "axios": "^0.18.1",
     "bcrypt": "^3.0.2",
     "bcryptjs": "^2.4.3",
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^4.6.0",
     "connect-mongo": "^2.0.1",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
@@ -41,7 +43,12 @@
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
+    "react-bootstrap-validation": "^0.1.11",
+    "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
-    "react-bootstrap-validation": "^0.1.11"
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "react-quiz-component": "^0.3.8"
   }
 }
