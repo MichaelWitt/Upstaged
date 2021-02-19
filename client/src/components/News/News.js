@@ -88,7 +88,7 @@ class News extends Component {
           })}
           options={{
             paging: true,
-            pageSize: 20,
+            pageSize: 50,
             emptyRowsWhenPaging: true,
             pageSizeOptions: [6, 12, 20, 50],
           }}
