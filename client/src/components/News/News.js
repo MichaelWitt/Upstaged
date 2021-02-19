@@ -24,6 +24,23 @@ class News extends Component {
     return (
       <div className="formatting" style={{ maxWidth: "100%" }}>
         <MaterialTable
+          localization={{
+            body: {
+              emptyDataSourceMessage: (
+                <h1
+                  style={{
+                    textAlign: "center",
+                    position: "absolute",
+                    top: "10%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                  }}
+                >
+                  Generating Results...
+                </h1>
+              ),
+            },
+          }}
           columns={[
             {
               title: "Articles",
