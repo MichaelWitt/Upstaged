@@ -4,11 +4,11 @@ import "./App.css";
 import Signup from "./pages/Signup"
 import Characters from "./pages/Characters"
 import Login from "./pages/Login"
-import AppNav from "./components/Navbar";
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
 import MainPage from "./pages/MainPage";
+import Playbill from "./components/Playbill/createplaybill";
 import NewsPage from "./pages/NewsPage";
 import Hamilton from "./components/Quizzes/Hamilton";
 import Wicked from "./components/Quizzes/Wicked";
@@ -39,7 +39,7 @@ class App extends Component {
             <Route exact path={["/", "/Login"]}>
               <Login />
             </Route>
-            <Route exact path={"/MainPage"}>
+            <Route exact path={"/Home"}>
               <MainPage />
             </Route>
             <Route exact path={"/News"}>
@@ -55,6 +55,9 @@ class App extends Component {
             </Route>
             <Route exact path={"/Quizzes"}>
               <Quizzes />
+            </Route>
+            <Route exact path={"/createplaybill"}>
+              <Playbill/>
             </Route>
             <Route exact path={"/Hamilton"}>
               <ProfileContextProvider>
