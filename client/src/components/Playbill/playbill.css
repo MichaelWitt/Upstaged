@@ -157,7 +157,7 @@ input:focus {
     line-height: 44px;
 }
 a {
-    color: #086b94 !important;
+    color: #086b94;
     text-decoration: none;
 }
 a:hover {

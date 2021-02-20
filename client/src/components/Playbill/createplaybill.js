@@ -1,6 +1,5 @@
 
 import React, { Component } from "react";
-import { render } from "react-dom";
 import "./playbill.css";
 import $ from "jquery";
 
@@ -57,7 +56,7 @@ class Playbill extends Component {
         <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <form role="form">
+            <form>
             <div class="form-group">
                 <h1>Create Your Own Playbill</h1>
                 <label for="name"> Name </label>
@@ -131,6 +130,6 @@ class Playbill extends Component {
   }
 }
 
-render(<Playbill />, document.getElementById("root"));
+// render(<Playbill />, document.getElementById("root"));
 
  export default Playbill;
