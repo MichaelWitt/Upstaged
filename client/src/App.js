@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Signup from "./pages/Signup"
 import Login from "./pages/Login"
-import AppNav from "./components/Navbar";
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
@@ -25,8 +24,18 @@ import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import ProfileContextProvider from "./utils/GlobalState";
 import LyricGame from "./components/LyircGame/Lyric";
+import axios from 'axios'
 
 class App extends Component {
+  // componentDidMount() {
+  //   this.getUserData();
+  // };
+  // getUserData = () => {
+  //   axios.get("/api/getUser").then((response) => {
+  //       const data = response.data;
+  //       console.log('response:', response.data)
+  //   })
+  // };
   render() {
     return (
       <Router>
@@ -38,7 +47,7 @@ class App extends Component {
             <Route exact path={["/", "/Login"]}>
               <Login />
             </Route>
-            <Route exact path={"/MainPage"}>
+            <Route exact path={"/Home"}>
               <MainPage />
             </Route>
             <Route exact path={"/News"}>
