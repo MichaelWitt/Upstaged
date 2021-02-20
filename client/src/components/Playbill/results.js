@@ -8,7 +8,7 @@ console.log("in results", props)
     return (
 
         <div className={props.className + ' resultForm '}>
-            <p>Results go below</p>
+         
             {props.formNumber === 1 ?
                 <form>
                   
