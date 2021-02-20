@@ -9,7 +9,7 @@ import wickedPlaybill from "../../imgs/playbills/wicked.png";
 const wickedData = require("./WickedData.json");
 
 
-function Wicked(props) {
+function Wicked() {
     let profile = useContext(ProfileContext);
 
     const [showInfo, setShowInfo] = useState({
@@ -44,12 +44,6 @@ function Wicked(props) {
             </div>
         )
     }
-    // return (
-    //     <div>
-    //     <AppNav />
-    //     <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
-    //     </div>
-    // )
 }
 
 export default Wicked;
