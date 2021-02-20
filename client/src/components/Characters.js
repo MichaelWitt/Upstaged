@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import { Modal, Button, Accordion, Card } from "react-bootstrap"
 
-const DreamMod = (props) => {
+const CharMods = (props) => {
     return (
       <Modal
         {...props}
@@ -11,7 +11,7 @@ const DreamMod = (props) => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            DREAM
+            Modal heading
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -21,24 +21,22 @@ const DreamMod = (props) => {
             <Accordion>
             <Card>
                 <Card.Header>
-                <h3> Effie </h3>
-                <Accordion.Toggle as={Button} eventKey="0">
-                    Explore More
+                <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                    Click me!
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                <Card.Body>Effie Stuff</Card.Body>
+                <Card.Body>Hello! I'm the body</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
-                  <h3> Not Effie </h3>
-                <Accordion.Toggle as={Button} eventKey="1">
-                    Explore More
+                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                    Click me!
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
-                <Card.Body>Not Effie Stuff</Card.Body>
+                <Card.Body>Hello! I'm another body</Card.Body>
                 </Accordion.Collapse>
             </Card>
             </Accordion>
@@ -53,4 +51,4 @@ const DreamMod = (props) => {
     );
   }
 
-  export default DreamMod;
+  export default CharMods;
