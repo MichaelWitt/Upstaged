@@ -20,7 +20,7 @@ userSchema.methods = {
 	},
 	hashPassword: plainTextPassword => {
 		return bcrypt.hashSync(plainTextPassword, 10);
-	}
+	},
 }
 
 // Define hooks for pre-saving

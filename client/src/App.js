@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Signup from "./pages/Signup"
+import Characters from "./pages/Characters"
 import Login from "./pages/Login"
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
 import MainPage from "./pages/MainPage";
 import Playbill from "./components/Playbill/createplaybill";
+import MadLibs from "./components/Playbill/playbill3";
+import Results from "./components/Playbill/results";
 import NewsPage from "./pages/NewsPage";
 import Hamilton from "./components/Quizzes/Hamilton";
 import Wicked from "./components/Quizzes/Wicked";
@@ -22,8 +25,18 @@ import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import ProfileContextProvider from "./utils/GlobalState";
 import LyricGame from "./components/LyircGame/Lyric";
+import axios from 'axios'
 
 class App extends Component {
+  // componentDidMount() {
+  //   this.getUserData();
+  // };
+  // getUserData = () => {
+  //   axios.get("/api/getUser").then((response) => {
+  //       const data = response.data;
+  //       console.log('response:', response.data)
+  //   })
+  // };
   render() {
     return (
       <Router>
@@ -31,6 +44,9 @@ class App extends Component {
           <Switch>
             <Route exact path={"/Signup"}>
               <Signup />
+            </Route>
+            <Route exact path={"/Characters"}>
+              <Characters />
             </Route>
             <Route exact path={["/", "/Login"]}>
               <Login />
@@ -54,6 +70,12 @@ class App extends Component {
             </Route>
             <Route exact path={"/createplaybill"}>
               <Playbill/>
+            </Route>
+            <Route exact path={"/playbill3"}>
+              <MadLibs/>
+            </Route>
+            <Route exact path={"/results"}>
+              <Results/>
             </Route>
             <Route exact path={"/Hamilton"}>
               <ProfileContextProvider>
