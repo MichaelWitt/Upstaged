@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody } from "mdbreact";
 import { useHistory } from "react-router-dom";
 import API from '../utils/API'
@@ -10,7 +10,7 @@ const Signup = () => {
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [error, setError] = useState("");
+    // const [error, setError] = useState("");
   
     const submitForm = (e) => {
       e.preventDefault()
@@ -18,7 +18,7 @@ const Signup = () => {
           console.log('res! ', res)
           if (res.status === 200) {
             alert("Welcome to Upstaged!")
-            history.push('/MainPage') // redirect the page
+            history.push('/Home')
           }
         }).catch(err => { 
           console.log('err', err)

@@ -25,12 +25,16 @@ export default {
   getNews: function () {
     return axios.request(NewsURL);
   },
-  login: function(data) {
+  login: function (data) {
     // console.log('hit ', data)
-    return axios.post('/auth/login', data)
+    return axios.post("/auth/login", data);
   },
-  signup: function(data) {
+  signup: function (data) {
     // console.log('hit ', data)
-    return axios.post('/auth/signup', data)
-  }
+    return axios.post("/auth/signup", data);
+  },
+  getUser: function (data) {
+    // console.log('hit ', data)
+    return axios.get("/auth/user", data);
+  },
 };

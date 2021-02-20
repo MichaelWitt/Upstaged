@@ -10,6 +10,7 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 
+
 function GamePage() {
         return(
             <Container  style={{marginTop:"30px"}}>

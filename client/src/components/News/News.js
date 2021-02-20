@@ -12,7 +12,7 @@ class News extends Component {
 
   componentDidMount() {
     API.getNews().then((response) => {
-      console.log("response:", response.data.value);
+      // console.log("response:", response.data.value);
       this.news = response.data.value;
       this.setState({
         filteredNews: this.news,
@@ -24,12 +24,32 @@ class News extends Component {
     return (
       <div className="formatting" style={{ maxWidth: "100%" }}>
         <MaterialTable
+          localization={{
+            body: {
+              emptyDataSourceMessage: (
+                <h1
+                  style={{
+                    textAlign: "center",
+                    position: "absolute",
+                    top: "10%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)",
+                  }}
+                >
+                  Generating Results...
+                </h1>
+              ),
+            },
+          }}
           columns={[
             {
               title: "Articles",
               field: "image",
               headerStyle: { maxWidth: 600 },
-              cellStyle: { maxWidth: 600 },
+              cellStyle: { 
+                maxWidth: 600,
+                margin:"30px"
+              },
               render: (rowData) => (
                 <a
                   href={rowData.website}
@@ -72,10 +92,11 @@ class News extends Component {
             let tableData = {
               image: `${news.image.url}`,
               website: `${news.url}`,
-              headline: `${news.description.substring(0, 200)}`,
+              headline: `${news.description.substring(0, 200) + "..."}`,
               content: `${
                 news.body.charAt(0).toUpperCase() +
-                news.body.slice(1).substring(0, 200)
+                news.body.slice(1).substring(0, 200) +
+                "..."
               }`,
               source: `${
                 news.provider.name.charAt(0).toUpperCase() +
@@ -87,9 +108,13 @@ class News extends Component {
           })}
           options={{
             paging: true,
-            pageSize: 50,
+            pageSize: 20,
             emptyRowsWhenPaging: true,
             pageSizeOptions: [6, 12, 20, 50],
+            headerStyle: {
+              backgroundColor: '#F7E200',
+              color: '#000000'
+            }
           }}
           title="News"
         />

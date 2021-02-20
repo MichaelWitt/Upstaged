@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   register: (req, res) => {
-    const { firstName, lastName, email, password } = req.body;
+    const { firstName, lastName, email, password, points, level } = req.body;
     // ADD VALIDATION
     console.log('BODY! ', req.body)
     db.User.findOne({ 'email': email }, (err, userMatch) => {
@@ -25,7 +25,10 @@ module.exports = {
         'firstName': firstName,
         'lastName': lastName,
         'email': email,
-        'password': password
+        'password': password,
+        'points': points,
+        'level': level
+
       });
       newUser.save((err, savedUser) => {
         if (err) return res.json(err);
