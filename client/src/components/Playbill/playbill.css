@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600, 600i');
 html, body {
     height: 100%;
-    /* overflow: hidden; */
-}
-body {
-/*     background: #112940; */
 }
 
 h1, h2, h3, h4 {
@@ -124,7 +120,7 @@ input:focus {
     line-height: 44px;
 }
 a {
-    color: #086b94 !important;
+    color: #086b94;
     text-decoration: none;
 }
 a:hover {

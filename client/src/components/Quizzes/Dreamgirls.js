@@ -1,5 +1,3 @@
-
-import { Container, Row, Col, Card } from "react-bootstrap"
 import React, { useContext, useState } from "react"
 import Quiz from 'react-quiz-component';
 import AppNav from "../Navbar";
@@ -30,17 +28,7 @@ function Dreamgirls() {
         return (
             <div>
             <AppNav />
-            <Container>
-                <Row className="justify-content-md-center mr-5">
-                    <Col xs lg="6">
-                        <Card style={{border: "5px solid black", width: "610px"}}>
-                        <Card.Body style={{backgroundColor: "danger", marginRight: "100px"}}>
-                        <Quiz quiz = {dreamgirlsData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
-                        </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-            </Container>
+            <Quiz quiz = {dreamgirlsData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
             </div>
         )
     } else {

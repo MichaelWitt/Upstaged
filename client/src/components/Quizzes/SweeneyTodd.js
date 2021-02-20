@@ -26,12 +26,14 @@ function SweeneyTodd() {
     if (showInfo.quizPointsEarned === 0) {
         return (
             <div>
+            <AppNav/>
             <Quiz quiz = {sweeneyToddData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
             </div>
         )
     } else {
         return (
             <div>
+            <AppNav/>
             <QuizComplete
                 name = {profile.ProfileAttributes.name}
                 showName = {showInfo.showName}

@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react"
 import Quiz from 'react-quiz-component';
 import AppNav from "../Navbar";
+import "./Quizzes.css"
 
 import { ProfileContext } from "../../utils/GlobalState";
 import QuizComplete from './quizComplete';
@@ -27,12 +28,14 @@ function DearEvanHansen() {
     if (showInfo.quizPointsEarned === 0) {
         return (
             <div>
+            <AppNav/>
             <Quiz quiz = {dearEvanHansenData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
             </div>
         )
     } else {
         return (
             <div>
+            <AppNav/>
             <QuizComplete
                 name = {profile.ProfileAttributes.name}
                 showName = {showInfo.showName}
