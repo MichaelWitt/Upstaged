@@ -26,20 +26,14 @@ function Heathers() {
     if (showInfo.quizPointsEarned === 0) {
         return (
             <div>
-<<<<<<< HEAD
             <AppNav/>
-=======
->>>>>>> 738f669b6e72b0d72bb4146b393872f3803e6266
             <Quiz quiz = {heathersData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
             </div>
         )
     } else {
         return (
             <div>
-<<<<<<< HEAD
             <AppNav/>
-=======
->>>>>>> 738f669b6e72b0d72bb4146b393872f3803e6266
             <QuizComplete
                 name = {profile.ProfileAttributes.name}
                 showName = {showInfo.showName}

@@ -1,13 +1,9 @@
 import React from "react";
-<<<<<<< HEAD
-import Button from "react-bootstrap/Button";
-=======
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
->>>>>>> 738f669b6e72b0d72bb4146b393872f3803e6266
 import Image from "react-bootstrap/Image";
 import Media from 'react-bootstrap/Media'
 
