@@ -10,30 +10,42 @@ const Login = (props) => {
   const history = useHistory()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
   const [user, setUser] = useState("")
   // const [error, setError] = useState("");
 
   const submitForm = (e) => {
     e.preventDefault()
       API.login({ email, password }).then(res => {
-        console.log('RES: ', res)
+        console.log('res! ', res)
         if (res.status === 200) {
-          setUser(res.data.user)
+          setUser(res.data)
           localStorage.setItem("user", JSON.stringify(res.data.user))
           history.push('/Home')
         }
       }).catch(err => { 
         console.log('err', err)
         alert("Incorrect email or password")
+
       })
   };
 
     useEffect(() => {
-      const loggedInUser = JSON.parse(localStorage.getItem("user"));
-      if (loggedInUser) {
-        setUser(loggedInUser);
-      }
+      // const loggedInUser = localStorage.getItem("user");
+      // if (loggedInUser) {
+      //   const foundUser = JSON.parse(loggedInUser);
+      //   console.log('foundUser:', foundUser)
+      //   setUser(foundUser);
+      // }
     }, []);
+
+    const handleLogout = () => {
+      setUser({});
+      setEmail("");
+      setPassword("");
+      localStorage.clear();
+      history.push('/Login')
+  };
 
   return (
     <MDBContainer>

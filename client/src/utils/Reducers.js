@@ -19,6 +19,8 @@ export const profileReducer = (state, action) => {
       return { ...state, level: 'Legend', isLegend: true };
     case "hidePersona":
       return { ...state, level: 'Legend', isLegend: true };
+    case "setName":
+      return { ...state, name: action.value };
     default:
       throw new Error(`Invalid action type: ${action.type}`);
     }
