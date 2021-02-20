@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Signup from "./pages/Signup"
+import Characters from "./pages/Characters"
 import Login from "./pages/Login"
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
@@ -43,6 +44,9 @@ class App extends Component {
           <Switch>
             <Route exact path={"/Signup"}>
               <Signup />
+            </Route>
+            <Route exact path={"/Characters"}>
+              <Characters />
             </Route>
             <Route exact path={["/", "/Login"]}>
               <Login />
