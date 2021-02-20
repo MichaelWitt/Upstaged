@@ -1,0 +1,36 @@
+.react-quiz-container{
+    background-color: White;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 8px solid hsl(55, 100%, 48%);
+}
+
+.react-quiz-container .btn {
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+    padding: 11px 12px;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .react-quiz-container .selection-tag.single {
+    background: hsl(55, 100%, 48%);
+    color: black;
+}
+.react-quiz-container .number-of-selection {
+    background: #673AB7;
+    margin-left: 5px;
+}

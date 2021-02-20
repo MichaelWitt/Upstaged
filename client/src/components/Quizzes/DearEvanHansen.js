@@ -2,6 +2,8 @@ import React, { useContext } from "react"
 import Quiz from 'react-quiz-component';
 import { ProfileContext } from "../../utils/GlobalState";
 import AppNav from "../Navbar";
+import Container from "react-bootstrap/Container"
+import "./Quizzes.css"
 
 const dearEvanHansenData = require("./DearEvanHansenData.json")
 
@@ -21,9 +23,9 @@ const DearEvanHansen = () => {
         <>
         <div>
         <AppNav />
-        <Quiz quiz = {dearEvanHansenData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
-        </div>
-        <div>
+        <Container>
+            <Quiz quiz = {dearEvanHansenData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
+        </Container>
         </div>
         </>
     )

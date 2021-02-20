@@ -18,7 +18,7 @@ const LyricGame = () => {
         <Row>
             <Col md={1}></Col>
             <Col md={5}>
-                <Container style={{backgroundColor:"white", borderRadius:"5px"}}>
+                <Container >
                     <Quiz quiz = {LyricData} shuffle={true} showInstantFeedback={false} />
                 </Container>
             </Col>
