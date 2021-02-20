@@ -23,8 +23,18 @@ import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import ProfileContextProvider from "./utils/GlobalState";
 import LyricGame from "./components/LyircGame/Lyric";
+import axios from 'axios'
 
 class App extends Component {
+  // componentDidMount() {
+  //   this.getUserData();
+  // };
+  // getUserData = () => {
+  //   axios.get("/api/getUser").then((response) => {
+  //       const data = response.data;
+  //       console.log('response:', response.data)
+  //   })
+  // };
   render() {
     return (
       <Router>
