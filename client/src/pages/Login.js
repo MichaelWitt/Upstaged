@@ -20,7 +20,7 @@ const Login = (props) => {
         if (res.status === 200) {
           setUser(res.data.user)
           localStorage.setItem("user", JSON.stringify(res.data.user))
-          history.push('/MainPage')
+          history.push('/Home')
         }
       }).catch(err => { 
         console.log('err', err)
