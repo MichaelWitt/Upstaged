@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col"
 import ProgressBar from "react-bootstrap/ProgressBar"
 import Games from "../pages/Games";
 import ShowScore from "../imgs/ShowScore.png"
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed} from 'react-twitter-embed';
 import AppNav from "./Navbar"
 
 
@@ -47,7 +47,7 @@ function GameContent() {
                             <Col sm={12}>
                                 <Card style={{margin: "auto", marginTop:"10px", marginBottom:"20px"}}>
                                     <Card.Body >
-                                    <a href="https://www.show-score.com/" target="_blank"><img href="https://www.show-score.com/" src={ShowScore} style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>Show-Score simply and clearly organizes the information you need to discover shows you’ll love, from people you trust, at the right price for you.</p>
+                                    <a href="https://www.show-score.com/" target="_blank" rel="noopener noreferrer"><img href="https://www.show-score.com/" src={ShowScore} alt="Show-Score Logo" style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>Show-Score simply and clearly organizes the information you need to discover shows you’ll love, from people you trust, at the right price for you.</p>
                                     </Card.Body>
                                 </Card>
                             </Col>

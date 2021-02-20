@@ -29,7 +29,10 @@ class News extends Component {
               title: "Articles",
               field: "image",
               headerStyle: { maxWidth: 600 },
-              cellStyle: { maxWidth: 600 },
+              cellStyle: { 
+                maxWidth: 600,
+                margin:"30px"
+              },
               render: (rowData) => (
                 <a
                   href={rowData.website}
@@ -90,6 +93,10 @@ class News extends Component {
             pageSize: 50,
             emptyRowsWhenPaging: true,
             pageSizeOptions: [6, 12, 20, 50],
+            headerStyle: {
+              backgroundColor: '#F7E200',
+              color: '#000000'
+            }
           }}
           title="News"
         />

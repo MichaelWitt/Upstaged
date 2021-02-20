@@ -27,12 +27,14 @@ function Wicked(props) {
     if (showInfo.quizPointsEarned === 0) {
         return (
             <div>
+            <AppNav/>
             <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
             </div>
         )
     } else {
         return (
             <div>
+            <AppNav/>
             <QuizComplete
                 name = {profile.ProfileAttributes.name}
                 showName = {showInfo.showName}
@@ -42,12 +44,12 @@ function Wicked(props) {
             </div>
         )
     }
-    return (
-        <div>
-        <AppNav />
-        <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
-        </div>
-    )
+    // return (
+    //     <div>
+    //     <AppNav />
+    //     <Quiz quiz = {wickedData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
+    //     </div>
+    // )
 }
 
 export default Wicked;

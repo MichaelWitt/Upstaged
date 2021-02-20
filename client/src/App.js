@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Signup from "./pages/Signup"
 import Login from "./pages/Login"
-import AppNav from "./components/Navbar";
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
@@ -35,7 +34,7 @@ class App extends Component {
             <Route exact path={["/", "/Login"]}>
               <Login />
             </Route>
-            <Route exact path={"/MainPage"}>
+            <Route exact path={"/Home"}>
               <MainPage />
             </Route>
             <Route exact path={"/News"}>
