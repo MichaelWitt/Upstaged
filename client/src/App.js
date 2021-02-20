@@ -9,6 +9,8 @@ import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
 import MainPage from "./pages/MainPage";
 import Playbill from "./components/Playbill/createplaybill";
+import MadLibs from "./components/Playbill/playbill3";
+import Results from "./components/Playbill/results";
 import NewsPage from "./pages/NewsPage";
 import Hamilton from "./components/Quizzes/Hamilton";
 import Wicked from "./components/Quizzes/Wicked";
@@ -55,6 +57,12 @@ class App extends Component {
             </Route>
             <Route exact path={"/createplaybill"}>
               <Playbill/>
+            </Route>
+            <Route exact path={"/playbill3"}>
+              <MadLibs/>
+            </Route>
+            <Route exact path={"/results"}>
+              <Results/>
             </Route>
             <Route exact path={"/Hamilton"}>
               <ProfileContextProvider>
