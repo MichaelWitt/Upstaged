@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 import { Table } from "react-bootstrap";
 import { Form } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import AppNav from "../Navbar.js";
+import Header from "./Header.js";
+import Score from "./Score.js";
 
 export class QuestionTable extends Component {
   constructor(props) {
@@ -163,15 +168,22 @@ export class QuestionTable extends Component {
 
       if (this.state.userAnswer === this.state.correctAnswer) {
         alert("correct");
+        
+        // this.setState({ totalWinnings: + 5 }).then(
+
+        //   console.log("totalwinnings:", this.state.totalWinnings),
+        // )
+        // .totalWinnings = this.state.totalWinnings + 5;
       } else {
         alert("wrong");
       }
 
       setTimeout(function () {
         resetQuestions();
-      }, 5000);
+      }, 3000);
       //tertinary operaters this.state.answerSubmitted ? ths.state.useerAnwer : this.state.question
     };
+
     const resetQuestions = () => {
       this.setState({
         answerSubmitted: false,
@@ -182,87 +194,119 @@ export class QuestionTable extends Component {
     };
     return (
       <div>
-        <Table>
-          <thead>
-            <tr>
-              <th>Theatre Lingo</th>
-              <th>Name the Show</th>
-              <th>Who Wrote It</th>
-              <th>Starts With the Letter 'S'</th>
-              <th>One More Category</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Object.entries(this.state.questionsList).map(
-              //getting the entries(key value pairs) from the questionsList
-              ([key, value], index) => {
-                //key is equal to dollar value
-                // console.log("key: ", key);
-                //value is an object containing questions(key) with their corresponding answers(value)
-                // using a map within a map you cannot reuse the same keys/value names
-                // console.log("value: ", value);
-                // console.log("index: ", index);
-                return (
-                  <tr key={index}>
-                    {Object.entries(value).map(([qkey, qvalue], qindex) => {
-                      //qkey is equal to the question string
-                      console.log("qkey:", qkey);
-                      //qvalue is representing the object that contains the specific question's, button disabled value, and the answer
-                      console.log("qvalue:", qvalue);
-                      // qvalue.answer is the answer for the specific question
-                      console.log("qvalue answer:", qvalue.answer);
-                      //qvalue.btnDissabled is the boolean value of the button being disabled
-                      console.log("qvalue btn:", qvalue.btnDissabled);
-                      console.log("qindex:", qindex);
-                      console.log(
-                        "button value: ",
-                        this.state.questionsList[key][qkey]["btnDissabled"]
-                      );
-                      return (
-                        <td key={qindex}>
-                          <Button
-                            onClick={() =>
-                              handleMoneyButtonClick(qkey, qvalue, key)
-                            }
-                            variant="primary"
-                            disabled={
-                              this.state.questionsList[key][qkey][
-                                "btnDissabled"
-                              ]
-                            }
-                          >
-                            {key}
-                          </Button>
-                        </td>
-                      );
-                    })}
-                  </tr>
-                );
-              }
+        <AppNav />
+        {/* <Card
+          style={{
+            width: "75%",
+            height: "75%",
+            margin: "auto",
+            marginTop: "20px",
+            borderColor: "#f7e200",
+            borderWidth: "10px",
+          }}
+        >
+          <Card.Body> */}
+        <Container
+          style={{
+            height: "75%",
+            margin: "auto",
+            marginTop: "20px",
+            borderColor: "#f7e200",
+            borderWidth: "10px",
+            backgroundColor: "white",
+          }}
+        >
+          <Col md={8}>
+            <Header />
+            <Score />
+            <Table>
+              <thead>
+                <tr>
+                  <th>Theatre Lingo</th>
+                  <th>Name the Show</th>
+                  <th>Who Wrote It</th>
+                  <th>Starts With the Letter 'S'</th>
+                  <th>One More Category</th>
+                </tr>
+              </thead>
+              <tbody>
+                {Object.entries(this.state.questionsList).map(
+                  //getting the entries(key value pairs) from the questionsList
+                  ([key, value], index) => {
+                    //key is equal to dollar value
+                    console.log("key: ", key);
+                    //value is an object containing questions(key) with their corresponding answers(value)
+                    // using a map within a map you cannot reuse the same keys/value names
+                    // console.log("value: ", value);
+                    // console.log("index: ", index);
+                    return (
+                      <tr key={index}>
+                        {Object.entries(value).map(([qkey, qvalue], qindex) => {
+                          //qkey is equal to the question string
+                          console.log("qkey:", qkey);
+                          //qvalue is representing the object that contains the specific question's, button disabled value, and the answer
+                          console.log("qvalue:", qvalue);
+                          // qvalue.answer is the answer for the specific question
+                          console.log("qvalue answer:", qvalue.answer);
+                          //qvalue.btnDissabled is the boolean value of the button being disabled
+                          console.log("qvalue btn:", qvalue.btnDissabled);
+                          console.log("qindex:", qindex);
+                          console.log(
+                            "button value: ",
+                            this.state.questionsList[key][qkey]["btnDissabled"]
+                          );
+                          return (
+                            <td key={qindex}>
+                              <Button
+                                onClick={() =>
+                                  handleMoneyButtonClick(qkey, qvalue, key)
+                                }
+                                variant="primary"
+                                disabled={
+                                  this.state.questionsList[key][qkey][
+                                    "btnDissabled"
+                                  ]
+                                }
+                              >
+                                {key}
+                              </Button>
+                            </td>
+                          );
+                          //total winnings is equal to total winnings + dollar value of question(key)
+                          //else add 0 to total winnings
+                          //if question is correct then add dollar value of question(key) to total winnings
+                        })}
+                      </tr>
+                    );
+                  }
+                )}
+              </tbody>
+            </Table>
+            {this.state.currentDisplayedQuestion && (
+              <h1>{this.state.currentDisplayedQuestion}</h1>
             )}
-          </tbody>
-        </Table>
-        {this.state.currentDisplayedQuestion && (
-          <h1>{this.state.currentDisplayedQuestion}</h1>
-        )}
 
-        <Form>
-          <Form.Group controlId="formBasicImput">
-            <Form.Control
-              type="input"
-              placeholder="What is..."
-              value={this.state.userAnswer}
-              onChange={setUserAnswer}
-            />
-            <Form.Text className="text-muted">
-              Be sure to use all lower case letters.
-            </Form.Text>
-          </Form.Group>
+            <Form>
+              <Form.Group controlId="formBasicImput">
+                <Form.Control
+                  type="input"
+                  placeholder="What is..."
+                  value={this.state.userAnswer}
+                  onChange={setUserAnswer}
+                />
+                <Form.Text className="text-muted">
+                  Be sure to use all lower case letters.
+                </Form.Text>
+              </Form.Group>
 
-          <Button variant="primary" onClick={() => checkAnswer()}>
-            Submit
-          </Button>
-        </Form>
+              <Button variant="primary" onClick={() => checkAnswer()}>
+                Submit
+              </Button>
+            </Form>
+          </Col>
+        </Container>
+        {/* </Card.Body>
+        </Card> */}
       </div>
     );
   }
