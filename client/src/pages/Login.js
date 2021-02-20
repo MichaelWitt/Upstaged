@@ -41,7 +41,7 @@ const Login = (props) => {
         <MDBCol md="3"></MDBCol>
         <MDBCol md="6">
           <MDBCard style={{marginTop:"75px", marginBottom:"100px"}}>
-            <img src={LoginDiv}></img>
+            <img src={LoginDiv} alt="Upstaged Playbill Header"></img>
             <div className="header pt-3 grey lighten-2" style={{backgroundImage:`url(${CodeImg})`}}>
               <MDBRow className="d-flex justify-content-start">
               <MDBCol sm="6" style={{margin:"auto"}}>
@@ -77,7 +77,7 @@ const Login = (props) => {
                 <h6 className="font-small d-flex justify-content-center" style={{color:"white"}}>
                   Don't have an account?
                   <a
-                    href="#!"
+                    href="/Signup"
                     className="font-weight-bold ml-1"
                     style={{color:"#f7e200"}}
                   >
@@ -86,47 +86,6 @@ const Login = (props) => {
                 </h6>
               </MDBCardBody>
             </div>
-            <MDBCardBody className="mx-4 mt-4">
-            <form>
-              <MDBInput onChange={e => setEmail(e.target.value)} label="Email" group type="text" validate />
-              <MDBInput
-                label="Password"
-                group
-                onChange={e => setPassword(e.target.value)}
-                type="password"
-                validate
-                containerClass="mb-0"
-              />
-              <p className="font-small grey-text d-flex justify-content-end">
-                Forgot
-                <a
-                  href="#!"
-                  className="dark-grey-text font-weight-bold ml-1"
-                >
-                  Password?
-                </a>
-              </p>
-              </form>
-              <div className="text-center mb-4 mt-5 mr-5">
-                <MDBBtn
-                  color="danger"
-                  type="button"
-                  className="btn-block"
-                  onClick={submitForm}
-                >
-                  Log in
-                </MDBBtn>
-              </div> 
-              <p className="font-small grey-text d-flex justify-content-center">
-                Don't have an account?
-                <a
-                  href="/Signup"
-                  className="dark-grey-text font-weight-bold ml-1"
-                >
-                  Sign up
-                </a>
-              </p>
-            </MDBCardBody>
           </MDBCard>
         </MDBCol>
       </MDBRow>

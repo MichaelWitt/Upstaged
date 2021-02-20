@@ -12,15 +12,16 @@ import "../pages/Login"
 
 function AppNav() {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="light" variant="light" style={{height:"75px"}}>
       <Navbar.Brand href="/">
         {" "}
         <img src={Logo} width="60" height="60" alt="UPSTAGED Logo" />{" "}
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/News">Theatre News</Nav.Link>
+        <Nav.Link href="/home">Home</Nav.Link>
+        <Nav.Link href="/News">News</Nav.Link>
         <Nav.Link href="/Games">Games</Nav.Link>
+        <Nav.Link href="/Quizzes">Quizzes</Nav.Link>
       </Nav>
       <Nav.Link href="/Profile" bg="outline-warning">
         <img src={LesMis} width="50" height="50" alt="profile avatar" /> Profile
@@ -32,12 +33,6 @@ function AppNav() {
       >
         Logout
       </Button>
-
-
-      {/* <Form inline>
-    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-warning">Search</Button>
-    </Form> */}
     </Navbar>
   );
 }
