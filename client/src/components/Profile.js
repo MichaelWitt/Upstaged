@@ -8,6 +8,9 @@ import axios from "axios"
 // const loggedInUser = db.User.findAll;
 // console.log('loggedInUser:', loggedInUser)
 
+// const loggedInUser = JSON.parse(localStorage.getItem("user"));
+// console.log('loggedInUser:', loggedInUser)
+
 function Profile(props){
   let profile = useContext(ProfileContext);
 
