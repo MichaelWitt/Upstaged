@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MaterialTable from "material-table";
 import API from "../../utils/API";
+import Confetti from "./Confetti";
 import "./style.css";
 
 class News extends Component {
@@ -69,6 +70,15 @@ class News extends Component {
               field: "content",
               headerStyle: { maxWidth: 150 },
               cellStyle: { maxWidth: 150 },
+              render: (rowData) => (
+                <a
+                  href={rowData.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p style={{ color: "black" }}>{rowData.content}</p>
+                </a>
+              ),
             },
             {
               title: "Headline",
