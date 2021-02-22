@@ -46,9 +46,9 @@ class News extends Component {
               title: "Articles",
               field: "image",
               headerStyle: { maxWidth: 600 },
-              cellStyle: { 
+              cellStyle: {
                 maxWidth: 600,
-                margin:"30px"
+                margin: "30px",
               },
               render: (rowData) => (
                 <a
@@ -92,11 +92,11 @@ class News extends Component {
             let tableData = {
               image: `${news.image.url}`,
               website: `${news.url}`,
-              headline: `${news.description.substring(0, 200) + "..."}`,
+              headline: `${news.description.substring(0, 233) + "..."}`,
               content: `${
                 news.body.charAt(0).toUpperCase() +
                 news.body.slice(1).substring(0, 200) +
-                "..."
+                "... [click image for full article.]"
               }`,
               source: `${
                 news.provider.name.charAt(0).toUpperCase() +
@@ -112,9 +112,9 @@ class News extends Component {
             emptyRowsWhenPaging: true,
             pageSizeOptions: [6, 12, 20, 50],
             headerStyle: {
-              backgroundColor: '#F7E200',
-              color: '#000000'
-            }
+              backgroundColor: "#F7E200",
+              color: "#000000",
+            },
           }}
           title="News"
         />
