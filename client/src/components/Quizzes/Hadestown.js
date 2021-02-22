@@ -30,12 +30,14 @@ function Hadestown() {
     if (showInfo.quizPointsEarned === 0) {
         return (
             <div>
+            <AppNav/>
             <Quiz quiz = {hadestownData} shuffle={true} showInstantFeedback={false} onComplete={onCompleteAction}/>
             </div>
         )
     } else {
         return (
             <div>
+            <AppNav/>
             <QuizComplete
                 name = {profile.ProfileAttributes.name}
                 showName = {showInfo.showName}

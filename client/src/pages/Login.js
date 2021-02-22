@@ -5,20 +5,21 @@ import API from '../utils/API';
 import LoginDiv from '../imgs/LoginDiv.png';
 import CodeImg from '../imgs/CodeImg.png';
 import { ProfileContext } from "../utils/GlobalState";
-
+import SignLogNav from "../components/SignLogNav"
 
 const Login = (props) => {
   const profile = useContext(ProfileContext);
   const history = useHistory()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
   const [user, setUser] = useState("")
   // const [error, setError] = useState("");
 
   const submitForm = (e) => {
     e.preventDefault()
       API.login({ email, password }).then(res => {
-        console.log('RES: ', res)
+        console.log('res! ', res)
         if (res.status === 200) {
           setUser(res.data.user);
           // profile.dispatch({type: "setName", value: res.data.user.firstName});
@@ -28,25 +29,39 @@ const Login = (props) => {
             localStorage.setItem("sessionPoints", 0);
           };
           history.push('/Profile')
+
         }
       }).catch(err => { 
         console.log('err', err)
         alert("Incorrect email or password")
+
       })
   };
 
     useEffect(() => {
-      const loggedInUser = JSON.parse(localStorage.getItem("user"));
-      if (loggedInUser) {
-        setUser(loggedInUser);
-      }
+      // const loggedInUser = localStorage.getItem("user");
+      // if (loggedInUser) {
+      //   const foundUser = JSON.parse(loggedInUser);
+      //   console.log('foundUser:', foundUser)
+      //   setUser(foundUser);
+      // }
     }, []);
 
+    const handleLogout = () => {
+      setUser({});
+      setEmail("");
+      setPassword("");
+      localStorage.clear();
+      history.push('/Login')
+  };
+
   return (
+    <div>
+    <SignLogNav />
     <MDBContainer>
       <MDBRow>
-        <MDBCol md="3"></MDBCol>
-        <MDBCol md="6">
+        <MDBCol md="2"></MDBCol>
+        <MDBCol md="8">
           <MDBCard style={{marginTop:"75px", marginBottom:"100px"}}>
             <img src={LoginDiv} alt="Upstaged Playbill Header"></img>
             <div className="header pt-3 grey lighten-2" style={{backgroundImage:`url(${CodeImg})`}}>
@@ -97,6 +112,7 @@ const Login = (props) => {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
+    </div>
   );
 };
 

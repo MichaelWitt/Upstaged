@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MaterialTable from "material-table";
 import API from "../../utils/API";
+import Confetti from "./Confetti";
 import "./style.css";
 
 class News extends Component {
@@ -46,9 +47,9 @@ class News extends Component {
               title: "Articles",
               field: "image",
               headerStyle: { maxWidth: 600 },
-              cellStyle: { 
+              cellStyle: {
                 maxWidth: 600,
-                margin:"30px"
+                margin: "30px",
               },
               render: (rowData) => (
                 <a
@@ -69,6 +70,15 @@ class News extends Component {
               field: "content",
               headerStyle: { maxWidth: 150 },
               cellStyle: { maxWidth: 150 },
+              render: (rowData) => (
+                <a
+                  href={rowData.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p style={{ color: "black" }}>{rowData.content}</p>
+                </a>
+              ),
             },
             {
               title: "Headline",
@@ -96,7 +106,7 @@ class News extends Component {
               content: `${
                 news.body.charAt(0).toUpperCase() +
                 news.body.slice(1).substring(0, 200) +
-                "..."
+                "... [Read More]"
               }`,
               source: `${
                 news.provider.name.charAt(0).toUpperCase() +
@@ -112,9 +122,9 @@ class News extends Component {
             emptyRowsWhenPaging: true,
             pageSizeOptions: [6, 12, 20, 50],
             headerStyle: {
-              backgroundColor: '#F7E200',
-              color: '#000000'
-            }
+              backgroundColor: "#F7E200",
+              color: "#000000",
+            },
           }}
           title="News"
         />

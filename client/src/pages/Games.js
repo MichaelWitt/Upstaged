@@ -27,10 +27,10 @@ function GamePage() {
                     </Col>
                     <Col md={5}>
                         <Card style={{margin:"20px"}}>
-                            <Card.Img variant="top" href="/CreateYourOwn" src={CYOP} />
+                            <Card.Img variant="top" href="/createplaybill" src={CYOP} />
                             <Card.Body>
                                 <h4>Create your own Playbill </h4>
-                                <Button variant="warning" href="/CreateYourOwn" style={{backgroundColor:"#f7e200"}}>Play</Button>
+                                <Button variant="warning" href="/createplaybill" style={{backgroundColor:"#f7e200"}}>Play</Button>
                             </Card.Body>
                         </Card>
                     </Col>

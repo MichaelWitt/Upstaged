@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Signup from "./pages/Signup"
+import Characters from "./pages/Characters"
 import Login from "./pages/Login"
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
 import MainPage from "./pages/MainPage";
 import Playbill from "./components/Playbill/createplaybill";
+import MadLibs from "./components/Playbill/playbill3";
+import Results from "./components/Playbill/results";
 import NewsPage from "./pages/NewsPage";
 import Hamilton from "./components/Quizzes/Hamilton";
 import Wicked from "./components/Quizzes/Wicked";
@@ -33,6 +36,9 @@ function App() {
             <Route exact path={"/Signup"}>
               <Signup />
             </Route>
+            <Route exact path={"/Characters"}>
+              <Characters />
+            </Route>
             <Route exact path={["/", "/Login"]}>
               <ProfileContextProvider>
                 <Login />
@@ -57,6 +63,12 @@ function App() {
             </Route>
             <Route exact path={"/createplaybill"}>
               <Playbill/>
+            </Route>
+            <Route exact path={"/playbill3"}>
+              <MadLibs/>
+            </Route>
+            <Route exact path={"/results"}>
+              <Results/>
             </Route>
             <Route exact path={"/Hamilton"}>
               <ProfileContextProvider>

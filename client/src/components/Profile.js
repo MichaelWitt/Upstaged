@@ -3,6 +3,8 @@ import LegendInfoCard from "./LegendInfoCard";
 import UserInfoCard from "./UserInfoCard";
 import { ProfileContext } from "../utils/GlobalState";
 import AppNav from "../components/Navbar";
+import db from "../utils/API";
+import axios from "axios"
 
 function Profile(props){
   const profile = useContext(ProfileContext);
