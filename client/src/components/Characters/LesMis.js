@@ -27,8 +27,8 @@ const LesMisChars = () => {
   const history = useHistory()
 
   const welcomeChar = (e) => {
-    alert("Hi " + e.target.value + ". It's nice to meet your alter ego!")
-    // history.push('/Home')
+    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!")
+    history.push('/Home')
   }
     
     return (

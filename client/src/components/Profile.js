@@ -4,6 +4,7 @@ import UserInfoCard from "./UserInfoCard";
 import { ProfileContext } from "../utils/GlobalState";
 import db from "../utils/API";
 import axios from "axios"
+import AppNav from "./Navbar";
 
 // const loggedInUser = db.User.findAll;
 // console.log('loggedInUser:', loggedInUser)
@@ -40,6 +41,7 @@ function Profile(props){
     if (isALegend) {
       return (
         <>
+          <AppNav />
           <LegendInfoCard 
             name = {profile.ProfileAttributes.name}
             image = {profile.ProfileAttributes.image}
@@ -53,6 +55,7 @@ function Profile(props){
     } else {
       return (
         <>
+          <AppNav />
           <UserInfoCard 
             name = {profile.ProfileAttributes.name}
             image = {profile.ProfileAttributes.image}
