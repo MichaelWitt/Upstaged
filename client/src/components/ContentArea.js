@@ -35,7 +35,7 @@ function Content() {
                     alt="Upstaed Full Logo"
                     style={{ width: "100%" }}
                   ></img>
-                  <h3>THE INTERCTIVE APP FOR THEATRE ENTHUSIASTS</h3>
+                  <h3>THE INTERACTIVE APP FOR THEATRE ENTHUSIASTS</h3>
                   <Card.Text>
                     Have fun exploring the site, gain points to climb the cast
                     ranks, and try not to be UPSTAGED.
