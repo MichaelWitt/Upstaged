@@ -37,4 +37,7 @@ export default {
     // console.log('hit ', data)
     return axios.get("/auth/user", data);
   },
+  findById: function (data) {
+    return axios.get("/api/getUser/:id", data)
+  }
 };

@@ -9,8 +9,8 @@ const userSchema = new Schema({
 	lastName: { type: String, unique: false },
 	email: { type: String, unique: true, required: true },
 	password: { type: String, unique: false, required: true },
-	points: { type: Number, unique: false },
-	level: { type: String, unique: false }
+	points: { type: Number, unique: false, default: 0 },
+	level: { type: String, unique: false, default: "ensemble" }
 });
 
 // Define schema methods

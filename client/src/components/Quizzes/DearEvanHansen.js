@@ -21,6 +21,10 @@ function DearEvanHansen() {
     const onCompleteAction = (obj) => {
         let pointsEarned = obj.correctPoints;
         profile.dispatch({type: "addPoints", value: pointsEarned});
+        const storedUserPoints = localStorage.getItem("sessionPoints");
+        const newUserPointTotal = parseInt(storedUserPoints) + parseInt(pointsEarned);
+        localStorage.setItem("sessionPoints", newUserPointTotal);
+        
         setShowInfo({...showInfo, quizPointsEarned: pointsEarned})
     
       };
