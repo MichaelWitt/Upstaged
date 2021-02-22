@@ -12,7 +12,7 @@ class News extends Component {
 
   componentDidMount() {
     API.getNews().then((response) => {
-      console.log("response:", response.data.value);
+      // console.log("response:", response.data.value);
       this.news = response.data.value;
       this.setState({
         filteredNews: this.news,
