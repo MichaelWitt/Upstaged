@@ -4,7 +4,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBInput } 
 import API from '../utils/API'
 import LoginDiv from '../imgs/LoginDiv.png'
 import CodeImg from '../imgs/CodeImg.png'
-
+import SignLogNav from "../components/SignLogNav"
 
 const Login = (props) => {
   const history = useHistory()
@@ -48,10 +48,12 @@ const Login = (props) => {
   };
 
   return (
+    <div>
+    <SignLogNav />
     <MDBContainer>
       <MDBRow>
-        <MDBCol md="3"></MDBCol>
-        <MDBCol md="6">
+        <MDBCol md="2"></MDBCol>
+        <MDBCol md="8">
           <MDBCard style={{marginTop:"75px", marginBottom:"100px"}}>
             <img src={LoginDiv} alt="Upstaged Playbill Header"></img>
             <div className="header pt-3 grey lighten-2" style={{backgroundImage:`url(${CodeImg})`}}>
@@ -102,6 +104,7 @@ const Login = (props) => {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
+    </div>
   );
 };
 

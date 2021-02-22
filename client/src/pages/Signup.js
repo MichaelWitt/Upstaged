@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn, MDBCard, MDBCardBody } from "mdbreact";
 import { useHistory } from "react-router-dom";
 import API from '../utils/API'
+import CodeImg from '../imgs/CodeImg.png'
+import SignLogNav from "../components/SignLogNav"
 
 const Signup = () => {
 
@@ -10,7 +12,7 @@ const Signup = () => {
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    // const [error, setError] = useState("");
+    const [error, setError] = useState("");
   
     const submitForm = (e) => {
       e.preventDefault()
@@ -18,7 +20,6 @@ const Signup = () => {
           console.log('res! ', res)
           if (res.status === 200) {
             history.push('/Characters')
-
           }
         }).catch(err => { 
           console.log('err', err)
@@ -26,13 +27,23 @@ const Signup = () => {
   };
 
   return (
+    <div>
+    <SignLogNav />
     <MDBContainer className="Signup">
-      <MDBRow>
-        <MDBCol md="6">
-          <MDBCard>
+      <MDBRow >
+        <MDBCol md="2"></MDBCol>
+        <MDBCol md="8">
+          <MDBCard style={{marginTop:"75px", marginBottom:"100px"}}>
+            <div className="header pt-3 grey lighten-2" style={{backgroundImage:`url(${CodeImg})`}}>
+              <MDBRow className="d-flex justify-content-start">
+              <MDBCol sm="6" style={{margin:"auto"}}>
+                <h2 className="mt-3 mb-1 mx-5" style={{color:"white"}}>
+                  Sign Up
+                </h2>
+                </MDBCol>
+              </MDBRow>
             <MDBCardBody>
               <form>
-                <p className="h4 text-center py-4">Sign up</p>
                 <div className="grey-text">
                   <MDBInput
                     onChange={e => setFirstName(e.target.value)}
@@ -73,21 +84,25 @@ const Signup = () => {
                     validate
                   />
                 </div>
-                <div className="text-center py-4 mt-3">
+                </form>
+                <div className="text-center py-4 mb-4 mt-3 mr-5">
                   <MDBBtn 
-                    color="primary" 
+                    backgroundColor="#f7e200"
+                    color="warning"
                     type="submit"
+                    className="btn-block mb-0 mt-1"
                     onClick={submitForm}
                   >
                     Register
                   </MDBBtn>
                 </div>
-              </form>
             </MDBCardBody>
+            </div>
           </MDBCard>
        </MDBCol>
       </MDBRow>
     </MDBContainer>
+    </div>
   );
 };
 

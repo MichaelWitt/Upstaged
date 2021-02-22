@@ -1,13 +1,14 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
-import Jaimie from "../../imgs/CharImgs/Jaimie.jpg"
-import Cathy from "../../imgs/CharImgs/Kathy.jpg"
+import Veronica from "../../imgs/CharImgs/Veronica.jpg"
+import Heathers from "../../imgs/CharImgs/Heathers.jpg"
+import JD from "../../imgs/CharImgs/JD.jpg"
 import { useHistory } from 'react-router-dom'
 
 const styles = {
   headline: {
     textAlign: "center",
-    maxWidth:"30%",
+    maxWidth:"20%",
     boxShadow:"0 0 20px 1px #555",
     margin:"auto",
     marginBottom:"10px",
@@ -18,7 +19,7 @@ const styles = {
   },
 };
 
-const LastFiveChars = () => {
+const HeathersChars = () => {
 
   const history = useHistory()
 
@@ -30,39 +31,55 @@ const LastFiveChars = () => {
     return (
       <div>
         <br></br>
-        <h3 style={styles.headline}> The Last Five Years</h3>
+        <h3 style={styles.headline}> Heathers</h3>
         <br></br>
         <Row className="mb-5">
         <Col />
           <Col md ={3}>
             <Card border="dark">
-              <Card.Img variant="top" src={Cathy}/>
+              <Card.Img variant="top" src={Veronica}/>
               <Card.Body>
                 <Button 
-                  value="Cathy" 
-                  variant="warning" 
+                  value="Veronica" 
+                  variant="primary" 
                   className="mt-0" 
                   onClick={(e) => welcomeChar(e)}
                 > 
-                  Cathy 
+                  Veronica 
                 </Button>
-                <p className="mb-0" >Actress struggling to make a name for herself</p>
+                <p className="mb-0" >Struggles to be kind & cool, and has great ironic humor</p>
               </Card.Body>
             </Card>
           </Col>
           <Col md ={3}>
           <Card border="dark">
-            <Card.Img variant="top" src={Jaimie}/>
+            <Card.Img variant="top" src={JD}/>
             <Card.Body>
               <Button 
-                value="Jaimie" 
-                variant="primary" 
+                value="JD" 
+                variant="dark" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
-                Jaimie 
+                JD 
               </Button>
-              <p className="mb-0" >Budding novelist on the brink of wild success</p>
+              <p className="mb-0" >Dark, witty, charming on the outside, damaged on the inside </p>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col md ={3}>
+          <Card border="dark">
+            <Card.Img variant="top" src={Heathers}/>
+            <Card.Body>
+              <Button 
+                value="Heather" 
+                variant="danger" 
+                className="mt-0" 
+                onClick={(e) => welcomeChar(e)}
+              > 
+                A Heather
+              </Button>
+              <p className="mb-0" >Hot, cruel, and wields power without remorse</p>
             </Card.Body>
           </Card>
           </Col>
@@ -73,4 +90,4 @@ const LastFiveChars = () => {
     );
 }
 
-export default LastFiveChars;
+export default HeathersChars;

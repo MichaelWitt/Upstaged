@@ -1,13 +1,14 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
-import Jaimie from "../../imgs/CharImgs/Jaimie.jpg"
-import Cathy from "../../imgs/CharImgs/Kathy.jpg"
+import Sweeney from "../../imgs/CharImgs/Sweeney.jpg"
+import Toby from "../../imgs/CharImgs/Tobias.jpg"
+import Lovett from "../../imgs/CharImgs/Lovett.jpg"
 import { useHistory } from 'react-router-dom'
 
 const styles = {
   headline: {
     textAlign: "center",
-    maxWidth:"30%",
+    maxWidth:"23%",
     boxShadow:"0 0 20px 1px #555",
     margin:"auto",
     marginBottom:"10px",
@@ -18,7 +19,7 @@ const styles = {
   },
 };
 
-const LastFiveChars = () => {
+const SweeneyChars = () => {
 
   const history = useHistory()
 
@@ -30,39 +31,55 @@ const LastFiveChars = () => {
     return (
       <div>
         <br></br>
-        <h3 style={styles.headline}> The Last Five Years</h3>
+        <h3 style={styles.headline}> Sweeney Todd </h3>
         <br></br>
         <Row className="mb-5">
         <Col />
           <Col md ={3}>
             <Card border="dark">
-              <Card.Img variant="top" src={Cathy}/>
+              <Card.Img variant="top" src={Sweeney}/>
               <Card.Body>
                 <Button 
-                  value="Cathy" 
-                  variant="warning" 
+                  value="Sweeney" 
+                  variant="secondary" 
                   className="mt-0" 
                   onClick={(e) => welcomeChar(e)}
                 > 
-                  Cathy 
+                  Sweeney 
                 </Button>
-                <p className="mb-0" >Actress struggling to make a name for herself</p>
+                <p className="mb-0" > Charming but hot-tempered, ferocious yet vulnerable</p>
               </Card.Body>
             </Card>
           </Col>
           <Col md ={3}>
           <Card border="dark">
-            <Card.Img variant="top" src={Jaimie}/>
+            <Card.Img variant="top" src={Lovett}/>
             <Card.Body>
               <Button 
-                value="Jaimie" 
-                variant="primary" 
+                value="Mrs. Lovett" 
+                variant="dark" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
-                Jaimie 
+                Mrs. Lovett 
               </Button>
-              <p className="mb-0" >Budding novelist on the brink of wild success</p>
+              <p className="mb-0" >A meat pie shop owner who will do whatever it takes to survive</p>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col md ={3}>
+          <Card border="dark">
+            <Card.Img variant="top" src={Toby}/>
+            <Card.Body>
+              <Button 
+                value="Toby" 
+                variant="info" 
+                className="mt-0" 
+                onClick={(e) => welcomeChar(e)}
+              > 
+                Toby 
+              </Button>
+              <p className="mb-0" >Observant and clever with a good sense of humor</p>
             </Card.Body>
           </Card>
           </Col>
@@ -73,4 +90,4 @@ const LastFiveChars = () => {
     );
 }
 
-export default LastFiveChars;
+export default SweeneyChars;
