@@ -6,6 +6,20 @@ import Orpheus from "../../imgs/CharImgs/Orpheus.jpg"
 import Eurydice from "../../imgs/CharImgs/Eurydice.jpg"
 import { useHistory } from 'react-router-dom'
 
+const styles = {
+  headline: {
+    textAlign: "center",
+    maxWidth:"20%",
+    boxShadow:"0 0 20px 1px #555",
+    margin:"auto",
+    marginBottom:"10px",
+    padding: "5px",
+    backgroundColor:"WhiteSmoke",
+    border:"3px solid black",
+    borderRadius:"5px"
+  },
+};
+
 const HadestownChars = () => {
 
   const history = useHistory()
@@ -18,7 +32,7 @@ const HadestownChars = () => {
     return (
       <div>
         <br></br>
-        <h3 style={{fontWeight:"bold", textDecoration:"underline"}}> Hadestown Characters</h3>
+        <h3 style={styles.headline}> Hadestown</h3>
         <br></br>
         <Row className="mb-5 mr-3 ml-3">
         <Col lg={12}/>
@@ -44,7 +58,7 @@ const HadestownChars = () => {
             <Card.Body>
               <Button 
                 value="Orpheus" 
-                variant="success" 
+                variant="danger" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
@@ -76,7 +90,7 @@ const HadestownChars = () => {
             <Card.Body>
               <Button 
                 value="Hades" 
-                variant="success" 
+                variant="secondary" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 

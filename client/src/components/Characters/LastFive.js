@@ -4,6 +4,20 @@ import Jaimie from "../../imgs/CharImgs/Jaimie.jpg"
 import Cathy from "../../imgs/CharImgs/Kathy.jpg"
 import { useHistory } from 'react-router-dom'
 
+const styles = {
+  headline: {
+    textAlign: "center",
+    maxWidth:"30%",
+    boxShadow:"0 0 20px 1px #555",
+    margin:"auto",
+    marginBottom:"10px",
+    padding: "5px",
+    backgroundColor:"WhiteSmoke",
+    border:"3px solid black",
+    borderRadius:"5px"
+  },
+};
+
 const LastFiveChars = () => {
 
   const history = useHistory()
@@ -16,7 +30,7 @@ const LastFiveChars = () => {
     return (
       <div>
         <br></br>
-        <h3 style={{fontWeight:"bold", textDecoration:"underline"}}> The Last Five Years Characters</h3>
+        <h3 style={styles.headline}> The Last Five Years</h3>
         <br></br>
         <Row className="mb-5">
         <Col />
@@ -32,7 +46,7 @@ const LastFiveChars = () => {
                 > 
                   Cathy 
                 </Button>
-                <p className="mb-0" >Actress struggling to make a make a name for herself</p>
+                <p className="mb-0" >Actress struggling to make a name for herself</p>
               </Card.Body>
             </Card>
           </Col>
@@ -42,7 +56,7 @@ const LastFiveChars = () => {
             <Card.Body>
               <Button 
                 value="Jaimie" 
-                variant="success" 
+                variant="primary" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 

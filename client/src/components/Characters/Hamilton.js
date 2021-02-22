@@ -6,6 +6,20 @@ import Hamilton from "../../imgs/CharImgs/Hamilton.jpg"
 import Angelica from "../../imgs/CharImgs/Angelica.jpg"
 import { useHistory } from 'react-router-dom'
 
+const styles = {
+  headline: {
+    textAlign: "center",
+    maxWidth:"20%",
+    boxShadow:"0 0 20px 1px #555",
+    margin:"auto",
+    marginBottom:"10px",
+    padding: "5px",
+    backgroundColor:"WhiteSmoke",
+    border:"3px solid black",
+    borderRadius:"5px"
+  },
+};
+
 const HamiltonChars = () => {
 
   const history = useHistory()
@@ -18,7 +32,7 @@ const HamiltonChars = () => {
     return (
       <div>
         <br></br>
-        <h3 style={{fontWeight:"bold", textDecoration:"underline"}}> Hamilton Characters</h3>
+        <h3 style={styles.headline}> Hamilton</h3>
         <br></br>
         <Row className="mb-5 mr-3 ml-3">
         <Col lg={12}/>
@@ -28,7 +42,7 @@ const HamiltonChars = () => {
               <Card.Body>
                 <Button 
                   value="Angelica" 
-                  variant="warning" 
+                  variant="danger" 
                   className="mt-0" 
                   onClick={(e) => welcomeChar(e)}
                 > 
@@ -44,7 +58,7 @@ const HamiltonChars = () => {
             <Card.Body>
               <Button 
                 value="Eliza" 
-                variant="success" 
+                variant="warning" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
@@ -60,7 +74,7 @@ const HamiltonChars = () => {
             <Card.Body>
               <Button 
                 value="Burr" 
-                variant="success" 
+                variant="secondary" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
@@ -76,7 +90,7 @@ const HamiltonChars = () => {
             <Card.Body>
               <Button 
                 value="Hamilton" 
-                variant="success" 
+                variant="dark" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 

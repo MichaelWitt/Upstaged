@@ -5,6 +5,21 @@ import Lorelle from "../../imgs/CharImgs/Lorelle.jpg"
 import Deena from "../../imgs/CharImgs/Dina.jpg"
 import { useHistory } from 'react-router-dom'
 
+const styles = {
+  headline: {
+    textAlign: "center",
+    maxWidth:"20%",
+    boxShadow:"0 0 20px 1px #555",
+    margin:"auto",
+    marginTop:"20px",
+    marginBottom:"10px",
+    padding: "5px",
+    backgroundColor:"WhiteSmoke",
+    border:"3px solid black",
+    borderRadius:"5px"
+  },
+};
+
 const DreamgirlsChars = () => {
 
   const history = useHistory()
@@ -17,7 +32,7 @@ const DreamgirlsChars = () => {
     return (
       <div>
         <br></br>
-        <h3 style={{fontWeight:"bold", textDecoration:"underline"}}> Dreamgirls Characters</h3>
+        <h3 style={styles.headline}> Dreamgirls</h3>
         <br></br>
         <Row className="mb-5">
         <Col />
@@ -27,7 +42,7 @@ const DreamgirlsChars = () => {
               <Card.Body>
                 <Button 
                   value="Effie" 
-                  variant="warning" 
+                  variant="success" 
                   className="mt-0" 
                   onClick={(e) => welcomeChar(e)}
                 > 
@@ -43,7 +58,7 @@ const DreamgirlsChars = () => {
             <Card.Body>
               <Button 
                 value="Lorelle" 
-                variant="success" 
+                variant="danger" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
@@ -59,7 +74,7 @@ const DreamgirlsChars = () => {
             <Card.Body>
               <Button 
                 value="Deena" 
-                variant="success" 
+                variant="secondary" 
                 className="mt-0" 
                 onClick={(e) => welcomeChar(e)}
               > 
