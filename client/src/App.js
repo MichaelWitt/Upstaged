@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Signup from "./pages/Signup"
-import Characters from "./pages/Characters"
-import Login from "./pages/Login"
+import Signup from "./pages/Signup";
+import Characters from "./pages/Characters";
+import Login from "./pages/Login";
 import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
@@ -25,7 +25,8 @@ import LesMis from "./components/Quizzes/LesMis";
 import GameContent from "./components/GameContent";
 import ProfileContextProvider from "./utils/GlobalState";
 import LyricGame from "./components/LyircGame/Lyric";
-import axios from 'axios'
+import Jeopardy from "./components/Jeopardy/Jeopardy";
+import axios from "axios";
 
 class App extends Component {
   // componentDidMount() {
@@ -69,13 +70,13 @@ class App extends Component {
               <Quizzes />
             </Route>
             <Route exact path={"/createplaybill"}>
-              <Playbill/>
+              <Playbill />
             </Route>
             <Route exact path={"/playbill3"}>
-              <MadLibs/>
+              <MadLibs />
             </Route>
             <Route exact path={"/results"}>
-              <Results/>
+              <Results />
             </Route>
             <Route exact path={"/Hamilton"}>
               <ProfileContextProvider>
@@ -129,6 +130,9 @@ class App extends Component {
             </Route>
             <Route exact path={"/Lyrics"}>
               <LyricGame />
+            </Route>
+            <Route exact path={"/Jeopardy"}>
+              <Jeopardy />
             </Route>
           </Switch>
           <FooterNav />
