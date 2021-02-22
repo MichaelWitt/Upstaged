@@ -70,6 +70,15 @@ class News extends Component {
               field: "content",
               headerStyle: { maxWidth: 150 },
               cellStyle: { maxWidth: 150 },
+              render: (rowData) => (
+                <a
+                  href={rowData.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p style={{ color: "black" }}>{rowData.content}</p>
+                </a>
+              ),
             },
             {
               title: "Headline",
