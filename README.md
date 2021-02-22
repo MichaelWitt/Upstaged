@@ -1,12 +1,10 @@
 # Upstaged
 
-The social app for theatre lovers.
+Welcome to Upstaged! The interactive app for theatre enthusiasts. Have fun exploring our app, gain points to climb the cast ranks, and try not to be Upstaged!
 
 ## Project Details
 
-Welcome to Upstaged!
-
-This application was created by theatre lovers, for theatre lovers. Upstaged is a multi-faceted and highly entertaining theatre app, created to entertain, amuse, and enjoy. Take part in the show, experiencing what it feels like to be immersed in the broadway experience, with various games, quizzes, videos, and feeds. Theatre Jeopardy, Hamilton Trivia, and a Playbill creator, just to name a few. Stay up to date on what's trending in broadway with our News page, as well as our Show-Score, Twitter, and Youtube feeds. We also hope you take a chance at securing the main role, gaining points and rank with each challenge, in order to be the best in show business. Share with friends and keep on shining, for you, are a star.
+Upstaged was created by theatre lovers, for theatre lovers. Upstaged is a multi-faceted and highly entertaining theatre app, created to entertain, amuse, and enjoy. Take part in the show, experiencing what it feels like to be immersed in the broadway experience, with various games, quizzes, videos, and feeds. Theatre Jeopardy, Hamilton Trivia, and a Playbill creator, just to name a few. Stay up to date on what's trending in broadway with our News page, as well as our Show-Score, Twitter, and Youtube feeds. We also hope you take a chance at securing the main role, gaining points and rank with each challenge, in order to be the best in show business. Share with friends and keep on shining, for you, are a star.
 
 Thanks for stopping in!
 
