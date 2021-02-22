@@ -1,12 +1,12 @@
 const router = require('express').Router();
 const userController = require('../controllers/userController');
-const booksController = require('../controllers/userController');
 
-router.get('/ping', (req, res) => {
-  res.send('pong')
-})
 
-router.get('/getUser', userController.findAll)
+router.get('/user', userController.findAll);
+
+router.get('/user/:id', userController.findUser);
+
+// router.put('/updatePoints', userController.updatePoints);
 // .get(userController.findAll);
 
 // router.route('/books/')

@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react"
 import Quiz from 'react-quiz-component';
 import AppNav from "../Navbar";
-
 import { ProfileContext } from "../../utils/GlobalState";
 import QuizComplete from './quizComplete';
 import wickedPlaybill from "../../imgs/playbills/wicked.png";
@@ -21,6 +20,14 @@ function Wicked() {
     const onCompleteAction = (obj) => {
         let pointsEarned = obj.correctPoints;
         profile.dispatch({type: "addPoints", value: pointsEarned});
+        const storedUserData = localStorage.getItem("user");
+        console.log('storedUserData:', storedUserData)
+        const storedUserId = JSON.parse(storedUserData)._id;
+        const storedUserPoints = localStorage.getItem("sessionPoints");
+        console.log('storedUserPoints:', storedUserPoints);
+        const newUserPointTotal = parseInt(storedUserPoints) + parseInt(pointsEarned);
+        localStorage.setItem("sessionPoints", newUserPointTotal);
+  
         setShowInfo({...showInfo, quizPointsEarned: pointsEarned})
     
       };
