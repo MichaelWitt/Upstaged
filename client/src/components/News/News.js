@@ -12,7 +12,7 @@ class News extends Component {
 
   componentDidMount() {
     API.getNews().then((response) => {
-      // console.log("response:", response.data.value);
+      console.log("response:", response.data.value);
       this.news = response.data.value;
       this.setState({
         filteredNews: this.news,
@@ -92,11 +92,11 @@ class News extends Component {
             let tableData = {
               image: `${news.image.url}`,
               website: `${news.url}`,
-              headline: `${news.description.substring(0, 233) + "..."}`,
+              headline: `${news.description.substring(0, 200) + "..."}`,
               content: `${
                 news.body.charAt(0).toUpperCase() +
                 news.body.slice(1).substring(0, 200) +
-                "... [click image for full article.]"
+                "... [Read More]"
               }`,
               source: `${
                 news.provider.name.charAt(0).toUpperCase() +
