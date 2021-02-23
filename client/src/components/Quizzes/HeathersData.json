@@ -213,14 +213,14 @@
       "point": "5"
     },
     {
-      "question": "Who kills Philip?",
+      "question": "What is Veronica's last name?",
       "questionType": "text",
       "answerSelectionType": "single",
       "answers": [
-        "Charles Lee",
-        "Samuel Seabury",
-        "George Eacker",
-        "Aaron Burr"
+        "Levinson",
+        "Mars",
+        "Sawyer",
+        "Robertson"
       ],
       "correctAnswer": "3",
       "messageForCorrectAnswer": "Correct!",

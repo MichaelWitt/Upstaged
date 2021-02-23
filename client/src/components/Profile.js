@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
+import { Button } from "react-bootstrap"
 import LegendInfoCard from "./LegendInfoCard";
 import UserInfoCard from "./UserInfoCard";
 import { ProfileContext } from "../utils/GlobalState";

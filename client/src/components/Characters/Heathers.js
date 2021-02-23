@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
 import Veronica from "../../imgs/CharImgs/Veronica.jpg"
-import Heathers from "../../imgs/CharImgs/Heathers.jpg"
+import Heather from "../../imgs/CharImgs/Heather.jpg"
 import JD from "../../imgs/CharImgs/JD.jpg"
 import { useHistory } from 'react-router-dom'
 
@@ -69,7 +69,7 @@ const HeathersChars = () => {
           </Col>
           <Col md ={3}>
           <Card border="dark">
-            <Card.Img variant="top" src={Heathers}/>
+            <Card.Img variant="top" src={Heather}/>
             <Card.Body>
               <Button 
                 value="Heather" 

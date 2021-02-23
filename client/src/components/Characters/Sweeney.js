@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
 import Sweeney from "../../imgs/CharImgs/Sweeney.jpg"
-import Toby from "../../imgs/CharImgs/Tobias.jpg"
+import Toby from "../../imgs/CharImgs/Toby.jpg"
 import Lovett from "../../imgs/CharImgs/Lovett.jpg"
 import { useHistory } from 'react-router-dom'
 

@@ -2,7 +2,7 @@ import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
 import Fiyero from "../../imgs/CharImgs/Fiyero.jpg"
 import Elphaba from "../../imgs/CharImgs/Elphaba.jpg"
-import Glinda from "../../imgs/CharImgs/Galinda.jpg"
+import Glinda from "../../imgs/CharImgs/Glinda.jpg"
 import { useHistory } from 'react-router-dom'
 
 const styles = {
