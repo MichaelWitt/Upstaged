@@ -19,7 +19,7 @@ if (storedUserData){
 };
 
 if (userSessionPoints) {
-    globalUserPoints = JSON.parse(userSessionPoints);
+    globalUserPoints = 0;
 }
 
 // if (storedUserData === null){

@@ -1,7 +1,7 @@
 import React from "react";
 
 let backgroundStyle = {
-  width: 305
+  marginTop:"40px"
 };
 
 
