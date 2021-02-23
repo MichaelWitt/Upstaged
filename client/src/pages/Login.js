@@ -28,7 +28,7 @@ const Login = (props) => {
           if (localStorage.getItem("sessionPoints") === null) {
             localStorage.setItem("sessionPoints", 0);
           };
-          history.push('/Profile')
+          history.push('/Home')
 
         }
       }).catch(err => { 
@@ -47,13 +47,13 @@ const Login = (props) => {
       // }
     }, []);
 
-    const handleLogout = () => {
-      setUser({});
-      setEmail("");
-      setPassword("");
-      localStorage.clear();
-      history.push('/Login')
-  };
+  //   const handleLogout = () => {
+  //     setUser({});
+  //     setEmail("");
+  //     setPassword("");
+  //     localStorage.clear();
+  //     history.push('/Login')
+  // };
 
   return (
     <div>
