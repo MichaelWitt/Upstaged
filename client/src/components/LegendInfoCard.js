@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap"
 
 let backgroundStyle = {
-  width: 305
+  marginTop:"40px"
 };
 
 
