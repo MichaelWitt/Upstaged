@@ -43,14 +43,55 @@ console.log("in results", props)
                            : props.formNumber === 4 ?
                            <form>
                                <div className="unique">
-                                Four  <span>{props.word3}</span> lost in <span>{props.word6}</span>
+                                Who's Afraid of  <span>{props.word5}</span>?
                             </div>
                            <div className="phrase">
-                              The <span> {props.word5}</span> Theatre <br />
+                              The <span> {props.word4}</span> <span> {props.word3}</span>Theatre <br />
                            </div>
                                <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
                            </form>
-                        : props.formNumber === 5 ?
+                            : props.formNumber === 5 ?
+                            <form>
+                                <div className="unique">
+                                 The  <span>{props.word4}</span> Wives of <span>{props.word6}</span>
+                             </div>
+                            <div className="phrase">
+                               The <span> {props.word5}</span> Theatre <br />
+                            </div>
+                                <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
+                            </form>
+                             : props.formNumber === 6 ?
+                             <form>
+                                 <div className="unique">
+                                  The  <span>{props.word1}</span> of <span>{props.word6}</span>
+                              </div>
+                             <div className="phrase">
+                                 <span> {props.word5}</span> Theatre <br />
+                             </div>
+                                 <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
+                             </form>
+                              : props.formNumber === 7 ?
+                              <form>
+                                  <div className="unique">
+                                     <span>{props.word3}</span>  in <span>{props.word6}</span>
+                               </div>
+                              <div className="phrase">
+                                  <span> {props.word5}</span>'s Theatre <br />
+                              </div>
+                                  <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
+                              </form>
+
+                             : props.formNumber === 8 ?
+                             <form>
+                                 <div className="unique">
+                                   <span>{props.word3}</span> on a <span>{props.word4}</span>Roof
+                              </div>
+                             <div className="phrase">
+                                The <span> {props.word6}</span> Theatre <br />
+                             </div>
+                                 <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
+                             </form>
+                        : props.formNumber === 9 ?
                             <form>
                             
                             <div className="unique">
