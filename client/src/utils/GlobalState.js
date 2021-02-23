@@ -59,10 +59,10 @@ if (storedUserData){
 };
 
 if (userSessionPoints) {
-    globalUserPoints = JSON.parse(userSessionPoints);
+    globalUserPoints = 0;
 }
 
-// globalAlias = "JD"
+
 switch (globalAlias) {
     case "Angel":
         globalAliasImg = AngelPic;
