@@ -1,5 +1,4 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
+import React, { useContext, useEffect } from "react";import Card from "react-bootstrap/Card";
 import Container from 'react-bootstrap/Container'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"
@@ -9,9 +8,30 @@ import ShowScore from "../imgs/ShowScore.png"
 import {TwitterTimelineEmbed} from 'react-twitter-embed';
 import AppNav from "./Navbar";
 import Backstage from "../imgs/Backstage.png"
+import { ProfileContext } from "../utils/GlobalState";
+
 
 
 function GameContent(props) {
+    const profile = useContext(ProfileContext);
+
+  useEffect(() => {
+    let usersPoints = profile.ProfileAttributes.points;
+
+    if (usersPoints >= 0 && usersPoints < 100) {
+      profile.dispatch({type: "setEnsemble"});
+    } else if (usersPoints >= 100 && usersPoints < 200){
+      profile.dispatch({type: "setFeaturedEnsemble"});
+    } else if (usersPoints >= 200 && usersPoints < 350){
+      profile.dispatch({type: "setPrincipal"});
+    } else if (usersPoints >= 350 && usersPoints < 600){
+      profile.dispatch({type: "setLeadActor"});
+    } else if (usersPoints >= 600 && usersPoints < 900){
+      profile.dispatch({type: "setStar"});
+    } else if (usersPoints >= 900){
+      profile.dispatch({type: "setLegend"});
+    }
+  },[profile.ProfileAttributes.points]);
         return(
             <div>
             <AppNav />
@@ -30,9 +50,10 @@ function GameContent(props) {
                                     <ProgressBar 
                                     animated variant="warning" 
                                     style={{margin:"10px"}} 
-                                    now={props.points}
-                                    max={props.maxPoints}
-                                    label={`${props.points}/${props.maxPoints}`}/> 
+                                    now={profile.ProfileAttributes.points}
+                                    max={profile.ProfileAttributes.maxPoints}
+                                    label={`${profile.ProfileAttributes.points}/${profile.ProfileAttributes.maxPoints}`}
+                                    />
                                 </Card>
                             </Col>
                         </Row>
