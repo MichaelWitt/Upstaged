@@ -97,7 +97,7 @@ class MadLibs extends React.Component {
 			<div>
 
 			<AppNav />
-<br />
+			<br />
 			<div className="form-wrapper">
 				
 			<form onSubmit={this.handleSubmit} className={this.state.main + ' fields '}>

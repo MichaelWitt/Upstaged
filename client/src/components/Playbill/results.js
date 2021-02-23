@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+ import Logo from "../../imgs/logo.png";
+ import playbilllogo from "../../imgs/playbilllogo.png";
+
 
 function Results(props) {
 console.log("in results", props)
@@ -8,17 +11,20 @@ console.log("in results", props)
     return (
 
         <div className={props.className + ' resultForm '}>
-         
+             <img src={playbilllogo}/>
             {props.formNumber === 1 ?
                 <form>
                   
                  <div className="unique">
-                            Good evening, Mr. <span>{props.word5}</span>.
+                            Good evening, Mr. <span>{props.word5}</span>
 				    </div>
                     <div className="phrase">
                        The {props.word6} Theatre <br /> 
                     </div>
                     <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
+                {/* <img src={Logo}/> */}
+                <br/>
+                
                 </form>
                 : props.formNumber === 2 ?
                     <form>
@@ -26,9 +32,10 @@ console.log("in results", props)
                                 A tale of two  <span>{props.word4}</span>  <span>{props.word3}</span>
                          </div>
                         <div className="phrase">
-                            The  {props.word5} Auditorium <br />
+                              {props.word5} Auditorium <br />
                         </div>
                         <a href="#" className="align-right" onClick={props.doParentReset}>Generate a new story</a>
+                        <img src={Logo}/>
                     </form>
                     : props.formNumber === 3 ?
                         <form>
