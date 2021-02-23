@@ -33,6 +33,10 @@ export default {
     // console.log('hit ', data)
     return axios.post("/auth/signup", data);
   },
+  setAlias: function (data) {
+    // console.log('hit ', data)
+    return axios.post("/auth/alias", data);
+  },
   getUser: function (data) {
     // console.log('hit ', data)
     return axios.get("/auth/user", data);

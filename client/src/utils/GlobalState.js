@@ -10,10 +10,12 @@ console.log('storedUserData:', storedUserData);
 
 const userSessionPoints = localStorage.getItem("sessionPoints");
 let globalUserPoints = 0;
-let globalUserName = "Wait for login";
+let globalUserName = "You must login first!";
+let globalAlias = "You must login first!";
 
 if (storedUserData){
     globalUserName = JSON.parse(storedUserData).firstName;
+    globalAlias = JSON.parse(storedUserData).alias;
 };
 
 if (userSessionPoints) {
@@ -36,7 +38,7 @@ const ProfileState = {
     characterMostLike: "Elphaba",
     level: "",
     isLegend: false,
-    hiddenPersona: "Fiyero"
+    hiddenPersona: globalAlias
 };
 
 const ProfileContextProvider = props => {
