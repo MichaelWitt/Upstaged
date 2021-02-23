@@ -3,7 +3,6 @@ import { Button } from "react-bootstrap";
 import { Table } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import { Container } from "react-bootstrap";
-import { Col } from "react-bootstrap";
 import AppNav from "../Navbar.js";
 import Header from "./Header.js";
 
