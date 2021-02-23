@@ -17,8 +17,9 @@ const Signup = () => {
     const submitForm = (e) => {
       e.preventDefault()
         API.signup({ firstName, lastName, email, password }).then(res => {
-          console.log('res! ', res)
+          console.log('res! from signup ', res)
           if (res.status === 200) {
+            localStorage.setItem("signupEmail", JSON.stringify(res.data.email));
             history.push('/Characters')
           }
         }).catch(err => { 

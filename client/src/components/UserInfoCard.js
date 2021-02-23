@@ -38,8 +38,8 @@ function UserInfoCard(props) {
             <strong className="headers">My Top Show:</strong> {props.topShow}
           </li>
           <li>
-            <strong className="headers">Most Similar Character:</strong>{" "}
-            {props.characterMostLike}
+            <strong className="headers">Alter Ego:</strong>{" "}
+            {props.alias}
           </li>
         </ul>
       </div>

@@ -10,7 +10,8 @@ const userSchema = new Schema({
 	email: { type: String, unique: true, required: true },
 	password: { type: String, unique: false, required: true },
 	points: { type: Number, unique: false, default: 0 },
-	level: { type: String, unique: false, default: "ensemble" }
+	level: { type: String, unique: false, default: "ensemble" },
+	alias: { type: String, unique: false }
 });
 
 // Define schema methods
