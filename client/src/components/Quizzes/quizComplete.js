@@ -1,9 +1,5 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Media from 'react-bootstrap/Media'
 
@@ -11,10 +7,13 @@ import Media from 'react-bootstrap/Media'
 function QuizComplete(props) {
     const quizCompleteStyle = {
         color: "Black",
+        backgroundColor:"White",
+        border:" solid 8px #F7E200",
+        padding:"20px",
         position: "absolute",
         top: "25%",
         left: "25%",
-        width: "600px",
+        width: "50%",
         textAlign: "left"
     };
 

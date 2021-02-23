@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import MaterialTable from "material-table";
 import API from "../../utils/API";
-import Confetti from "./Confetti";
 import "./style.css";
 
 class News extends Component {

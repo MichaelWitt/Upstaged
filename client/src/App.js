@@ -118,7 +118,9 @@ function App() {
               </ProfileContextProvider>
             </Route>
             <Route exact path={"/Lyrics"}>
+            <ProfileContextProvider>
               <LyricGame />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Jeopardy"}>
               <Jeopardy />

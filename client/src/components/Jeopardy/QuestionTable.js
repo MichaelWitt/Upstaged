@@ -206,7 +206,8 @@ export class QuestionTable extends Component {
           style={{
             height: "75%",
             margin: "auto",
-            marginTop: "20px",
+            marginTop: "40px",
+            marginBottom:"50px",
             borderColor: "#f7e200",
             borderWidth: "10px",
             backgroundColor: "white",
@@ -255,7 +256,11 @@ export class QuestionTable extends Component {
                                 onClick={() =>
                                   handleMoneyButtonClick(qkey, qvalue, key)
                                 }
-                                variant="primary"
+                                size="lg"
+                                style={{
+                                  color:"#F7E200",
+                                  fontWeight:"bold"
+                                }}
                                 disabled={
                                   this.state.questionsList[key][qkey][
                                     "btnDissabled"
@@ -284,17 +289,22 @@ export class QuestionTable extends Component {
                   placeholder="What is..."
                   value={this.state.userAnswer}
                   onChange={setUserAnswer}
+                  style={{
+                    border:" solid 8px #F7E200",
+                    height:"60px"
+                  }}
                 />
                 <Form.Text className="text-muted">
                   Be sure to use all lower case letters.
                 </Form.Text>
               </Form.Group>
 
-              <Button variant="primary" onClick={() => checkAnswer()}>
+              <Button onClick={() => checkAnswer()} size="lg" style={{color:"#F7E200", fontWeight:"bold"}}>
                 Submit
               </Button>
             </Form>
         </Container>
+        <br></br>
       </div>
     );
   }
