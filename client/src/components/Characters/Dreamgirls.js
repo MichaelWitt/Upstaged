@@ -38,7 +38,7 @@ const DreamgirlsChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home');
+    history.push('/login');
   }
     
     return (

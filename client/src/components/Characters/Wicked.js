@@ -4,6 +4,7 @@ import Fiyero from "../../imgs/CharImgs/Fiyero.jpg"
 import Elphaba from "../../imgs/CharImgs/Elphaba.jpg"
 import Glinda from "../../imgs/CharImgs/Glinda.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -36,7 +37,7 @@ const WickedChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (

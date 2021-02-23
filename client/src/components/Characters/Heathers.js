@@ -4,6 +4,7 @@ import Veronica from "../../imgs/CharImgs/Veronica.jpg"
 import Heather from "../../imgs/CharImgs/Heather.jpg"
 import JD from "../../imgs/CharImgs/JD.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -36,7 +37,7 @@ const HeathersChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (

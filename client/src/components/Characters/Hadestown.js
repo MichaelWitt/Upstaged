@@ -5,6 +5,7 @@ import Hades from "../../imgs/CharImgs/Hades.jpg"
 import Orpheus from "../../imgs/CharImgs/Orpheus.jpg"
 import Eurydice from "../../imgs/CharImgs/Eurydice.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -37,7 +38,7 @@ const HadestownChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (

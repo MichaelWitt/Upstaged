@@ -7,6 +7,7 @@ import Javert from "../../imgs/CharImgs/Javert.jpg"
 import Marius from "../../imgs/CharImgs/Marius.jpg"
 import Valjean from "../../imgs/CharImgs/Valjean.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -39,7 +40,7 @@ const LesMisChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (
