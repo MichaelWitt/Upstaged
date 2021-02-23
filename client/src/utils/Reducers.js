@@ -23,6 +23,8 @@ export const profileReducer = (state, action) => {
       return { ...state, name: action.value };
     case "setPoints":
       return { ...state, points: action.value };
+    case "setImage":
+      return { ...state, image: action.value };
     default:
       throw new Error(`Invalid action type: ${action.type}`);
     }
