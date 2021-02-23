@@ -44,7 +44,7 @@ function UserInfoCard(props) {
           </li>
         </ul>
       </div>
-      <Button className="mb-5 mt-0" variant="light" style={{padding:"0px"}}> Click to change your avatar! </Button>
+      <Button className="mb-5 mt-0" href="/Characters" variant="light" style={{padding:"0px"}}> Click to change your avatar! </Button>
     </div>
   );
 }
