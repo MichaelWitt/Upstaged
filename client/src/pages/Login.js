@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from "react";
-import { useHistory } from 'react-router-dom'
+import React, { useState, useEffect, useContext } from "react";
+import { useHistory } from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBInput } from 'mdbreact';
-import API from '../utils/API'
-import LoginDiv from '../imgs/LoginDiv.png'
-import CodeImg from '../imgs/CodeImg.png'
+import API from '../utils/API';
+import LoginDiv from '../imgs/LoginDiv.png';
+import CodeImg from '../imgs/CodeImg.png';
+import { ProfileContext } from "../utils/GlobalState";
 import SignLogNav from "../components/SignLogNav"
 
 const Login = (props) => {
+  const profile = useContext(ProfileContext);
   const history = useHistory()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -19,9 +21,15 @@ const Login = (props) => {
       API.login({ email, password }).then(res => {
         console.log('res! ', res)
         if (res.status === 200) {
-          setUser(res.data)
-          localStorage.setItem("user", JSON.stringify(res.data.user))
+          setUser(res.data.user);
+          // profile.dispatch({type: "setName", value: res.data.user.firstName});
+          // profile.dispatch({type: "setPoints", value: res.data.user.points});
+          localStorage.setItem("user", JSON.stringify(res.data.user));
+          if (localStorage.getItem("sessionPoints") === null) {
+            localStorage.setItem("sessionPoints", 0);
+          };
           history.push('/Home')
+
         }
       }).catch(err => { 
         console.log('err', err)
@@ -39,13 +47,13 @@ const Login = (props) => {
       // }
     }, []);
 
-    const handleLogout = () => {
-      setUser({});
-      setEmail("");
-      setPassword("");
-      localStorage.clear();
-      history.push('/Login')
-  };
+  //   const handleLogout = () => {
+  //     setUser({});
+  //     setEmail("");
+  //     setPassword("");
+  //     localStorage.clear();
+  //     history.push('/Login')
+  // };
 
   return (
     <div>

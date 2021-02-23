@@ -11,6 +11,11 @@ import LesMis from "../imgs/LesMis.png";
 import "../pages/Login"
 
 function AppNav() {
+  const handleLogout = () => {
+    window.location.pathname = "/login";
+    localStorage.clear();
+};
+
   return (
     <Navbar bg="light" variant="light" style={{height:"75px"}}>
       <Navbar.Brand href="/">
@@ -29,7 +34,7 @@ function AppNav() {
       <Button 
         variant="warning" 
         style={{backgroundColor:"#f7e200"}}
-        onClick={() => {window.location.href="/"; localStorage.clear()}}
+        onClick={handleLogout}
       >
         Logout
       </Button>
