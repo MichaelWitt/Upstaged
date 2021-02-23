@@ -62,7 +62,6 @@ if (userSessionPoints) {
     globalUserPoints = JSON.parse(userSessionPoints);
 }
 
-globalAlias = "JD"
 switch (globalAlias) {
     case "Angel":
         globalAliasImg = AngelPic;
