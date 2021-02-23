@@ -7,11 +7,26 @@ import Nav from "react-bootstrap/Nav";
 
 import Logo from "../imgs/logo.png";
 import LesMis from "../imgs/LesMis.png";
+import API from "../utils/API";
 
 import "../pages/Login"
 
 function AppNav() {
   const handleLogout = () => {
+    const storedUserData = localStorage.getItem("user");
+    let parsedEmail = JSON.parse(storedUserData).email;
+
+    const userSessionPoints = localStorage.getItem("sessionPoints");
+    let sessionPoints = JSON.parse(userSessionPoints);
+
+    API.setPoints({ parsedEmail, sessionPoints }).then(res => {
+      console.log('res! ', res)
+      if (res.status === 200) {
+        alert("you have been successfully logged out!")
+      }
+    }).catch(err => { 
+      console.log('err', err)
+    })
     window.location.pathname = "/login";
     localStorage.clear();
 };

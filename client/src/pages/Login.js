@@ -25,9 +25,10 @@ const Login = (props) => {
           // profile.dispatch({type: "setName", value: res.data.user.firstName});
           // profile.dispatch({type: "setPoints", value: res.data.user.points});
           localStorage.setItem("user", JSON.stringify(res.data.user));
-          if (localStorage.getItem("sessionPoints") === null) {
-            localStorage.setItem("sessionPoints", 0);
-          };
+          localStorage.setItem("sessionPoints", JSON.stringify(res.data.user.points));
+          // if (localStorage.getItem("sessionPoints") === null) {
+          //   localStorage.setItem("sessionPoints", 0);
+          // };
           history.push('/Home')
 
         }
