@@ -75,7 +75,13 @@ const Login = (props) => {
               </MDBRow>
               <MDBCardBody className="mx-4 mt-4">
               <form>
-                <MDBInput onChange={e => setEmail(e.target.value)} hint="Email" group type="text" validate />
+                <MDBInput 
+                  onChange={e => setEmail(e.target.value)} 
+                  hint="Email" 
+                  group 
+                  type="text" 
+                  validate 
+                />
                 <br></br>
                 <MDBInput
                   hint="Password"

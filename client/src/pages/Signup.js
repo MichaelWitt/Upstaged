@@ -48,8 +48,7 @@ const Signup = () => {
                 <div className="grey-text">
                   <MDBInput
                     onChange={e => setFirstName(e.target.value)}
-                    label="First Name"
-                    icon="user"
+                    hint="First Name"
                     group
                     type="text"
                     validate
@@ -58,8 +57,7 @@ const Signup = () => {
                   />
                   <MDBInput
                     onChange={e => setLastName(e.target.value)}
-                    label="Last Name"
-                    icon="user"
+                    hint="Last Name"
                     group
                     type="text"
                     validate
@@ -68,8 +66,7 @@ const Signup = () => {
                   />
                   <MDBInput
                     onChange={e => setEmail(e.target.value)}
-                    label="Email"
-                    icon="envelope"
+                    hint="Email"
                     group
                     type="email"
                     validate
@@ -78,8 +75,7 @@ const Signup = () => {
                   />
                   <MDBInput
                     onChange={e => setPassword(e.target.value)}
-                    label="Password"
-                    icon="lock"
+                    hint="Password"
                     group
                     type="password"
                     validate
