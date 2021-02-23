@@ -38,7 +38,7 @@ function Profile(props){
             image = {profile.ProfileAttributes.image}
             topShow = {profile.ProfileAttributes.topShow}
             level = {profile.ProfileAttributes.level}
-            characterMostLike = {profile.ProfileAttributes.characterMostLike}
+            alias = {profile.ProfileAttributes.hiddenPersona}
             points = {profile.ProfileAttributes.points}
           />
         </>
@@ -52,7 +52,7 @@ function Profile(props){
             image = {profile.ProfileAttributes.image}
             topShow = {profile.ProfileAttributes.topShow}
             level = {profile.ProfileAttributes.level}
-            characterMostLike = {profile.ProfileAttributes.characterMostLike}
+            alias = {profile.ProfileAttributes.hiddenPersona}
             points = {profile.ProfileAttributes.points}
             maxPoints = {profile.ProfileAttributes.maxPoints}
           />

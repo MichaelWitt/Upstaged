@@ -36,6 +36,38 @@ module.exports = {
       });
     });
   },
+  updateAlias: (req, res) => {
+    const { parsedEmail, alias } = req.body;
+    // ADD VALIDATION
+    console.log('BODY! ', req.body)
+    db.User.findOneAndUpdate({email: parsedEmail}, {$set:{alias: alias}}, {new: true}, (err, doc) => {
+      if (err) {
+          console.log("Something wrong when updating data!");
+      }
+  
+      console.log("data from updating alias", doc);
+  });
+    // db.User.findOne({ 'email': email }, (err, userMatch) => {
+    //   if (userMatch) {
+    //     return res.json({
+    //       error: `Sorry, already a user with the username: ${username}`
+    //     });
+    //   }
+    //   const newUser = new db.User({
+    //     'firstName': firstName,
+    //     'lastName': lastName,
+    //     'email': email,
+    //     'password': password,
+    //     'points': points,
+    //     'level': level
+
+    //   });
+    //   newUser.save((err, savedUser) => {
+    //     if (err) return res.json(err);
+    //     return res.json(savedUser);
+    //   });
+    // });
+  },
   logout: (req, res) => {
     if (req.user) {
       req.session.destroy();
