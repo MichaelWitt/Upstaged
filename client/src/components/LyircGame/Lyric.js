@@ -1,6 +1,5 @@
 import React from "react"
 import Quiz from "react-quiz-component";
-import Container from "react-bootstrap/Container"
 import AppNav from "../Navbar"
 
 
@@ -11,9 +10,7 @@ const LyricGame = () => {
     return (
         <div>
         <AppNav/>
-        <Container >
             <Quiz quiz = {LyricData} shuffle={true} showInstantFeedback={false} />
-        </Container>
         </div>
     )
 }

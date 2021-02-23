@@ -10,10 +10,10 @@ function Header() {
     return (
         <div>
             
-            <Jumbotron style={{color:'whitesmoke', backgroundImage: `url(${jeopardybackground})` }}>
+            <Jumbotron style={{color:'whitesmoke', backgroundImage: `url(${jeopardybackground})`, border:" dotted 20px #F7E200", borderRadius:"10px" }}>
 
             <Container >
-            <h1>Jeopardy!</h1>
+            <h1 style={{fontSize:"100px"}}>Jeopardy!</h1>
             </Container>
             </Jumbotron>
         </div>
