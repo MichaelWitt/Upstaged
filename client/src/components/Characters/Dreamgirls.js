@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Card, Row, Col } from "react-bootstrap";
 import Effie from "../../imgs/CharImgs/Effie.jpg";
 import Lorelle from "../../imgs/CharImgs/Lorelle.jpg";
-import Deena from "../../imgs/CharImgs/Dina.jpg";
+import Deena from "../../imgs/CharImgs/Deena.jpg";
 import { useHistory } from 'react-router-dom';
 import API from '../../utils/API'
 

@@ -9,7 +9,7 @@ import BurrPic from "../imgs/CharImgs/Burr.jpg"
 import CathyPic from "../imgs/CharImgs/Cathy.jpg"
 import ChristinePic from "../imgs/CharImgs/Christine.jpg"
 import CosettePic from "../imgs/CharImgs/Cosette.jpg"
-import DinaPic from "../imgs/CharImgs/Dina.jpg"
+import DeenaPic from "../imgs/CharImgs/Deena.jpg"
 import EffiePic from "../imgs/CharImgs/Effie.jpg"
 import ElizaPic from "../imgs/CharImgs/Eliza.jpg"
 import ElphabaPic from "../imgs/CharImgs/Elphaba.jpg"
@@ -82,8 +82,8 @@ switch (globalAlias) {
     case "Cosette":
         globalAliasImg = CosettePic;
         break;
-    case "Dina":
-        globalAliasImg = DinaPic;
+    case "Deena":
+        globalAliasImg = DeenaPic;
         break; 
     case "Effie":
         globalAliasImg = EffiePic;
@@ -115,7 +115,7 @@ switch (globalAlias) {
     case "Hamilton":
         globalAliasImg = HamiltonPic;
         break;
-    case "Heather":
+    case "A Heather":
         globalAliasImg = HeathersPic;
         break;
     case "Jaimie":
@@ -151,7 +151,7 @@ switch (globalAlias) {
     case "Orpheus":
         globalAliasImg = OrpheusPic;
         break;
-    case "PersephonePic":
+    case "Persephone":
         globalAliasImg = PersephonePic;
         break; 
     case "Phantom":
