@@ -57,7 +57,7 @@ function GameContent() {
                             <Col sm={12}>
                                 <Card style={{margin: "auto", marginTop:"10px", marginBottom:"20px"}}>
                                     <Card.Body >
-                                    <a href="https://www.backstage.com/casting" target="_blank" rel="noopener noreferrer"><img href="https://www.backstage.com/casting" src={Backstage} alt="Backstage Logo" style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>Find Open Casting Calls & Auditions Near You.  Currently showing 8206 acting jobs with 2670 productions</p>
+                                    <a href="https://www.backstage.com/casting" target="_blank" rel="noopener noreferrer"><img href="https://www.backstage.com/casting" src={Backstage} alt="Backstage Logo" style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>BACKSTAGE - Find Open Casting Calls & Auditions Near You.  Currently showing 8206 acting jobs with 2670 productions</p>
                                     </Card.Body>
                                 </Card>
                             </Col>
