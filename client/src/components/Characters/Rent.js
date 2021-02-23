@@ -8,6 +8,7 @@ import Mimi from "../../imgs/CharImgs/Mimi.jpg"
 import Maureen from "../../imgs/CharImgs/Maureen.jpg"
 import Joanne from "../../imgs/CharImgs/Joanne.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -40,7 +41,7 @@ const RentChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (

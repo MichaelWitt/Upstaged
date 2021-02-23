@@ -4,6 +4,7 @@ import Sweeney from "../../imgs/CharImgs/Sweeney.jpg"
 import Toby from "../../imgs/CharImgs/Toby.jpg"
 import Lovett from "../../imgs/CharImgs/Lovett.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -36,7 +37,7 @@ const SweeneyChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (

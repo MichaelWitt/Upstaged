@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -9,8 +9,10 @@ import UpstagedFull from "../imgs/UpstagedFull.png";
 import Quizzes from "../imgs/Quizzes.png";
 import News from "../imgs/News.png";
 import GameNight from "../imgs/GameNight.png";
+import { ProfileContext } from "../utils/GlobalState";
 
 function Content() {
+  const profile = useContext(ProfileContext);
   return (
     <div>
       <Row>
@@ -116,7 +118,9 @@ function Content() {
                   <ProgressBar
                     animated
                     variant="warning"
-                    now={60}
+                    now={profile.ProfileAttributes.points}
+                    max={profile.ProfileAttributes.maxPoints}
+                    label={`${profile.ProfileAttributes.points}/${profile.ProfileAttributes.maxPoints}`}
                     style={{ margin: "10px" }}
                   />
                 </Card>

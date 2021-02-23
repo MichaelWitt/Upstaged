@@ -51,7 +51,7 @@ const userSessionPoints = localStorage.getItem("sessionPoints");
 let globalUserPoints = 0;
 let globalUserName = "You must login first!";
 let globalAlias = "You must login first!";
-let globalAliasImg;
+let globalAliasImg = "You must login first!";
 
 if (storedUserData){
     globalUserName = JSON.parse(storedUserData).firstName;
@@ -61,6 +61,7 @@ if (storedUserData){
 if (userSessionPoints) {
     globalUserPoints = JSON.parse(userSessionPoints);
 }
+
 
 switch (globalAlias) {
     case "Angel":
@@ -132,7 +133,7 @@ switch (globalAlias) {
     case "Lorelle":
         globalAliasImg = LorellePic;
         break;
-    case "Lovett":
+    case "Mrs. Lovett":
         globalAliasImg = LovettPic;
         break; 
     case "Marius":

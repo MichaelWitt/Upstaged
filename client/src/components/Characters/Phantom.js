@@ -4,6 +4,7 @@ import Phantom from "../../imgs/CharImgs/Phantom.jpg"
 import Christine from "../../imgs/CharImgs/Christine.jpg"
 import Raul from "../../imgs/CharImgs/Raul.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -36,7 +37,7 @@ const PhantomChars = () => {
     }).catch(err => { 
       console.log('err', err)
     })
-    history.push('/Home')
+    history.push('/login')
   }
     
     return (
