@@ -59,7 +59,7 @@ if (storedUserData){
 };
 
 if (userSessionPoints) {
-    globalUserPoints = 0;
+    globalUserPoints = JSON.parse(userSessionPoints);
 }
 
 
