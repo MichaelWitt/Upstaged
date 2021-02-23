@@ -7,7 +7,8 @@ import ProgressBar from "react-bootstrap/ProgressBar"
 import Games from "../pages/Games";
 import ShowScore from "../imgs/ShowScore.png"
 import { TwitterTimelineEmbed} from 'react-twitter-embed';
-import AppNav from "./Navbar"
+import AppNav from "./Navbar";
+import Backstage from "../imgs/Backstage.png"
 
 
 function GameContent() {
@@ -48,6 +49,15 @@ function GameContent() {
                                 <Card style={{margin: "auto", marginTop:"10px", marginBottom:"20px"}}>
                                     <Card.Body >
                                     <a href="https://www.show-score.com/" target="_blank" rel="noopener noreferrer"><img href="https://www.show-score.com/" src={ShowScore} alt="Show-Score Logo" style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>Show-Score simply and clearly organizes the information you need to discover shows you’ll love, from people you trust, at the right price for you.</p>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col sm={12}>
+                                <Card style={{margin: "auto", marginTop:"10px", marginBottom:"20px"}}>
+                                    <Card.Body >
+                                    <a href="https://www.backstage.com/casting" target="_blank" rel="noopener noreferrer"><img href="https://www.backstage.com/casting" src={Backstage} alt="Backstage Logo" style={{width:"25%", float:"left"}}></img></a><p style={{float:"right", padding:"0px", width:"70%"}}>Find Open Casting Calls & Auditions Near You.  Currently showing 8206 acting jobs with 2670 productions</p>
                                     </Card.Body>
                                 </Card>
                             </Col>
