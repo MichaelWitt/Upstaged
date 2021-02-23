@@ -35,7 +35,6 @@ const ProfileState = {
     topShow: "Wicked",
     points: globalUserPoints,
     maxPoints: 0,
-    characterMostLike: "Elphaba",
     level: "",
     isLegend: false,
     hiddenPersona: globalAlias
