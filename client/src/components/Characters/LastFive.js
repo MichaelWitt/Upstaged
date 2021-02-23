@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
 import Jaimie from "../../imgs/CharImgs/Jaimie.jpg"
-import Cathy from "../../imgs/CharImgs/Kathy.jpg"
+import Cathy from "../../imgs/CharImgs/Cathy.jpg"
 import { useHistory } from 'react-router-dom'
 
 const styles = {

@@ -1,5 +1,6 @@
 import React from "react";
-import ProgressBar from "react-bootstrap/ProgressBar";
+import { Button, ProgressBar } from "react-bootstrap";
+
 
 let backgroundStyle = {
   width: 305
@@ -7,7 +8,7 @@ let backgroundStyle = {
 
 function UserInfoCard(props) {
   return (
-    <div className="card" style={backgroundStyle} id="border-madness">
+    <div className="card mb-5" style={backgroundStyle} id="border-madness">
       <div className="card-img-top">
         <img
           id="profileImage"
@@ -17,7 +18,7 @@ function UserInfoCard(props) {
           height="400px"
         />
       </div>
-      <div className="card-body">
+      <div className="card-body" style={{paddingBottom:"5px"}}>
         <h5 className="card-title">
           <strong className="headers">Name: </strong>
           {props.name}
@@ -37,12 +38,13 @@ function UserInfoCard(props) {
           <li>
             <strong className="headers">My Top Show:</strong> {props.topShow}
           </li>
-          <li>
+          <li >
             <strong className="headers">Alter Ego:</strong>{" "}
             {props.alias}
           </li>
         </ul>
       </div>
+      <Button className="mb-5 mt-0" variant="light" style={{padding:"0px"}}> Click to change your avatar! </Button>
     </div>
   );
 }
