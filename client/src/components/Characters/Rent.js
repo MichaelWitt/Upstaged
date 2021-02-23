@@ -28,7 +28,18 @@ const RentChars = () => {
   const history = useHistory()
 
   const welcomeChar = (e) => {
-    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!")
+    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!");
+    let alias = e.target.value;
+    let storedEmail = localStorage.getItem('signupEmail');
+    let parsedEmail = JSON.parse(storedEmail);
+    API.setAlias({ parsedEmail, alias }).then(res => {
+      console.log('res! ', res)
+      if (res.status === 200) {
+        history.push('/Characters')
+      }
+    }).catch(err => { 
+      console.log('err', err)
+    })
     history.push('/Home')
   }
     
