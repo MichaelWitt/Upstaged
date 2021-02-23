@@ -8,7 +8,6 @@ import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
 import MainPage from "./pages/MainPage";
-import Playbill from "./components/Playbill/createplaybill";
 import MadLibs from "./components/Playbill/playbill3";
 import Results from "./components/Playbill/results";
 import NewsPage from "./pages/NewsPage";
@@ -61,9 +60,6 @@ function App() {
             </Route>
             <Route exact path={"/Quizzes"}>
               <Quizzes />
-            </Route>
-            <Route exact path={"/createplaybill"}>
-              <Playbill />
             </Route>
             <Route exact path={"/playbill3"}>
               <MadLibs />

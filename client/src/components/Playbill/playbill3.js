@@ -1,12 +1,14 @@
 import React, { Component } from "react";
  import "./playbill.css";
 import Results from "./results";
+import AppNav from "../Navbar";
+
 
 class MadLibs extends React.Component {
  	 constructor(props) {
     super(props);
     this.state = {
-        formNumberArray: [1, 2, 3, 4, 5],
+        formNumberArray: [1, 2, 3, 4, 5, 6, 7, 8, 9],
             formSelected: 1,
 			word1: '',
 			word2: '',
@@ -92,10 +94,11 @@ class MadLibs extends React.Component {
         }
 		const classes = this.state.open ? 'form' : 'form hide'
 		return(
-			<div className="app-wrapper">
+			<div>
 
-
-				<div className="form-wrapper">
+			<AppNav />
+			<br />
+			<div className="form-wrapper">
 				
 			<form onSubmit={this.handleSubmit} className={this.state.main + ' fields '}>
 						
