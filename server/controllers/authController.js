@@ -68,6 +68,17 @@ module.exports = {
     //   });
     // });
   },
+  updatePoints: (req, res) => {
+    const { parsedEmail, sessionPoints } = req.body;
+    // ADD VALIDATION
+    console.log('BODY! ', req.body)
+    db.User.findOneAndUpdate({email: parsedEmail}, {$set:{points: sessionPoints}}, {new: true}, (err, doc) => {
+      if (err) {
+          console.log("Something wrong when updating data!");
+      }
+      console.log("data from updating points", doc);
+  });
+  },
   logout: (req, res) => {
     if (req.user) {
       req.session.destroy();

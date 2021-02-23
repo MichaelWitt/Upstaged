@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import {Col, Row} from "react-bootstrap"
+import { Button, ProgressBar } from "react-bootstrap";
 
 let backgroundStyle = {
   marginTop:"40px"

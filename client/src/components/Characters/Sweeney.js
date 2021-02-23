@@ -1,9 +1,10 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
 import Sweeney from "../../imgs/CharImgs/Sweeney.jpg"
-import Toby from "../../imgs/CharImgs/Tobias.jpg"
+import Toby from "../../imgs/CharImgs/Toby.jpg"
 import Lovett from "../../imgs/CharImgs/Lovett.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -24,8 +25,19 @@ const SweeneyChars = () => {
   const history = useHistory()
 
   const welcomeChar = (e) => {
-    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!")
-    history.push('/Home')
+    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!");
+    let alias = e.target.value;
+    let storedEmail = localStorage.getItem('signupEmail');
+    let parsedEmail = JSON.parse(storedEmail);
+    API.setAlias({ parsedEmail, alias }).then(res => {
+      console.log('res! ', res)
+      if (res.status === 200) {
+        history.push('/Characters')
+      }
+    }).catch(err => { 
+      console.log('err', err)
+    })
+    history.push('/login')
   }
     
     return (

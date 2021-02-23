@@ -8,7 +8,6 @@ import FooterNav from "./components/Footer";
 import Profile from "./components/Profile";
 import Quizzes from "./components/Quizzes/Quizzes";
 import MainPage from "./pages/MainPage";
-import Playbill from "./components/Playbill/createplaybill";
 import MadLibs from "./components/Playbill/playbill3";
 import Results from "./components/Playbill/results";
 import NewsPage from "./pages/NewsPage";
@@ -35,10 +34,14 @@ function App() {
         <div className="App">
           <Switch>
             <Route exact path={"/Signup"}>
-              <Signup />
+              <ProfileContextProvider>
+                <Signup />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Characters"}>
-              <Characters />
+              <ProfileContextProvider>
+                <Characters />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={["/", "/Login"]}>
               <ProfileContextProvider>
@@ -46,13 +49,19 @@ function App() {
               </ProfileContextProvider>
             </Route>
             <Route exact path={"/Home"}>
-              <MainPage />
+              <ProfileContextProvider>
+                <MainPage />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/News"}>
-              <NewsPage />
+              <ProfileContextProvider>
+                <NewsPage />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Games"}>
-              <GameContent />
+              <ProfileContextProvider>
+                <GameContent />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Profile"}>
               <ProfileContextProvider>
@@ -60,16 +69,19 @@ function App() {
               </ProfileContextProvider>
             </Route>
             <Route exact path={"/Quizzes"}>
-              <Quizzes />
-            </Route>
-            <Route exact path={"/createplaybill"}>
-              <Playbill />
+              <ProfileContextProvider>
+                <Quizzes />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/playbill3"}>
-              <MadLibs />
+              <ProfileContextProvider>
+                <MadLibs />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/results"}>
-              <Results />
+              <ProfileContextProvider>
+                <Results />
+              </ProfileContextProvider>
             </Route>
             <Route exact path={"/Hamilton"}>
               <ProfileContextProvider>
@@ -127,7 +139,9 @@ function App() {
               </ProfileContextProvider>
             </Route>
             <Route exact path={"/Jeopardy"}>
-              <Jeopardy />
+              <ProfileContextProvider>
+                <Jeopardy />
+              </ProfileContextProvider>
             </Route>
           </Switch>
           <FooterNav />

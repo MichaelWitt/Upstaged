@@ -37,6 +37,10 @@ export default {
     // console.log('hit ', data)
     return axios.post("/auth/alias", data);
   },
+  setPoints: function (data) {
+    // console.log('hit ', data)
+    return axios.post("/auth/points", data);
+  },
   getUser: function (data) {
     // console.log('hit ', data)
     return axios.get("/auth/user", data);
