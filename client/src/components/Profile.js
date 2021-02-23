@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import LegendInfoCard from "./LegendInfoCard";
 import UserInfoCard from "./UserInfoCard";
 import { ProfileContext } from "../utils/GlobalState";
