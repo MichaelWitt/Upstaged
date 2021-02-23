@@ -6,12 +6,12 @@ import Col from "react-bootstrap/Col"
 import ProgressBar from "react-bootstrap/ProgressBar"
 import Games from "../pages/Games";
 import ShowScore from "../imgs/ShowScore.png"
-import { TwitterTimelineEmbed} from 'react-twitter-embed';
+import {TwitterTimelineEmbed} from 'react-twitter-embed';
 import AppNav from "./Navbar";
 import Backstage from "../imgs/Backstage.png"
 
 
-function GameContent() {
+function GameContent(props) {
         return(
             <div>
             <AppNav />
@@ -27,18 +27,23 @@ function GameContent() {
                             <Col sm={12}>
                                 <Card style={{margin: "auto", marginTop:"40px"}}>
                                     <Card.Header>Progress</Card.Header>
-                                    <ProgressBar animated variant="warning" now={60} style={{margin:"10px"}}/> 
+                                    <ProgressBar 
+                                    animated variant="warning" 
+                                    style={{margin:"10px"}} 
+                                    now={props.points}
+                                    max={props.maxPoints}
+                                    label={`${props.points}/${props.maxPoints}`}/> 
                                 </Card>
                             </Col>
                         </Row>
                         <Row>
                             <Col sm={12}>
-                                <Card style={{width:"100%", height:"330px", margin: "auto", marginTop:"10px"}}>
+                                <Card style={{width:"100%", height:"500px", margin: "auto", marginTop:"10px", marginBottom:"20px"}}>
                                     <Card.Body>
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="Playbill"
-                                        options={{height: 300}}
+                                        options={{height: "450px"}}
                                     />
                                     </Card.Body>
                                 </Card>

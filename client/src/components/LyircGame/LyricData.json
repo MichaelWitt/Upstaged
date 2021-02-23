@@ -129,7 +129,7 @@
         "questionType": "text",
         "answerselectionType": "single",
         "answers": ["beautiful", "popular", "fortunate", "fabulous"],
-        "correctAnswer": "2",
+        "correctAnswer": "3",
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
@@ -165,7 +165,7 @@
         "questionType": "text",
         "answerselectionType": "single",
         "answers": ["butterflies", "summertime", "adventure", "poetry"],
-        "correctAnswer": "1",
+        "correctAnswer": "2",
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
@@ -177,7 +177,7 @@
         "questionType": "text",
         "answerselectionType": "single",
         "answers": ["sadness", "madness", "darkness", "greatness"],
-        "correctAnswer": "1",
+        "correctAnswer": "3",
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
@@ -237,7 +237,7 @@
         "questionType": "text",
         "answerselectionType": "single",
         "answers": ["style", "polish", "tollerance", "brawn"],
-        "correctAnswer": "1",
+        "correctAnswer": "2",
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"
@@ -249,7 +249,7 @@
         "questionType": "text",
         "answerselectionType": "single",
         "answers": ["Schyler", "Skyler", "Skylar", "Schuyler"],
-        "correctAnswer": "1",
+        "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect!",
         "point": "5"

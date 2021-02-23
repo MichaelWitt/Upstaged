@@ -7,10 +7,13 @@ import Media from 'react-bootstrap/Media'
 function QuizComplete(props) {
     const quizCompleteStyle = {
         color: "Black",
+        backgroundColor:"White",
+        border:" solid 8px #F7E200",
+        padding:"20px",
         position: "absolute",
         top: "25%",
         left: "25%",
-        width: "600px",
+        width: "50%",
         textAlign: "left"
     };
 
