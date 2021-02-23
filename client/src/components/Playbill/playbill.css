@@ -116,7 +116,7 @@ input:focus {
     background-color: #4c6829;
 }
 .phrase {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-weight: 300;
     font-size: 30px;
     font-size: 1.125rem;
@@ -146,6 +146,6 @@ br {
     float: left;
 }
 .unique {
-    font-size: 25px;
+    font-size: 35px !important;
     font-size: 1.5625rem;
 }
