@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
+import { Button } from "react-bootstrap"
 import LegendInfoCard from "./LegendInfoCard";
 import UserInfoCard from "./UserInfoCard";
 import { ProfileContext } from "../utils/GlobalState";
@@ -31,6 +32,7 @@ function Profile(props){
         profile.dispatch({type: "setLegend"});
       }
     },[profile.ProfileAttributes.points]);
+
 
     let isALegend = profile.ProfileAttributes.isLegend;
     if (isALegend) {

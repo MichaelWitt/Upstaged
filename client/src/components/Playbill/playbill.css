@@ -1,13 +1,19 @@
 
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600, 600i');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Raleway&display=swap');
 html, body {
     height: 100%;
 }
 
+.unique {
+   font-family: 'Abril Fatface', cursive;
+}
+.phrase {
+    font-family: 'Raleway', sans-serif;
+}
 h1, h2, h3, h4 {
     font-weight: 300;
     display: block;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .form-wrapper {

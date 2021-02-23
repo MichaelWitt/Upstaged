@@ -1,9 +1,10 @@
 import React from "react"
 import { Button, Card, Row, Col } from "react-bootstrap"
 import Veronica from "../../imgs/CharImgs/Veronica.jpg"
-import Heathers from "../../imgs/CharImgs/Heathers.jpg"
+import Heather from "../../imgs/CharImgs/Heather.jpg"
 import JD from "../../imgs/CharImgs/JD.jpg"
 import { useHistory } from 'react-router-dom'
+import API from '../../utils/API'
 
 const styles = {
   headline: {
@@ -24,8 +25,19 @@ const HeathersChars = () => {
   const history = useHistory()
 
   const welcomeChar = (e) => {
-    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!")
-    history.push('/Home')
+    alert("Hi " + e.target.value + ". It's nice to meet your alter ego! Have fun!!");
+    let alias = e.target.value;
+    let storedEmail = localStorage.getItem('signupEmail');
+    let parsedEmail = JSON.parse(storedEmail);
+    API.setAlias({ parsedEmail, alias }).then(res => {
+      console.log('res! ', res)
+      if (res.status === 200) {
+        history.push('/Characters')
+      }
+    }).catch(err => { 
+      console.log('err', err)
+    })
+    history.push('/login')
   }
     
     return (
@@ -69,7 +81,7 @@ const HeathersChars = () => {
           </Col>
           <Col md ={3}>
           <Card border="dark">
-            <Card.Img variant="top" src={Heathers}/>
+            <Card.Img variant="top" src={Heather}/>
             <Card.Body>
               <Button 
                 value="Heather" 

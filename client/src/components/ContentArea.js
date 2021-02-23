@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -9,8 +9,29 @@ import UpstagedFull from "../imgs/UpstagedFull.png";
 import Quizzes from "../imgs/Quizzes.png";
 import News from "../imgs/News.png";
 import GameNight from "../imgs/GameNight.png";
+import { ProfileContext } from "../utils/GlobalState";
 
 function Content() {
+  const profile = useContext(ProfileContext);
+
+  useEffect(() => {
+    let usersPoints = profile.ProfileAttributes.points;
+
+    if (usersPoints >= 0 && usersPoints < 100) {
+      profile.dispatch({type: "setEnsemble"});
+    } else if (usersPoints >= 100 && usersPoints < 200){
+      profile.dispatch({type: "setFeaturedEnsemble"});
+    } else if (usersPoints >= 200 && usersPoints < 350){
+      profile.dispatch({type: "setPrincipal"});
+    } else if (usersPoints >= 350 && usersPoints < 600){
+      profile.dispatch({type: "setLeadActor"});
+    } else if (usersPoints >= 600 && usersPoints < 900){
+      profile.dispatch({type: "setStar"});
+    } else if (usersPoints >= 900){
+      profile.dispatch({type: "setLegend"});
+    }
+  },[profile.ProfileAttributes.points]);
+  
   return (
     <div>
       <Row>
@@ -116,7 +137,9 @@ function Content() {
                   <ProgressBar
                     animated
                     variant="warning"
-                    now={60}
+                    now={profile.ProfileAttributes.points}
+                    max={profile.ProfileAttributes.maxPoints}
+                    label={`${profile.ProfileAttributes.points}/${profile.ProfileAttributes.maxPoints}`}
                     style={{ margin: "10px" }}
                   />
                 </Card>
