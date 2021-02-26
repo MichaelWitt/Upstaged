@@ -7,7 +7,7 @@ const NewsURL = {
   url:
     "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI",
   params: {
-    q: "broadway",
+    q: "broadway theatre",
     pageNumber: "1",
     pageSize: "50",
     autoCorrect: "true",
